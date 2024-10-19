@@ -54,24 +54,7 @@
       <ownedRolePkg xsi:type="org.polarsys.capella.core.data.oa:RolePkg" id="2f9ea324-af24-4074-8934-fe1969f53e1c"
           name="Roles"/>
       <ownedEntityPkg xsi:type="org.polarsys.capella.core.data.oa:EntityPkg" id="e60f64bd-4830-4092-b3f3-fbba120ff8cb"
-          name="Operational Entities">
-        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="5a65c590-678a-4a3e-b941-fd74c1e1e53f"
-            name="Chief scientist" abstractType="#eeb8b6a1-0401-4562-b8b6-5d5743f6a2df"/>
-        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="96ad2a67-1f7e-4262-8f5b-4127a0fdd604"
-            name="Financial Officer" abstractType="#57879358-bbcf-4eb4-b192-2cd3dd3e721f"/>
-        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="b60dd1fa-98e7-4b08-a79c-9749fd75b34e"
-            name="Chief Legal Counsel" abstractType="#f5679300-a733-4b3f-a1d3-7c0bee50a740"/>
-        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="1e54ba08-418e-45f2-aa25-5cb0b133ca7a"
-            name="Farming on the dark side of the moon" abstractType="#320478f4-9a08-4f68-968c-0c2ed4c8e67c"/>
-        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="eeb8b6a1-0401-4562-b8b6-5d5743f6a2df"
-            name="Chief scientist" actor="true" human="true"/>
-        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="57879358-bbcf-4eb4-b192-2cd3dd3e721f"
-            name="Financial Officer" actor="true" human="true"/>
-        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="f5679300-a733-4b3f-a1d3-7c0bee50a740"
-            name="Chief Legal Counsel" actor="true" human="true"/>
-        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="320478f4-9a08-4f68-968c-0c2ed4c8e67c"
-            name="Farming on the dark side of the moon"/>
-      </ownedEntityPkg>
+          name="Operational Entities"/>
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
         id="c24fe867-238b-4c99-afbe-6a007316609b" name="System Analysis">
