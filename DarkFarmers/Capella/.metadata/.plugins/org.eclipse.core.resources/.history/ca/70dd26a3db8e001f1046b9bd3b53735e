@@ -25,7 +25,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="DarkFarmers.capella#e8bd86a7-dfce-4e4c-abac-d2ca99850db2"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_bCwXgI7SEe-4vZUURBee4w" name="[OCB] Chief Agriculture Scientist" repPath="#_bCsGEI7SEe-4vZUURBee4w" changeId="1729425944507">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_bCwXgI7SEe-4vZUURBee4w" name="[OCB] Chief Agriculture Scientist" repPath="#_bCsGEI7SEe-4vZUURBee4w" changeId="1729425924974">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="DarkFarmers.capella#e8bd86a7-dfce-4e4c-abac-d2ca99850db2"/>
       </ownedRepresentationDescriptors>
@@ -928,7 +928,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='COC_OperationalCapabilities']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_nIg2II7XEe-4vZUURBee4w" name="Energy Management" outgoingEdges="_K2RTKI7YEe-4vZUURBee4w" incomingEdges="_8xlQZI7XEe-4vZUURBee4w" width="7" height="7" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_nIg2II7XEe-4vZUURBee4w" name="Enegry Management" outgoingEdges="_K2RTKI7YEe-4vZUURBee4w" incomingEdges="_8xlQZI7XEe-4vZUURBee4w" width="7" height="7" resizeKind="NSEW">
       <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="DarkFarmers.capella#dca03d24-ca91-4f61-bfbf-010020db86e4"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="DarkFarmers.capella#dca03d24-ca91-4f61-bfbf-010020db86e4"/>
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_nIhdMI7XEe-4vZUURBee4w" showIcon="false" workspacePath="/org.polarsys.capella.core.sirius.analysis/description/images/OperationalCapability.svg">

@@ -848,3 +848,33 @@ org.eclipse.swt.SWTException: Widget is disposed
 
 !ENTRY org.polarsys.kitalpha.richtext.widget 2 0 2024-10-19 20:28:23.845
 !MESSAGE Rich text widget cannot install setData handler
+!SESSION 2024-10-20 12:38:57.380 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.polarsys.kitalpha.richtext.widget 2 0 2024-10-20 12:51:02.429
+!MESSAGE Rich text widget can not install beforePaste/afterPaste/beforeCommandExec listeners!
+
+!ENTRY org.polarsys.kitalpha.richtext.widget 2 0 2024-10-20 12:51:02.443
+!MESSAGE Rich text widget cannot install the open link command
+
+!ENTRY org.polarsys.kitalpha.richtext.widget 2 0 2024-10-20 12:51:02.505
+!MESSAGE Rich text widget cannot install the save handler
+
+!ENTRY org.polarsys.kitalpha.richtext.widget 2 0 2024-10-20 12:51:02.506
+!MESSAGE Rich text widget cannot install the notification handler
+
+!ENTRY org.polarsys.kitalpha.richtext.widget 2 0 2024-10-20 12:51:02.519
+!MESSAGE Rich text widget cannot install onChangeEvent handler
+
+!ENTRY org.polarsys.kitalpha.richtext.widget 2 0 2024-10-20 12:51:02.546
+!MESSAGE Rich text widget cannot install resetDirtyState handler
+
+!ENTRY org.polarsys.kitalpha.richtext.widget 2 0 2024-10-20 12:51:02.569
+!MESSAGE Rich text widget cannot install dataReady handler
+
+!ENTRY org.polarsys.kitalpha.richtext.widget 2 0 2024-10-20 12:51:02.587
+!MESSAGE Rich text widget cannot install setData handler

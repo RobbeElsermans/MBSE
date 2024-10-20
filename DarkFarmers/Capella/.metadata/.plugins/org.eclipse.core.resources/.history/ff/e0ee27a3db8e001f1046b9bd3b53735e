@@ -103,7 +103,7 @@
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="cc367576-57b1-4199-93a8-d0ea616101a4" name="Nutrition Delivery"/>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="dca03d24-ca91-4f61-bfbf-010020db86e4" name="Energy Management">
+            id="dca03d24-ca91-4f61-bfbf-010020db86e4" name="Enegry Management">
           <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
               id="6e930c9f-0206-4dd8-9973-8d045dbd38ff" included="#6daa4175-c88c-4783-9f52-a5093db97164"/>
         </ownedOperationalCapabilities>

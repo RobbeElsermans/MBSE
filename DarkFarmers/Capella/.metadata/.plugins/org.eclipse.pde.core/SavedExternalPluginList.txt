@@ -1,4 +1,4 @@
-# List of external plug-in models previously loaded. Timestamp: 1729362084131
+# List of external plug-in models previously loaded. Timestamp: 1729421619847
 file:/home/robbe/Documents/capella-7.0.0.202407091438-linux-gtk-x86_64/capella/plugins/bcpg_1.72.2.jar
 file:/home/robbe/Documents/capella-7.0.0.202407091438-linux-gtk-x86_64/capella/plugins/bcprov_1.72.0.jar
 file:/home/robbe/Documents/capella-7.0.0.202407091438-linux-gtk-x86_64/capella/plugins/ca.odell.glazedlists_1.11.0.v20190926-1838.jar
