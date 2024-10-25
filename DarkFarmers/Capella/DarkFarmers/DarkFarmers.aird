@@ -37,7 +37,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Activity%20Interaction%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="DarkFarmers.capella#b5ecfea1-2d59-49b7-aa91-732e1cc71ad8"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Ngb6UJKpEe-lGcA688GC8w" name="[OAB] Operational Entities" repPath="#_NgZeEJKpEe-lGcA688GC8w" changeId="1729850988491">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Ngb6UJKpEe-lGcA688GC8w" name="[OAB] Operational Entities" repPath="#_NgZeEJKpEe-lGcA688GC8w" changeId="1729851643946">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:EntityPkg" href="DarkFarmers.capella#e60f64bd-4830-4092-b3f3-fbba120ff8cb"/>
       </ownedRepresentationDescriptors>
@@ -2744,6 +2744,21 @@
           <styles xmi:type="notation:LineTypeStyle" xmi:id="_RFSt5JK5Ee-lGcA688GC8w"/>
           <element xsi:nil="true"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RFSt5ZK5Ee-lGcA688GC8w" x="2016" y="1290"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_yVxaoJK6Ee-lGcA688GC8w" type="Note" fontName="Segoe UI" description="Text2" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yVxaoZK6Ee-lGcA688GC8w" source="specificStyles">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yVxaopK6Ee-lGcA688GC8w" key="verticalAlignment" value="8"/>
+          </eAnnotations>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_yVyBsJK6Ee-lGcA688GC8w" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_yVyBsZK6Ee-lGcA688GC8w" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:TextStyle" xmi:id="_yVxao5K6Ee-lGcA688GC8w" textAlignment="Center"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_yVxapJK6Ee-lGcA688GC8w"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yVxapZK6Ee-lGcA688GC8w" x="1401" y="1305"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_NglrUpKpEe-lGcA688GC8w"/>
         <edges xmi:type="notation:Edge" xmi:id="_zcKYwJKrEe-lGcA688GC8w" type="4001" element="_zcAAsJKrEe-lGcA688GC8w" source="_mvQdwJKqEe-lGcA688GC8w" target="_tg0bsJKrEe-lGcA688GC8w">
