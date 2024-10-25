@@ -215,6 +215,8 @@
               id="de215cd7-9a8a-4156-8919-7da7436ed0fa" name="Provide Safety Measures"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="c7c0954f-6eb5-4c2d-8c77-b5883514e861" name="Make self inert"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="b0b8a5b0-4034-4928-97d7-45e7e260c3cf" name="OperationalActivity 23"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="9a9ca1bc-c67f-4010-bb81-458cfc1f303c" name="Specs information (I)"
               target="#d21278fc-583f-4c14-88ea-d52542eb3408" source="#fe905209-6abe-4cc6-92bf-48b88df84d2d"/>
@@ -275,6 +277,9 @@
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="a7f4b129-8e1a-40ed-8183-862c580933aa" name="Last resort (I)" target="#c7c0954f-6eb5-4c2d-8c77-b5883514e861"
               source="#de215cd7-9a8a-4156-8919-7da7436ed0fa"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="68e540da-e2ae-4da8-8aff-2f25d70338fc" name="Interaction 21" target="#b0b8a5b0-4034-4928-97d7-45e7e260c3cf"
+              source="#fe905209-6abe-4cc6-92bf-48b88df84d2d"/>
         </ownedOperationalActivities>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg"
