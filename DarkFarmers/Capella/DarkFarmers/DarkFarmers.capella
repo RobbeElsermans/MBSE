@@ -1057,13 +1057,13 @@
               sourceElement="#132ebd93-a9c3-4b98-bed0-ce5872e4aa47"/>
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
-            id="6dab4a02-7117-4ab6-87f0-2a77d8f6cd29" name="Energy Harvesting">
+            id="6dab4a02-7117-4ab6-87f0-2a77d8f6cd29" name="Generate Energy">
           <ownedAbstractCapabilityRealizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityRealization"
               id="cefaf9a6-1d4c-4731-a7b7-0462a759a508" targetElement="#2d2d19fc-6f6e-4f79-84a5-07234b29826d"
               sourceElement="#6dab4a02-7117-4ab6-87f0-2a77d8f6cd29"/>
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
-            id="05a93cbe-db87-44bb-bd48-99a853b3b695" name="Energy Storage">
+            id="05a93cbe-db87-44bb-bd48-99a853b3b695" name="Include Energy Storage Medium ">
           <ownedAbstractCapabilityRealizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityRealization"
               id="eb2d4b9f-335f-4a28-8a61-a311d0eda51c" targetElement="#5f4918ce-bf92-4a3e-8ebc-c7b33c696ddb"
               sourceElement="#05a93cbe-db87-44bb-bd48-99a853b3b695"/>
@@ -1165,7 +1165,7 @@
               id="3d379028-fd51-4bb1-9874-dde63caefccf" involved="#68ef64a5-c750-44d8-8be5-9b3c89eedd48"/>
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
-            id="70dd0b4d-ac32-42ad-a1c4-16e0d34bc038" name="Space regulations">
+            id="70dd0b4d-ac32-42ad-a1c4-16e0d34bc038" name="followed Space regulations">
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="366a5881-c0b9-4f0e-83ac-eaa5388c5508" targetElement="#70355a60-3d21-45dd-aa38-7697e2c2dccb"
               sourceElement="#7c0bf58d-a77f-4fcf-b92b-eaaf2e1ac15e"/>
@@ -1536,6 +1536,10 @@
               id="088c829d-bed5-49d3-a6b3-031d54bf4d96" capability="#1a767f35-9e18-4128-97cb-2849baf9efe8"/>
           <ownedCapabilityExploitations xsi:type="org.polarsys.capella.core.data.ctx:CapabilityExploitation"
               id="09bd73b1-8066-41a2-9f67-4a209a4a0420" capability="#445018fa-2782-4802-bdb8-4a0eab253930"/>
+          <ownedCapabilityExploitations xsi:type="org.polarsys.capella.core.data.ctx:CapabilityExploitation"
+              id="9ef8dacf-ea48-41d5-9d0a-ae0f3cf078ee" capability="#6dab4a02-7117-4ab6-87f0-2a77d8f6cd29"/>
+          <ownedCapabilityExploitations xsi:type="org.polarsys.capella.core.data.ctx:CapabilityExploitation"
+              id="8cc26fc3-cac9-4687-a240-fe09d1dcf1f2" capability="#05a93cbe-db87-44bb-bd48-99a853b3b695"/>
         </ownedMissions>
         <ownedMissions xsi:type="org.polarsys.capella.core.data.ctx:Mission" id="08a5fbff-db29-4f46-8ddb-755abf81930e"
             name="Constant Communication">
@@ -1570,6 +1574,10 @@
               id="e6e7fd15-c90a-458f-8371-64bb43886234" capability="#70dd0b4d-ac32-42ad-a1c4-16e0d34bc038"/>
           <ownedCapabilityExploitations xsi:type="org.polarsys.capella.core.data.ctx:CapabilityExploitation"
               id="8a9efc69-2e59-46ee-b26e-16e662adf6fd" capability="#a7efb218-5cf6-4aa4-b652-69bbd26b1250"/>
+          <ownedCapabilityExploitations xsi:type="org.polarsys.capella.core.data.ctx:CapabilityExploitation"
+              id="bdc26070-c83a-4914-a4e4-2eab3ae5c814" capability="#05a93cbe-db87-44bb-bd48-99a853b3b695"/>
+          <ownedCapabilityExploitations xsi:type="org.polarsys.capella.core.data.ctx:CapabilityExploitation"
+              id="7df8a935-72f4-4943-9feb-3c79d1de5b68" capability="#6dab4a02-7117-4ab6-87f0-2a77d8f6cd29"/>
         </ownedMissions>
       </ownedMissionPkg>
       <ownedOperationalAnalysisRealizations xsi:type="org.polarsys.capella.core.data.ctx:OperationalAnalysisRealization"
