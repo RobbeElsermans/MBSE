@@ -4,9 +4,11 @@ a small overview of the mission with the group name, the summary of the business
 # Dark Farmers
 ![Image of the concept](Wall_Paper.png)
 
-## Team Ahmad Shakleya, Berkay Yildirim, Rehmat Khan, Robbe Elsermans
+## Team 
+Ahmad Shakleya, Berkay Yildirim, Rehmat Khan, Robbe Elsermans
 
-## Mission Bring an experimental farm module on the dark side of Mun 🌑️ and provide constant communication 🛰️ with Kerbin 🌍️.
+## Mission 
+Bring an experimental farm module on the dark side of Mun 🌑️ and provide constant communication 🛰️ with Kerbin 🌍️.
 
 ## System requirements
 - 
