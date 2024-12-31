@@ -1,8 +1,7 @@
 // Generated KOS Script...
 WAIT 5.
-SET KUNIVERSE:DEFAULTLOADDISTANCE:ORBIT:UNPACK TO 10000. // Unpack at 5 km
-SET KUNIVERSE:DEFAULTLOADDISTANCE:ORBIT:PACK TO 11000.   // Pack at 6 km
-WAIT 0.001. // Allow physics tick
+
+
 
 function perfect_orbit_to_the_moom_region_s{
     perfect_orbit_region().
@@ -113,7 +112,7 @@ function to_mun_transfer_to_the_moom_region_s{
 }
 
 function doTransferToBody_mun_50000__to_mun_transfer_region_s{
-    doTransferToBody(mun,50000).
+    doTransferToBody(mun,400000).
     UNTIL false{
         IF true{
             return warpToNextPatch_mun__to_mun_transfer_region_s@. 
@@ -165,8 +164,14 @@ getIntoSatellitesOrbit().
 DeployThreeSatellites().
 doChangePeriapsis(20000).
 doCircularizeFromPeriapsis().
-doSafeStage(2).
+
+//warpto(time:seconds + eta:apoapsis).
+//wait until eta:apoapsis < 3.
 landDarkSideofMun().
+
+UNTIL false {
+     WAIT 1.
+}
 }
 
                
@@ -295,6 +300,7 @@ function doLaunchIntoOrbit{
 function landDarkSideofMun{
   //Lands the ship at the dark side of the mun if it is in an orbit around the mun.
   stopOrbitAtDarkSide().
+	doSafeStage(2).
   doHoverslam().
 }
 
@@ -837,23 +843,18 @@ function groundSlope {
            function calcSatellitesOrbit {
 		CLEARSCREEN.
            	runpath("0:/SatSpacer.ks").
-           	PRINT "Outide File: Carrier SMA = " + ROUND((CarSMA/1000),3) + " km".
-           	PRINT "Outide File: Carrier Ap = " + ROUND((CarAp/1000),3) + " km".
            }
 
 function getIntoSatellitesOrbit{
-
+SET KUNIVERSE:DEFAULTLOADDISTANCE:ORBIT:UNPACK TO 10000. // Unpack at 5 km
+SET KUNIVERSE:DEFAULTLOADDISTANCE:ORBIT:PACK TO 11000.   // Pack at 6 km
+WAIT 0.001. // Allow physics tick
 				calcSatellitesOrbit().
-				
-				PRINT "Semi-Major Axis (SMA): " + ROUND((CarSMA / 1000), 3) + " km".
-				PRINT "Apoapsis (Ap): " + ROUND((CarAp / 1000), 3) + " km".
 				
 				doChangeApoapsis(CarAp).
 				
 				doChangePeriapsis(SatAlt).
-				
-				calcSatellitesOrbit().
-				doChangeApoapsis(CarAp).
+			
 				
 				PRINT "Orbit for deploying satellites successfully reached!".
 		   }
@@ -891,6 +892,9 @@ function getIntoSatellitesOrbit{
 		       }
 		   
 		       PRINT "All satellites deployed successfully!".
+			SET KUNIVERSE:DEFAULTLOADDISTANCE:ORBIT:UNPACK TO 2000.
+SET KUNIVERSE:DEFAULTLOADDISTANCE:ORBIT:PACK TO 3000.
+WAIT 0.001. // Allow physics tick
 		   }
 		   
 
@@ -910,6 +914,8 @@ local safeLandingSpeed is 3.0.  // Target landing speed (m/s).
 local landingTargetAltitude is distanceToGround(). // Starting altitude
 local landingThrustLevel is 0.
 local nearlyLanded is false.
+local slowed is false.
+
 
 print "Suicide burn sequence started...".
 wait 1.
@@ -922,7 +928,7 @@ function landingBurnTime {
     return landingCurrentSpeed / landingMaxDeceleration.
 }
 
-local lastPrintTime to time:seconds - 10.
+local lastPrintTime to time:seconds - 3.
 
 until ship:status = "LANDED" {
     local landingAltitudeToGround is distanceToGround() - 10.
@@ -931,7 +937,7 @@ until ship:status = "LANDED" {
     local landingStopTime is landingBurnTime(landingVerticalSpeed, landingMaxDeceleration).
     local landingStopDistance is landingVerticalSpeed * landingStopTime + (0.5 * -landingMaxDeceleration * landingStopTime ^ 2).
 
-    if time:seconds - lastPrintTime >= 4 {
+    if time:seconds - lastPrintTime >= 3 {
         print "Alt: " + round(landingAltitudeToGround, 1) + "m | VSpeed: " + round(landingVerticalSpeed, 2) + "m/s" at (0, 4).
         print "StopDist: " + round(landingStopDistance, 1) + "m | Decel: " + round(landingMaxDeceleration, 2) + "m/s^2" at (0, 5).
         set lastPrintTime to time:seconds.
@@ -939,28 +945,31 @@ until ship:status = "LANDED" {
     if not nearlyLanded {
 		print "not nearlyLanded" at (0, 6).
         // Suicide burn phase
-        if landingAltitudeToGround < 150 and landingVerticalSpeed < 10 {
+        if landingAltitudeToGround < 70 and landingVerticalSpeed < 10 {
             set nearlyLanded to true. // Enter fine landing phase
         } else if landingStopDistance >= landingAltitudeToGround - landingAltitude {
             set landingThrustLevel to 1.0. // Full throttle for suicide burn
         } else if landingVerticalSpeed < 5 {
-			set landingThrustLevel to ThrottleForTWR(1). 
+			set landingThrustLevel to 0. 
+			set slowed to true.
 		}
+          else if slowed { 
+set landingThrustLevel to ThrottleForTWR(1.3). 
+}
     } 
     else {
+	LOCK STEERING TO SHIP:FACING.
+	SET SAS TO TRUE.
+	SET SASMODE TO "StabilityAssist".
 		gear on.
         // Fine control phase for smooth landing
 			print "nearlyLanded" at (0, 6).
         if distanceToGround() < 1 {
-			print "landingAltitudeToGround < 10" at (0, 7).
             // Final coasting phase
             set landingThrustLevel to 0. 
-			UNLOCK STEERING.
         } else if landingVerticalSpeed > 1 {
-			print "landingVerticalSpeed > 2" at (0, 7).
-            set landingThrustLevel to ThrottleForTWR(1.1). 
+            set landingThrustLevel to ThrottleForTWR(1.3). 
         } else {
-			print "else" at (0, 7).
             set landingThrustLevel to ThrottleForTWR(1). // Maintain low descent speed
         }
     }

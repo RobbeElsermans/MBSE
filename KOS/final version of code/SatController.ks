@@ -7,7 +7,7 @@ LOCAL initialRoot TO SHIP:ROOTPART.
 
 WAIT UNTIL SHIP:ROOTPART <> initialRoot.
 PRINT "Decoupled! Starting up...".
-
+LOCAL direction TO RETROGRADE. // Default direction
 WAIT 10.
 PRINT "At periapsis. Starting circularization burn...".
 
@@ -18,11 +18,14 @@ LOCAL prevDifference TO ABS(localApoapsis - localPeriapsis).
 LOCAL increasing TO FALSE. // Tracks whether the difference is increasing
 LOCAL direction TO RETROGRADE. // Default direction
 LOCK STEERING TO direction. // Lock to the chosen direction
+LOCAL difference TO ABS(localApoapsis - localPeriapsis).
+
+
 
 UNTIL increasing {
     SET localApoapsis TO SHIP:ORBIT:APOAPSIS.
     SET localPeriapsis TO SHIP:ORBIT:PERIAPSIS.
-    LOCAL difference TO ABS(localApoapsis - localPeriapsis).
+    set difference TO ABS(localApoapsis - localPeriapsis).
 
     // Check if difference is climbing
     IF difference > prevDifference {
