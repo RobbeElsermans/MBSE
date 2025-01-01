@@ -73,7 +73,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="DarkFarmers.capella#e8bd86a7-dfce-4e4c-abac-d2ca99850db2"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_DM0VcJKpEe-lGcA688GC8w" name="[OAIB] Root Operational Activity - Create Testbed darkside Mun" repPath="#_DMzHUJKpEe-lGcA688GC8w" changeId="1729848974154">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_DM0VcJKpEe-lGcA688GC8w" name="[OAIB] Root Operational Activity - Create Testbed darkside Mun" repPath="#_DMzHUJKpEe-lGcA688GC8w" changeId="1735739716522">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Activity%20Interaction%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="DarkFarmers.capella#b5ecfea1-2d59-49b7-aa91-732e1cc71ad8"/>
       </ownedRepresentationDescriptors>
@@ -104,6 +104,10 @@
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_ceuq0J27Ee-lrdxu0pBL9A" name="[OPD] Create Communication Medium" repPath="#_cetcsJ27Ee-lrdxu0pBL9A" changeId="1731061387232">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Process%20Description']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalProcess" href="DarkFarmers.capella#9064ecdc-7bc0-4209-b1c9-2005f4ba3541"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_DtZqEMhLEe-wd-plIYwnow" name="[OCB] EXAM - Operational Capabilities" repPath="#_DtXN0MhLEe-wd-plIYwnow" changeId="1735741017267">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
+        <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="DarkFarmers.capella#e8bd86a7-dfce-4e4c-abac-d2ca99850db2"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_gH3SgIezEe-R-aVeG1C_eQ">
@@ -1666,6 +1670,22 @@
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kRhEepK0Ee-lGcA688GC8w" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kRhEe5K0Ee-lGcA688GC8w" id="(0.5,0.5)"/>
         </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_B727UMhIEe-wd-plIYwnow" type="4001" element="_B7jZVMhIEe-wd-plIYwnow" source="_kRgdaJK0Ee-lGcA688GC8w" target="_YfBGwJK0Ee-lGcA688GC8w">
+          <children xmi:type="notation:Node" xmi:id="_B7-3IMhIEe-wd-plIYwnow" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B7-3IchIEe-wd-plIYwnow" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_B8AFQMhIEe-wd-plIYwnow" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B8AFQchIEe-wd-plIYwnow" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_B8BTYMhIEe-wd-plIYwnow" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B8BTYchIEe-wd-plIYwnow" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_B727UchIEe-wd-plIYwnow" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_B727UshIEe-wd-plIYwnow" fontColor="16777215" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_B727U8hIEe-wd-plIYwnow" points="[0, 0, -310, -300]$[310, 300, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_B8Gy8MhIEe-wd-plIYwnow" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_B8HaAMhIEe-wd-plIYwnow" id="(0.5,0.5)"/>
+        </edges>
       </data>
     </ownedAnnotationEntries>
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_DNBJwJKpEe-lGcA688GC8w" source="DANNOTATION_CUSTOMIZATION_KEY">
@@ -1679,7 +1699,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Activity%20Interaction%20Blank']/@defaultLayer/@containerMappings[name='OAIB%20Operational%20Activity']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Ye7nMJK0Ee-lGcA688GC8w" name="Create Testbed" outgoingEdges="_de4TAJK0Ee-lGcA688GC8w" incomingEdges="_Ye7nM5K0Ee-lGcA688GC8w _de46E5K0Ee-lGcA688GC8w">
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Ye7nMJK0Ee-lGcA688GC8w" name="Create Testbed" outgoingEdges="_de4TAJK0Ee-lGcA688GC8w" incomingEdges="_Ye7nM5K0Ee-lGcA688GC8w _de46E5K0Ee-lGcA688GC8w _B7jZVMhIEe-wd-plIYwnow">
       <target xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="DarkFarmers.capella#fa15e7b4-5c5d-4a14-8396-7b3f96083b5d"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="DarkFarmers.capella#fa15e7b4-5c5d-4a14-8396-7b3f96083b5d"/>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Ye7nMZK0Ee-lGcA688GC8w" borderSize="1" borderSizeComputationExpression="1" borderColor="91,64,64" backgroundStyle="GradientTopToBottom" backgroundColor="255,255,197" foregroundColor="247,218,116">
@@ -1804,7 +1824,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Activity%20Interaction%20Blank']/@defaultLayer/@edgeMappings[name='OAIB%20Interaction']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_kRbk4JK0Ee-lGcA688GC8w" name="Provide specifications testbed" outgoingEdges="_kRcL8JK0Ee-lGcA688GC8w">
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_kRbk4JK0Ee-lGcA688GC8w" name="Provide specifications testbed" outgoingEdges="_kRcL8JK0Ee-lGcA688GC8w _B7jZVMhIEe-wd-plIYwnow">
       <target xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="DarkFarmers.capella#fe905209-6abe-4cc6-92bf-48b88df84d2d"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="DarkFarmers.capella#fe905209-6abe-4cc6-92bf-48b88df84d2d"/>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_kRbk4ZK0Ee-lGcA688GC8w" borderSize="1" borderSizeComputationExpression="1" borderColor="91,64,64" backgroundStyle="GradientTopToBottom" backgroundColor="255,255,197" foregroundColor="247,218,116">
@@ -1820,6 +1840,17 @@
         <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_kRcL8pK0Ee-lGcA688GC8w" labelColor="255,255,255"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_kRcL9JK0Ee-lGcA688GC8w" labelColor="91,64,64"/>
         <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_kRcL85K0Ee-lGcA688GC8w" labelColor="255,255,255"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Activity%20Interaction%20Blank']/@defaultLayer/@edgeMappings[name='OAIB%20Interaction']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_B7jZVMhIEe-wd-plIYwnow" name="Specs INfo" sourceNode="_kRbk4JK0Ee-lGcA688GC8w" targetNode="_Ye7nMJK0Ee-lGcA688GC8w" beginLabel="." endLabel=".">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="DarkFarmers.capella#95fb33ad-859d-4dd5-b989-749ed4614420"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="DarkFarmers.capella#95fb33ad-859d-4dd5-b989-749ed4614420"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_B7kncMhIEe-wd-plIYwnow" strokeColor="91,64,64">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Activity%20Interaction%20Blank']/@defaultLayer/@edgeMappings[name='OAIB%20Interaction']/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_B7kncchIEe-wd-plIYwnow" labelColor="255,255,255"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_B7knc8hIEe-wd-plIYwnow" labelColor="91,64,64"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_B7kncshIEe-wd-plIYwnow" labelColor="255,255,255"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Activity%20Interaction%20Blank']/@defaultLayer/@edgeMappings[name='OAIB%20Interaction']"/>
     </ownedDiagramElements>
@@ -18185,5 +18216,20 @@
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_g_ot4b6vEe--39mokXnYdw"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Architecture%20Blank']/@defaultLayer"/>
     <target xmi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg" href="DarkFarmers.capella#9cbc1296-3366-441f-b82a-ada3176c4ad8"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_DtXN0MhLEe-wd-plIYwnow">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_DtnFcMhLEe-wd-plIYwnow" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_DtnFcchLEe-wd-plIYwnow" type="Sirius" element="_DtXN0MhLEe-wd-plIYwnow" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_DtnFcshLEe-wd-plIYwnow"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_DtphsMhLEe-wd-plIYwnow" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_DtqIwMhLEe-wd-plIYwnow"/>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.kitalpha.ad.integration.sirius/description/ad.odesign#//@ownedViewpoints[name='ad']/@ownedRepresentations[name='AD%20diagram']/@filters[name='ModelExtensionFilter']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_DtXN0chLEe-wd-plIYwnow"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer"/>
+    <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="DarkFarmers.capella#e8bd86a7-dfce-4e4c-abac-d2ca99850db2"/>
   </diagram:DSemanticDiagram>
 </xmi:XMI>
