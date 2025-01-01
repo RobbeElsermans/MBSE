@@ -96,7 +96,7 @@ A lot more money did go in the launch of the vehicle and in the satellite networ
 - Farm contents do not get impacted on long time space travel
 
 **📈️Performance**
-- A Delta-V of 5922.5 m/s is needed to go from Kerbin to Mun accordingly to [KSP Delta-V Planner](https://ksp.loicviennois.com/)
+- A $\Delta V$ of 5922.5 m/s is needed to go from Kerbin to Mun accordingly to [KSP Delta-V Planner](https://ksp.loicviennois.com/)
 
 ## High-level choices
 - Take 1 big rocket 🚀️ to carry the payload 📦️.
