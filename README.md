@@ -31,16 +31,16 @@ Below some tables that give the estimated value with the maximal budget we can u
 Later, a table where each used component is linked with a certain category. 
 Finally, a total cost of each category where a comparison is made between the estimated and the actual costs invested in the system.
 
-|Category|Cost Estimate (Funds)|
-|---------------------------|-----------|
-|Farm Module	    |   45,000  |
-|Satellite Network	|   12,000  |
-|Launch Vehicle	    |   60,000  |
-|Transfer Stage	    |   25,000  |
-|Contingency (15%)	|   15,000  |
-|Total	            |   157,000 | 
+| Category             | Funds (F) |
+|----------------------|-----------|
+| Farm Module          | 20000     |
+| Satellite Network    | 12000     |
+| Launch Vehicle       | 20000     |
+| Transfer Stage       | 10000     |
+| Contingency (15%)    | 15000     |
 
-The budget that was given is between 160000-170000 funds. In our estimates, we try to sketch the total amount of usage.
+Total:	77000	F
+The budget that was given is 100000 funds. In our estimates, we try to sketch the total amount of usage.
 
 Below the actual spending of our rocket
 | Part                               | Amount | Cost   | Category             | Sub-total |
@@ -57,11 +57,11 @@ Below the actual spending of our rocket
 | 48-7S "Spark" Liquid Fuel Engine   | 3      | 240    | Transfer Stage       | 720       |
 | Oscar-B Fuel Tank                  | 3      | 70     | Satellite Network    | 210       |
 | Z-200 Rechargeable Battery Bank    | 9      | 360    | Satellite Network    | 3240      |
-| OX-4W 3x2 Photovoltaic Panels      | 9      | 380    | Satellite Network    | 3420      |
+| OX-4W 3x2 Photovoltaic Panels      | 6      | 380    | Satellite Network    | 2280      |
 | Small Inline Reaction Wheel        | 3      | 600    | Satellite Network    | 1800      |
 | Communotron 16-S                   | 3      | 300    | Satellite Network    | 900       |
 | Probodobodyne OKTO2                | 3      | 1480   | Satellite Network    | 4440      |
-| RA-2 Relay Antenna                 | 4      | 1800   | Satellite Network    | 7200      |
+| RA-2 Relay Antenna                 | 3      | 1800   | Satellite Network    | 5400      |
 | OX-10C Photovoltaic Panels         | 4      | 1200   | Farm Module          | 4800      |
 | Rockomax X200-8 Fuel Tank          | 1      | 800    | Transfer Stage       | 800       |
 | LT-1 Landing Struts                | 4      | 440    | Transfer Stage       | 1760      |
@@ -69,34 +69,32 @@ Below the actual spending of our rocket
 | TD-25 Decoupler                    | 1      | 300    | Transfer Stage       | 300       |
 | Rockomax X200-32 Fuel Tank         | 1      | 3000   | Transfer Stage       | 3000      |
 | TS-25 Stack Separator              | 1      | 400    | Transfer Stage       | 400       |
-| Rockomax Jumbo-64 Fuel Tank        | 2      | 5750   | Launch Vehicle       | 11500     |
-| RE-M3 "Mainsail" Liquid Fuel Engine| 1      | 13000  | Launch Vehicle       | 13000     |
-| TT-70 Radial Decoupler             | 3      | 700    | Launch Vehicle       | 2100      |
-| S2-33 "Clydesdale" Solid Fuel Booster| 3    | 18500  | Launch Vehicle       | 55500     |
-| Protective Rocket Nose Cone Mk7    | 3      | 450    | Launch Vehicle       | 1350      |
-| TT18-A Launch Stability Enhancer   | 3      | 200    | Launch Vehicle       | 600       |
+| Rockomax Jumbo-64 Fuel Tank        | 1      | 5750   | Launch Vehicle       | 5750      |
 | Mk-55 "Thud" Liquid Fuel Engine    | 2      | 820    | Transfer Stage       | 1640      |
+| EAS-4 Strut Connector              | 3      | 42     | Transfer Stage       | 126       |
 
-Total:	158158 F
-budget leftover	11842 F
+Total:	77044	F
+budget leftover	22956	F
 
-And per category with the difference in the estimation value (positive is more than estimate, negative is below estimate)
-| Category             | Total Cost | Difference |
-|----------------------|------------|------------|
-| Farm Module          | 42306      | -2694      |
-| Satellite Network    | 21210      | 9210       |
-| Launch Vehicle       | 84050      | 24050      |
-| Transfer Stage       | 9080       | -15920     |
-| Contingency (15%)    | 1512       | -13488     |
+And per category with the difference in the estimation value.
+(positive is leftover, negative is extra money needed)
+| Category             | Funds (F) | Difference with Estimation |
+|----------------------|-----------|----------------------------|
+| Farm Module          | 42306     | -22306                     |
+| Satellite Network    | 18270     | -6270                      |
+| Launch Vehicle       | 7516      | 12484                      |
+| Transfer Stage       | 7440      | 2560                       |
+| Contingency (15%)    | 1512      | 13488                      |
 
-A lot more money did go in the launch of the vehicle and in the satellite network setup. Nevertheless, we saved money on the transfer stage and in the farm module. The contingency of 15% was maybe a bit overrated, but saved us in the end.
+More money did go in the Satellite Network setup and farm module. Nevertheless, we spend less money on the other stages which is used in the 2 previously mentioned stages.
 
 **⏳️Time**
 - Must be on the dark side of the mun -> path planning
 - Farm contents do not get impacted on long time space travel
 
 **📈️Performance**
-- A Delta-V of 5922.5 m/s is needed to go from Kerbin to Mun accordingly to [KSP Delta-V Planner](https://ksp.loicviennois.com/)
+- A Delta-V of 5922.5 m/s is needed to go from Kerbin to Mun accordingly to [KSP Delta-V Planner](https://ksp.loicviennois.com/).
+    - *Side note: we've added a 15% margin to the theoretical value.*
 
 ## High-level choices
 - Take 1 big rocket 🚀️ to carry the payload 📦️.
