@@ -246,12 +246,6 @@
             id="4cc0635f-4bc3-453a-8a5e-4ad887607095" name="Create testbed on darkside Mun">
           <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
               id="413449d6-baa1-413a-b790-e6afc50160e5" included="#f29a01e6-84fd-4f3f-9a4d-af5ca5127524"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="40d0794e-e8aa-4713-8db1-d139975d4e67" involved="#eeb8b6a1-0401-4562-b8b6-5d5743f6a2df"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="1c155d2f-7297-40b9-9dba-8d6d5b3d34c3" involved="#a73865d7-12c3-4418-a3fb-6887ef4319b9"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="361c194d-eefb-40d8-a813-dbf097542bc1" involved="#80131999-6185-4f8c-a1d5-2fda1362e618"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="5c17114f-e6c7-4da3-86fb-96404c82f75f" name="Resource Management" summary="Efficient use of water, nutrients, and power for sustainable plant growth.">
@@ -261,8 +255,6 @@
               id="631fb480-a032-4ef0-ad4d-9ab22d815d20" included="#cc367576-57b1-4199-93a8-d0ea616101a4"/>
           <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
               id="799a4576-7ea8-44f2-ace2-224518697384" included="#dca03d24-ca91-4f61-bfbf-010020db86e4"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="210f7aad-6ba3-4eea-856f-b4a8227f54e2" involved="#a73865d7-12c3-4418-a3fb-6887ef4319b9"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="8133927a-d954-46f0-9856-c63ed219c730" name="Environmental Control">
@@ -272,12 +264,6 @@
               id="cf644399-c2aa-4c35-aaa5-8a01176952db" included="#e1312578-bd46-4705-a25d-ccc13cd90e52"/>
           <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
               id="f1828a16-3369-46e0-918a-fc852cdb7d45" included="#368c4362-2c13-46b0-8bb9-4f727d9cc8c8"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="d776f2a4-2640-4448-ab85-6db30674ef25" involved="#a73865d7-12c3-4418-a3fb-6887ef4319b9"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="c9a23cec-cc13-4031-994e-e2b80705734f" involved="#eeb8b6a1-0401-4562-b8b6-5d5743f6a2df"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="3282eb40-64a2-4f3c-90b2-32b3ce45c198" involved="#80131999-6185-4f8c-a1d5-2fda1362e618"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="6daa4175-c88c-4783-9f52-a5093db97164" name="Power Distribution">
@@ -289,12 +275,7 @@
               id="72d65282-0cae-4e04-9268-bcb9a48459e2" included="#8f123946-76c7-46d4-b46f-bee39b47cfe7"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="04ef3992-8536-4038-ba92-b9965d2f8b04" name="Plant growth Monitorring And Automation">
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="2e3f4200-b1e7-4b8c-aeeb-5dd397a4beb6" involved="#a73865d7-12c3-4418-a3fb-6887ef4319b9"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="664f9210-7873-4f60-ae04-46887626e17d" involved="#80131999-6185-4f8c-a1d5-2fda1362e618"/>
-        </ownedOperationalCapabilities>
+            id="04ef3992-8536-4038-ba92-b9965d2f8b04" name="Plant growth Monitorring And Automation"/>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="9d58a0d0-1013-4e94-846e-8ae520a2cc89" name="Organic Waste Recycling"/>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
@@ -303,34 +284,16 @@
               id="5f275dd3-3aea-4374-b4a1-71fa928306e6" included="#a4daf3a4-7382-436b-afbb-aa922509842a"/>
           <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
               id="b85fbe34-0c4a-44ca-93ff-8c2d5112001f" included="#9d58a0d0-1013-4e94-846e-8ae520a2cc89"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="1879bf97-7acb-42f3-876f-0bc3d3878517" involved="#a73865d7-12c3-4418-a3fb-6887ef4319b9"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="35a696ab-217e-4090-87a2-795d91cf5d9b" involved="#80131999-6185-4f8c-a1d5-2fda1362e618"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="e5908b2d-6d16-4735-bbb7-53bb3c0e4b5a" involved="#57879358-bbcf-4eb4-b192-2cd3dd3e721f"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="cc367576-57b1-4199-93a8-d0ea616101a4" name="Nutrition Delivery">
           <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
               id="242f7e53-2c7b-489b-abfc-62ab87167d9d" included="#9d58a0d0-1013-4e94-846e-8ae520a2cc89"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="8f5e6fe7-6977-4ad4-9cf0-c3adbf63a438" involved="#a73865d7-12c3-4418-a3fb-6887ef4319b9"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="3796e016-e800-4796-82ff-f739ba6610f6" involved="#80131999-6185-4f8c-a1d5-2fda1362e618"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="dca03d24-ca91-4f61-bfbf-010020db86e4" name="Energy Management">
           <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
               id="6e930c9f-0206-4dd8-9973-8d045dbd38ff" included="#6daa4175-c88c-4783-9f52-a5093db97164"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="4befa7a1-17ea-44d7-84fc-fb286a11319c" involved="#a73865d7-12c3-4418-a3fb-6887ef4319b9"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="5eb227d6-bb8c-4b27-825e-cfb517dea614" involved="#eeb8b6a1-0401-4562-b8b6-5d5743f6a2df"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="2f2a1625-193b-4c66-9593-b9ba345d5401" involved="#80131999-6185-4f8c-a1d5-2fda1362e618"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="c346ad38-12ca-41bb-9727-f36d95462653" involved="#57879358-bbcf-4eb4-b192-2cd3dd3e721f"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="ac02ff63-61bf-4f21-8fdf-9f4df22b9d78" name="Atmosphere Regulation"/>
@@ -345,75 +308,74 @@
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="8f123946-76c7-46d4-b46f-bee39b47cfe7" name="Power Distribution"/>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="fc6aa7ec-aa0c-49ab-9abe-e82e0c3f770b" name="Modular Expansion">
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="8299b47f-cbc3-4fd4-a151-e03bfb19abc3" involved="#a73865d7-12c3-4418-a3fb-6887ef4319b9"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="18a58f7d-8ebd-41ac-9dd3-332ad6ab24ff" involved="#eeb8b6a1-0401-4562-b8b6-5d5743f6a2df"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="5543f121-66e4-4501-a15c-66c5156e5ce9" involved="#80131999-6185-4f8c-a1d5-2fda1362e618"/>
-        </ownedOperationalCapabilities>
+            id="fc6aa7ec-aa0c-49ab-9abe-e82e0c3f770b" name="Modular Expansion"/>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="a4daf3a4-7382-436b-afbb-aa922509842a" name="Water Recycling"/>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="b8cc8392-50b3-4448-b4ac-fc710d1eab9a" name="Communication">
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="c3109ae0-cd52-48ba-b477-2be134fc6cd8" involved="#a73865d7-12c3-4418-a3fb-6887ef4319b9"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="c45c9f81-7b21-4987-a7e6-ac4914ab49cc" involved="#80131999-6185-4f8c-a1d5-2fda1362e618"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="8debafd9-fc81-4198-9603-5116ea5f5c70" involved="#eeb8b6a1-0401-4562-b8b6-5d5743f6a2df"/>
-        </ownedOperationalCapabilities>
+            id="b8cc8392-50b3-4448-b4ac-fc710d1eab9a" name="Communication"/>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="be83c0bc-67c6-4a26-87da-915f0ff6fc9c" name="Stay in Budget">
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="65eb2071-bb3e-497b-8a03-07ee6b131d37" involved="#57879358-bbcf-4eb4-b192-2cd3dd3e721f"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="dc7c31e6-752a-4ca3-a28e-37af35a46608" involved="#eeb8b6a1-0401-4562-b8b6-5d5743f6a2df"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="7c432013-15c8-4eb2-9053-6bcce8a4915c" involved="#a73865d7-12c3-4418-a3fb-6887ef4319b9"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="ab999a44-247f-4daa-a3cf-1dbcf349a4c4" involved="#3d74c62b-1462-412d-868b-631dae815188"/>
-        </ownedOperationalCapabilities>
+            id="be83c0bc-67c6-4a26-87da-915f0ff6fc9c" name="Stay in Budget"/>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="a8a20b57-5076-4f8c-a3ca-f9e3a161e24f" name="Activate Backup Plan">
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="93f324a7-b35e-4f97-bf96-89050819ea04" involved="#eeb8b6a1-0401-4562-b8b6-5d5743f6a2df"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="4750bdbf-e01b-4f1b-b5cb-0296c4aa4664" involved="#f5679300-a733-4b3f-a1d3-7c0bee50a740"/>
-        </ownedOperationalCapabilities>
+            id="a8a20b57-5076-4f8c-a3ca-f9e3a161e24f" name="Activate Backup Plan"/>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="39352a13-6159-47b9-ba01-eebf927de95c" name="Space regulations">
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="70355a60-3d21-45dd-aa38-7697e2c2dccb" involved="#f5679300-a733-4b3f-a1d3-7c0bee50a740"/>
-        </ownedOperationalCapabilities>
+            id="39352a13-6159-47b9-ba01-eebf927de95c" name="Space regulations"/>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="9d917c72-f30e-4ae4-a5f4-566115064053" name="Improve Farming Technology">
           <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
               id="8ee4aa44-269f-4efd-be3e-2076af5c7d49" included="#4cc0635f-4bc3-453a-8a5e-4ad887607095"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="6a55cf2f-80b9-44f5-91ed-65134b4373f5" involved="#a73865d7-12c3-4418-a3fb-6887ef4319b9"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="ad6096d9-0e8a-49b6-a4e6-e65b264541dc" name="Improve Space Delivery">
           <extends xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityExtend"
               id="d1da0906-7da0-40a1-b107-1fe4f398e3a4" extended="#f29a01e6-84fd-4f3f-9a4d-af5ca5127524"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="f6d706e9-c6d3-4937-8131-c9f2aaac4c34" involved="#eeb8b6a1-0401-4562-b8b6-5d5743f6a2df"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="fea30904-af45-4853-a827-12d4eadce7e6" involved="#3d74c62b-1462-412d-868b-631dae815188"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="f29a01e6-84fd-4f3f-9a4d-af5ca5127524" name="Constant Communication">
           <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
               id="87ae7128-17e7-427e-9ce8-8d3ec1727d91" included="#12e54dd4-1d98-4f76-8c06-2a4940ae9592"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="c63eb429-d816-4149-bb4f-fa627ae87417" involved="#a73865d7-12c3-4418-a3fb-6887ef4319b9"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="12e54dd4-1d98-4f76-8c06-2a4940ae9592" name="Communciation Medium">
+            id="12e54dd4-1d98-4f76-8c06-2a4940ae9592" name="Communciation Medium"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="36a57be1-1d26-445b-ac72-f7b410ee15fc" name="IMPROVE FARMING TECHNOLOGY">
+          <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
+              id="9e58d78f-975a-4e91-a30a-274b22793519" included="#ec6a5a16-2a27-45f4-ba40-e10d11978f63"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="05c6ea72-4d65-46df-ae8b-7fd15b0a527d" involved="#eeb8b6a1-0401-4562-b8b6-5d5743f6a2df"/>
+              id="16723025-e6b5-4e4c-a04f-4d7a8a995398" involved="#63942da1-430d-4d43-be8f-1d25095289e2"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="ec6a5a16-2a27-45f4-ba40-e10d11978f63" name="CREATE TESTBED ON DARKSIDE MUN">
+          <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
+              id="b6d91692-bfd6-4ed8-8563-96407b293e4a" included="#625e9d01-dc7e-47e4-a690-5cdef70df08b"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="71e5bc0e-26e5-4371-abb0-2df7c2db6bf2" involved="#7b7bfc38-00a6-44a2-9103-ede767dfebe0"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="b8bd8a9e-e318-4b82-a00e-58824e7c0e84" involved="#63942da1-430d-4d43-be8f-1d25095289e2"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="3b1467b1-1058-47b4-853b-dad9824527eb" involved="#39f2a209-c722-499f-b8b2-74f42a5d814d"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="625e9d01-dc7e-47e4-a690-5cdef70df08b" name="CONSTANT COMMUNICATION">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="387748be-3099-4827-86fe-44fb67efcca8" involved="#39f2a209-c722-499f-b8b2-74f42a5d814d"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="c56d5b5b-ca32-42d7-87e3-6d3f5034efcd" name="IMPROVE SPACE DELIVERY">
+          <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
+              id="8762cf05-6a14-4799-b184-9745fada8555" included="#625e9d01-dc7e-47e4-a690-5cdef70df08b"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="c07f65fc-f972-4575-960d-76599739becf" involved="#258d9c7f-d50c-4217-8131-3feb0db1d00d"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="cb365640-b702-4539-b6ba-9e2b1909d3e1" involved="#39f2a209-c722-499f-b8b2-74f42a5d814d"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="bc2677fe-807a-4731-b9be-1a565bdf924c" name="EXPERIMENTATION WITH INTERPLANETARY HABITATION">
+          <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
+              id="cbe27768-137a-48d5-8b1d-fde74f13b0ff" included="#36a57be1-1d26-445b-ac72-f7b410ee15fc"/>
+          <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
+              id="de3e8930-b2be-46f3-accb-ac901defe972" included="#c56d5b5b-ca32-42d7-87e3-6d3f5034efcd"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="13e03c57-af0f-4a62-8e0a-f5592ca30b32" involved="#63942da1-430d-4d43-be8f-1d25095289e2"/>
         </ownedOperationalCapabilities>
       </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
@@ -424,122 +386,96 @@
           name="Roles"/>
       <ownedEntityPkg xsi:type="org.polarsys.capella.core.data.oa:EntityPkg" id="e60f64bd-4830-4092-b3f3-fbba120ff8cb"
           name="Operational Entities">
-        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="5a65c590-678a-4a3e-b941-fd74c1e1e53f"
-            name="Chief Engineer" abstractType="#eeb8b6a1-0401-4562-b8b6-5d5743f6a2df"/>
-        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="96ad2a67-1f7e-4262-8f5b-4127a0fdd604"
-            name="Financial Officer" abstractType="#57879358-bbcf-4eb4-b192-2cd3dd3e721f"/>
-        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="b60dd1fa-98e7-4b08-a79c-9749fd75b34e"
-            name="Chief Legal Counsel" abstractType="#f5679300-a733-4b3f-a1d3-7c0bee50a740"/>
-        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="0446fd7a-4f33-4ae2-9789-61fbc93fa378"
-            name="Chief Agriculture Scientist" abstractType="#a73865d7-12c3-4418-a3fb-6887ef4319b9"/>
-        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="23ed79e2-14eb-48aa-af56-d42e6bbbea6f"
-            name="Rocket" abstractType="#cc3928c7-32ca-417a-be90-820f07f644c8"/>
-        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="7661de31-761a-46d9-a972-9e368b7394e2"
-            name="Farm" abstractType="#80131999-6185-4f8c-a1d5-2fda1362e618"/>
-        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="d308ef4c-2897-4fb0-80ae-4381d9c8b5cf"
-            name="Logistics Manager" abstractType="#3d74c62b-1462-412d-868b-631dae815188"/>
-        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="bb050fd0-db85-49d1-b548-dc2dc8edac82"
-            name="Transportation Medium" abstractType="#415c1a69-5a64-4ced-b6d7-c4e42e908a23"/>
-        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="eeb8b6a1-0401-4562-b8b6-5d5743f6a2df"
-            name="Chief Engineer" description="&lt;p>Needs modular expansion so not to send eveything at once.&lt;/p>&#xA;"
-            actor="true" human="true">
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="15b5ea84-f1c4-41d2-bc28-0ba731c323a5" targetElement="#dfae93bd-fac1-4711-85f0-b16f0a77d666"
-              sourceElement="#eeb8b6a1-0401-4562-b8b6-5d5743f6a2df"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="da980771-4d62-49bf-b92e-d2cca9e9696c" targetElement="#d21278fc-583f-4c14-88ea-d52542eb3408"
-              sourceElement="#eeb8b6a1-0401-4562-b8b6-5d5743f6a2df"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="fb92fcc7-8857-46e1-8fed-8e053216ac11" targetElement="#d1da5b95-b8f3-4523-9b41-24986022468e"
-              sourceElement="#eeb8b6a1-0401-4562-b8b6-5d5743f6a2df"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="49540299-2f34-49d5-a9d0-0305c303de4e" targetElement="#fa15e7b4-5c5d-4a14-8396-7b3f96083b5d"
-              sourceElement="#eeb8b6a1-0401-4562-b8b6-5d5743f6a2df"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="6c5c85fd-04e2-49f8-93fc-4fd3de510bcd" targetElement="#52bbcc9d-d45f-4686-9176-9be0504018a5"
-              sourceElement="#eeb8b6a1-0401-4562-b8b6-5d5743f6a2df"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="30d9f076-2b0f-4a3c-a5e0-5a6124ba7465" targetElement="#db575237-78e6-4773-a548-953fa131bc8c"
-              sourceElement="#eeb8b6a1-0401-4562-b8b6-5d5743f6a2df"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="997783a7-78ac-47f4-a42a-d17e3607b254" targetElement="#1710cd14-d1dd-4d20-b1d4-12f5411e95ea"
-              sourceElement="#eeb8b6a1-0401-4562-b8b6-5d5743f6a2df"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="258daaa3-f78b-4373-969c-206f04c9d10c" targetElement="#de215cd7-9a8a-4156-8919-7da7436ed0fa"
-              sourceElement="#eeb8b6a1-0401-4562-b8b6-5d5743f6a2df"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="f4b2bf6e-abc5-439a-8c9d-e0cbdf2abd1f" targetElement="#85c4d300-e36d-4587-b21b-93b01a6b2c38"
-              sourceElement="#eeb8b6a1-0401-4562-b8b6-5d5743f6a2df"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="cabb440a-1f39-477b-8c88-f8cba5ecf8ac"
+            name="MISSION CONTROL" abstractType="#9d1c00a0-5817-4fd8-9eba-c9063047d3d7"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="37d5211f-c371-4e83-9de2-0c00841b6ade"
+            name="SCIENTIFIC RESEARCH" abstractType="#6215be6d-d422-4123-bb05-d742621435ca"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="e738b4cb-4c61-4de1-8363-4a4f2d6e7931"
+            name="ENGINEERING DEPARTEMENT" abstractType="#bfb80343-8e4b-4dda-abc9-364b48824643"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="b852c3c5-eb29-42e6-8110-7e9edeb59c8a"
+            name="STAKEHOLDERS" abstractType="#17ecd484-21ec-4ff9-a880-d9e300c62338"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="2aeddc9e-937a-4ce1-8261-f1ffc89dbc8a"
+            name="SPACE" abstractType="#75255ec0-b826-4914-b750-0d3bbc1cf618"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="9d1c00a0-5817-4fd8-9eba-c9063047d3d7"
+            name="MISSION CONTROL">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="b5719288-caef-46ea-8c94-31674b1b5599"
+              name="SPACE MISSION OPERATORS" abstractType="#a5fb068f-d16d-48c8-a3be-4559b612ec3e"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="6d12694d-f402-49cd-9f3f-986a329091c6"
+              name="LOGISTICS MANAGER" abstractType="#258d9c7f-d50c-4217-8131-3feb0db1d00d"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="a5fb068f-d16d-48c8-a3be-4559b612ec3e"
+              name="SPACE MISSION OPERATORS" actor="true" human="true"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="258d9c7f-d50c-4217-8131-3feb0db1d00d"
+              name="LOGISTICS MANAGER" actor="true" human="true"/>
         </ownedEntities>
-        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="57879358-bbcf-4eb4-b192-2cd3dd3e721f"
-            name="Financial Officer" actor="true" human="true">
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="62d6ec3c-6a5f-48e5-be41-4d6c021f6ea2" targetElement="#d4ad8788-4afd-4345-b27d-a1cf9b138385"
-              sourceElement="#57879358-bbcf-4eb4-b192-2cd3dd3e721f"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="6215be6d-d422-4123-bb05-d742621435ca"
+            name="SCIENTIFIC RESEARCH">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="7c7e5d1c-4b81-42be-b159-6ae29b588302"
+              name="CHIEF ARGRICULTURE SCIENTIST" abstractType="#63942da1-430d-4d43-be8f-1d25095289e2"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="53162415-ccd5-4d6e-b47a-788c098f3fa7"
+              name="RESEARCHERS" abstractType="#189428ec-fd4c-45ff-83a6-ce7860aca5ae"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="63942da1-430d-4d43-be8f-1d25095289e2"
+              name="CHIEF ARGRICULTURE SCIENTIST" actor="true" human="true"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="189428ec-fd4c-45ff-83a6-ce7860aca5ae"
+              name="RESEARCHERS" actor="true" human="true"/>
         </ownedEntities>
-        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="f5679300-a733-4b3f-a1d3-7c0bee50a740"
-            name="Chief Legal Counsel" actor="true" human="true">
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="2e3ba9ab-d2a7-4de8-875d-d8ff8c29f51f" targetElement="#c2735f6c-ddff-43ab-ba55-342ce8d4f9f0"
-              sourceElement="#f5679300-a733-4b3f-a1d3-7c0bee50a740"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="934ef5b7-f6d7-40d6-8c4a-3863db0df1ce" targetElement="#58430bb9-df82-4f26-8583-9e824336bd3f"
-              sourceElement="#f5679300-a733-4b3f-a1d3-7c0bee50a740"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="bfb80343-8e4b-4dda-abc9-364b48824643"
+            name="ENGINEERING DEPARTEMENT">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="e08134a7-36bf-4eff-ad55-f34bb3c84734"
+              name="CHIEF SYSTEMS ENGINEER" abstractType="#39f2a209-c722-499f-b8b2-74f42a5d814d"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="7afb646b-cd8c-412e-a68b-f3d89ff13eb9"
+              name="ROCKET ENGINEER" abstractType="#4eea5466-40a8-4ff4-abbb-3176fbbf5fce"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="9eff992c-29e6-4856-98ae-e9c33ae58978"
+              name="AGRICULTURAL ENGINEER" abstractType="#dc8e4329-45c4-4bb6-8b82-a4f83e972086"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="39f2a209-c722-499f-b8b2-74f42a5d814d"
+              name="CHIEF SYSTEMS ENGINEER" actor="true" human="true"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="4eea5466-40a8-4ff4-abbb-3176fbbf5fce"
+              name="ROCKET ENGINEER" actor="true" human="true"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="dc8e4329-45c4-4bb6-8b82-a4f83e972086"
+              name="AGRICULTURAL ENGINEER" actor="true" human="true"/>
         </ownedEntities>
-        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="a73865d7-12c3-4418-a3fb-6887ef4319b9"
-            name="Chief Agriculture Scientist" description="&lt;p>Wants to perform mission on dark side of the mun. Create a testbed for longterm experiments.&lt;/p>&#xA;"
-            actor="true" human="true">
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="5bb06366-c195-4924-b5fd-7fc19a8a49a9" targetElement="#fe905209-6abe-4cc6-92bf-48b88df84d2d"
-              sourceElement="#a73865d7-12c3-4418-a3fb-6887ef4319b9"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="16df59a1-56cc-4fcc-b3b4-08fa624a3c1f" targetElement="#62ce6724-6d5c-4103-83ee-7239424f3ff5"
-              sourceElement="#a73865d7-12c3-4418-a3fb-6887ef4319b9"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="09f540a0-1e6b-4bbe-ba9b-cf24932e1bd6" targetElement="#1e2b3e47-c334-4875-b3a8-dea43456a484"
-              sourceElement="#a73865d7-12c3-4418-a3fb-6887ef4319b9"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="545e99c6-3044-4a95-852d-4dd4449602a0" targetElement="#75e57776-0bfd-41c7-8264-8202d884c4b8"
-              sourceElement="#a73865d7-12c3-4418-a3fb-6887ef4319b9"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="34b7873b-db57-411d-a68e-c926ed130579" targetElement="#4092c501-38d1-4709-b440-7216476393d3"
-              sourceElement="#a73865d7-12c3-4418-a3fb-6887ef4319b9"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="35e1ed0f-9716-4e31-889e-7369e04bc2f7" targetElement="#c033b35d-b47a-41c3-a3db-2b2a328b56a6"
-              sourceElement="#a73865d7-12c3-4418-a3fb-6887ef4319b9"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="17ecd484-21ec-4ff9-a880-d9e300c62338"
+            name="STAKEHOLDERS">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="3e9d5b50-5a94-444d-b734-addd10eed5e7"
+              name="INVESTORS" abstractType="#7becac83-8d3e-4e04-876d-dd56bd755607"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="55672922-675e-4756-8a21-07f1b80e97d1"
+              name="GENERAL PUBLIC" abstractType="#c52faa51-0d05-4b7c-86f1-5c9a34fdc299"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="35713c87-fa73-4d39-831c-7c42b7f9f50d"
+              name="GOVERNMENT" abstractType="#3d08b668-ac6a-45b5-8c30-141b9ef5c834"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="7becac83-8d3e-4e04-876d-dd56bd755607"
+              name="INVESTORS" actor="true" human="true"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="c52faa51-0d05-4b7c-86f1-5c9a34fdc299"
+              name="GENERAL PUBLIC">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="6fd313d9-233b-45a9-a562-8b77b53f4001"
+                name="FOOD INDUSTRY" abstractType="#3be0d577-cf12-4d83-96c0-2141f9eeaa5c"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="61b663f6-4040-4604-ab48-08dea8f59de9"
+                name="FARMERS" abstractType="#b1da1ad7-ef14-4c88-bdcb-e0b0b28f3f26"/>
+            <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="3be0d577-cf12-4d83-96c0-2141f9eeaa5c"
+                name="FOOD INDUSTRY" actor="true" human="true"/>
+            <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="b1da1ad7-ef14-4c88-bdcb-e0b0b28f3f26"
+                name="FARMERS" actor="true" human="true"/>
+          </ownedEntities>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="3d08b668-ac6a-45b5-8c30-141b9ef5c834"
+              name="GOVERNMENT" actor="true" human="true"/>
         </ownedEntities>
-        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="cc3928c7-32ca-417a-be90-820f07f644c8"
-            name="Rocket">
-          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="413c994b-0d59-4e53-b53c-862b7ff1a53a"
-              name="Payload" abstractType="#1182b7e7-3b26-456a-96cb-1f6aaa4ee8a8"/>
-          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="1182b7e7-3b26-456a-96cb-1f6aaa4ee8a8"
-              name="Payload"/>
-        </ownedEntities>
-        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="80131999-6185-4f8c-a1d5-2fda1362e618"
-            name="Farm">
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="b75f4e1f-0ee4-4ae0-b5d5-baddaecfa145" targetElement="#2ee14097-0c7d-44d1-99d3-bcefcf0d71f7"
-              sourceElement="#80131999-6185-4f8c-a1d5-2fda1362e618"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="4ae2de15-3f5d-4e86-80f7-a1ed2e17a94d" targetElement="#32940a90-d921-499e-8277-b4a9199b6e2e"
-              sourceElement="#80131999-6185-4f8c-a1d5-2fda1362e618"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="67f105be-2fe0-4292-8e76-ad25ec896e83" targetElement="#c12c92b2-e7cd-4dc7-9bdd-fdba3107a3f6"
-              sourceElement="#80131999-6185-4f8c-a1d5-2fda1362e618"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="585870be-c70f-40b7-816a-a53302ad1b91" targetElement="#c7c0954f-6eb5-4c2d-8c77-b5883514e861"
-              sourceElement="#80131999-6185-4f8c-a1d5-2fda1362e618"/>
-        </ownedEntities>
-        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="3d74c62b-1462-412d-868b-631dae815188"
-            name="Logistics Manager" actor="true" human="true"/>
-        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="415c1a69-5a64-4ced-b6d7-c4e42e908a23"
-            name="Transportation Medium">
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="750ff6fb-026e-4c10-af70-a62ddfb8192b" targetElement="#c4fb611f-f6d0-4906-935e-648bd58330df"
-              sourceElement="#415c1a69-5a64-4ced-b6d7-c4e42e908a23"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="4668cb27-7b5b-4ffe-ba54-9ca6c7050423" targetElement="#6d0c9bef-8335-4c75-871e-21098e2e7d8d"
-              sourceElement="#415c1a69-5a64-4ced-b6d7-c4e42e908a23"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="75255ec0-b826-4914-b750-0d3bbc1cf618"
+            name="SPACE">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="9a21de38-8150-4a3c-99d3-09b0a2787d23"
+              name="ROCKET" abstractType="#7c968c26-9882-4c4c-be2b-57f6b679163e"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="8b866cc1-7912-4c20-a8c3-57a309caf563"
+              name="MUN" abstractType="#f8032c51-b65f-4a7c-b6f5-7625aff19803"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="35035c41-6836-416f-9b81-9961719f2530"
+              name="KERBIN" abstractType="#d343ee57-c353-40aa-bb0a-a8e17ffea7ea"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="7c968c26-9882-4c4c-be2b-57f6b679163e"
+              name="ROCKET">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="495d261a-1c67-4a5b-a0e0-421826052328"
+                name="FARM" abstractType="#7b7bfc38-00a6-44a2-9103-ede767dfebe0"/>
+            <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="7b7bfc38-00a6-44a2-9103-ede767dfebe0"
+                name="FARM"/>
+          </ownedEntities>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="f8032c51-b65f-4a7c-b6f5-7625aff19803"
+              name="MUN"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="d343ee57-c353-40aa-bb0a-a8e17ffea7ea"
+              name="KERBIN"/>
         </ownedEntities>
       </ownedEntityPkg>
     </ownedArchitectures>
@@ -1006,15 +942,6 @@
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
             id="95e19732-0956-445f-a65a-bce4674d074c" name="Create testbed on darkside Mun">
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="74424d88-3c2d-4869-af4f-590caa6b11af" targetElement="#40d0794e-e8aa-4713-8db1-d139975d4e67"
-              sourceElement="#997936a8-81ab-48ee-8ba2-66a8a18d69cc"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="55a891a6-781f-4981-a32b-87b7988ae99b" targetElement="#1c155d2f-7297-40b9-9dba-8d6d5b3d34c3"
-              sourceElement="#821aedb9-82f7-4890-898d-9c001a8197dc"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="d2e34289-fec1-4532-b362-94e8b7d433c3" targetElement="#361c194d-eefb-40d8-a813-dbf097542bc1"
-              sourceElement="#73a09f9c-e6db-41b4-ae49-e934efec4724"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="728a0b9f-64c8-4652-b6a4-5186f6a9cc35" targetElement="#413449d6-baa1-413a-b790-e6afc50160e5"
               sourceElement="#270197d7-27e3-481a-a01b-5ae3fb9538d7"/>
           <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
@@ -1031,9 +958,6 @@
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
             id="cd0b00b3-59e2-4802-beb7-1520879e37f2" name="Resource Management" summary="Efficient use of water, nutrients, and power for sustainable plant growth.">
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="f42c25ee-5f46-40cc-bbb2-a0ec7017cbd8" targetElement="#210f7aad-6ba3-4eea-856f-b4a8227f54e2"
-              sourceElement="#225aed9c-41ab-4ccf-9726-1c65cd109c0c"/>
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="7e700fdd-3a0d-455a-9102-25b280a3c78c" targetElement="#7a399e66-a448-41d3-9beb-11839426ac40"
               sourceElement="#3ac24f12-8fa7-4264-8e8e-fcc630428a22"/>
@@ -1057,15 +981,6 @@
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
             id="1a767f35-9e18-4128-97cb-2849baf9efe8" name="Environmental Control">
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="423f9308-b2ab-403d-9b76-45f54b336921" targetElement="#d776f2a4-2640-4448-ab85-6db30674ef25"
-              sourceElement="#e524d491-73ec-481f-b523-2c52fb5ba2e3"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="6fb8cb0a-b42b-427b-9b7f-9ddbf7a8fbc6" targetElement="#c9a23cec-cc13-4031-994e-e2b80705734f"
-              sourceElement="#2a69b3d4-06e0-4b8f-a5d3-3233abd3395c"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="766608e0-4677-435f-8c7b-2423bf0ab688" targetElement="#3282eb40-64a2-4f3c-90b2-32b3ce45c198"
-              sourceElement="#23099222-447d-4dc1-92e6-627b6e6fef19"/>
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="4c74036f-4282-4196-a2e0-05e672e95da8" targetElement="#af4ee64d-2b0f-4520-a701-ab889afe2761"
               sourceElement="#ad7512d3-5efb-4ca9-b482-cbac20e19ebc"/>
@@ -1114,12 +1029,6 @@
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
             id="2ef350b7-2a9b-469d-91bd-debf22c8f7ac" name="Plant growth Monitorring And Automation">
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="0736551c-2725-42ae-aa7a-3cbb487f3d08" targetElement="#2e3f4200-b1e7-4b8c-aeeb-5dd397a4beb6"
-              sourceElement="#a7eb576d-d012-4556-8d79-bd13392bf9af"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="9d84480a-d464-42d8-9c27-0e8f9a6a0857" targetElement="#664f9210-7873-4f60-ae04-46887626e17d"
-              sourceElement="#303d7018-b32d-46ca-8d7a-89d12ac72875"/>
           <ownedAbstractCapabilityRealizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityRealization"
               id="f249de0a-b8f8-45a7-a4dd-4dda586658dd" targetElement="#04ef3992-8536-4038-ba92-b9965d2f8b04"
               sourceElement="#2ef350b7-2a9b-469d-91bd-debf22c8f7ac"/>
@@ -1136,15 +1045,6 @@
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
             id="7bfa62bf-4e9d-4b40-aac7-7ff43abd0648" name="Water Management">
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="5962601b-d700-4343-84b4-f27d694b2588" targetElement="#1879bf97-7acb-42f3-876f-0bc3d3878517"
-              sourceElement="#0be47381-9abf-44ed-aea8-1436061b552a"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="fe4c580e-7783-4488-b0af-9b440cf7f93a" targetElement="#35a696ab-217e-4090-87a2-795d91cf5d9b"
-              sourceElement="#1c710ebc-31c9-447a-b078-e90e72ea705a"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="19acd354-a88c-43af-9338-4335cbd528a2" targetElement="#e5908b2d-6d16-4735-bbb7-53bb3c0e4b5a"
-              sourceElement="#0b4530cf-a541-4c34-b386-3515fd219892"/>
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="1b2f6dd2-c92d-4763-9606-c0dd14dbd527" targetElement="#5f275dd3-3aea-4374-b4a1-71fa928306e6"
               sourceElement="#4b2f972a-9fca-4c3b-a537-8ec19c24aa7e"/>
@@ -1168,14 +1068,8 @@
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
             id="ff7ac82a-d320-4537-b8a8-95551777f701" name="Nutrition Delivery">
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="d2cd8748-9168-4bb8-9691-80776dfa864b" targetElement="#8f5e6fe7-6977-4ad4-9cf0-c3adbf63a438"
-              sourceElement="#bf7880b8-1318-4fbd-aaea-75882494064f"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="761c50ce-5fc7-41d4-8271-9adcea52ba03" targetElement="#242f7e53-2c7b-489b-abfc-62ab87167d9d"
               sourceElement="#745c6cff-c011-490a-b71a-022ecf997111"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="5835f792-2460-4416-bf79-10b963e14790" targetElement="#3796e016-e800-4796-82ff-f739ba6610f6"
-              sourceElement="#f075d835-4790-4263-ad6a-5e12ceebd7aa"/>
           <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
               id="745c6cff-c011-490a-b71a-022ecf997111" included="#197f1ecb-cc01-45e1-b4fc-f60e3b44d216"/>
           <ownedAbstractCapabilityRealizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityRealization"
@@ -1189,20 +1083,8 @@
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
             id="ec0b3483-b465-4fcf-9b65-a9ed935f28b5" name="Energy Management">
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="e91cbfe3-6be0-40f8-8a58-f6d8a347d234" targetElement="#4befa7a1-17ea-44d7-84fc-fb286a11319c"
-              sourceElement="#f7a3d224-036c-418e-94ae-040a02ff9cd5"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="a579493f-45c9-4f2d-b8f3-f436e3fa2941" targetElement="#6e930c9f-0206-4dd8-9973-8d045dbd38ff"
               sourceElement="#c15a1d30-c93a-4bf8-bc5e-bfeb41c87972"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="ac7ae2b3-1143-4f90-b3dd-259ae0181ba9" targetElement="#5eb227d6-bb8c-4b27-825e-cfb517dea614"
-              sourceElement="#7f18d7e6-eace-4e05-8705-768307a62e46"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="a5fcca8b-8cea-4a3f-a293-45b6ef035ad2" targetElement="#2f2a1625-193b-4c66-9593-b9ba345d5401"
-              sourceElement="#8e26a641-56a1-418c-b824-6cd2be619cad"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="a6232f21-5331-4b65-90dc-0fb9226db53b" targetElement="#c346ad38-12ca-41bb-9727-f36d95462653"
-              sourceElement="#12caa81c-1920-4ac5-9047-513920a5c30b"/>
           <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
               id="c15a1d30-c93a-4bf8-bc5e-bfeb41c87972" included="#59f1bc71-a838-4124-b0f8-a8850a005f45"/>
           <ownedAbstractCapabilityRealizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityRealization"
@@ -1255,15 +1137,6 @@
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
             id="e39188bd-bfb5-4f79-9862-6389901a1a2d" name="Modular Expansion">
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="ce5029f3-ddaf-492b-930a-153ff36c7f04" targetElement="#8299b47f-cbc3-4fd4-a151-e03bfb19abc3"
-              sourceElement="#5b06541a-2563-4d9a-bb2d-f36276fe5116"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="93556c04-03c6-4ada-adb9-e6000f214906" targetElement="#18a58f7d-8ebd-41ac-9dd3-332ad6ab24ff"
-              sourceElement="#632386df-c101-4970-97e7-38a92f7ac4f6"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="6dcc465d-ed8b-45d3-8dd5-b5c2622a5acc" targetElement="#5543f121-66e4-4501-a15c-66c5156e5ce9"
-              sourceElement="#90089a84-1476-42b3-852a-fccd852f571f"/>
           <ownedAbstractCapabilityRealizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityRealization"
               id="fd602d7e-64c4-4f5b-b853-348de70a954b" targetElement="#fc6aa7ec-aa0c-49ab-9abe-e82e0c3f770b"
               sourceElement="#e39188bd-bfb5-4f79-9862-6389901a1a2d"/>
@@ -1282,15 +1155,6 @@
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
             id="da28635e-9053-4139-939e-9666383572f6" name="Communication">
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="62a81fd5-2a73-40ad-a0cc-7e1d23f7142b" targetElement="#c3109ae0-cd52-48ba-b477-2be134fc6cd8"
-              sourceElement="#25ef0d7e-4631-4302-87f5-86c7f3808b8a"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="82d4ed9c-3bc2-4f9c-9d35-6d1dbbc5f318" targetElement="#c45c9f81-7b21-4987-a7e6-ac4914ab49cc"
-              sourceElement="#cf6736b3-d6bb-49df-88fd-9585fd8b6872"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="f1fe8e8d-6016-4d1b-adca-c22ff3867a54" targetElement="#8debafd9-fc81-4198-9603-5116ea5f5c70"
-              sourceElement="#c7b864a1-c105-4a96-907b-58d1b423626e"/>
           <ownedAbstractCapabilityRealizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityRealization"
               id="b6109574-b9e8-462a-8865-60d0b4e86d60" targetElement="#b8cc8392-50b3-4448-b4ac-fc710d1eab9a"
               sourceElement="#da28635e-9053-4139-939e-9666383572f6"/>
@@ -1303,18 +1167,6 @@
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
             id="5f4f42bf-7f77-4617-a349-e75250dac947" name="Stay in Budget">
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="7bade579-d5cc-49f7-a806-d573995bb0ec" targetElement="#65eb2071-bb3e-497b-8a03-07ee6b131d37"
-              sourceElement="#e3ef1157-094b-4521-8256-a0c177caa1dd"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="a72a21f1-4ff2-4ba3-818a-0040c888beca" targetElement="#dc7c31e6-752a-4ca3-a28e-37af35a46608"
-              sourceElement="#a96d9b69-3615-430b-aab2-aa5ad83acc32"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="a45fb83f-de37-4853-9a56-78e1db669276" targetElement="#7c432013-15c8-4eb2-9053-6bcce8a4915c"
-              sourceElement="#b76593e7-4413-4324-9643-2c176055282c"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="431ae725-8088-4666-8e60-d70d3fc7153a" targetElement="#ab999a44-247f-4daa-a3cf-1dbcf349a4c4"
-              sourceElement="#df7b027f-b172-46fe-bcf8-db46e2e84ec3"/>
           <ownedAbstractCapabilityRealizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityRealization"
               id="a8283a63-6cb4-4f2a-9c07-b08f210325c9" targetElement="#be83c0bc-67c6-4a26-87da-915f0ff6fc9c"
               sourceElement="#5f4f42bf-7f77-4617-a349-e75250dac947"/>
@@ -1329,12 +1181,6 @@
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
             id="25120eb7-0d88-491a-8075-f68460910bde" name="Activate Backup Plan">
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="88572bc3-7aa1-42bd-a632-ab118da19f9d" targetElement="#93f324a7-b35e-4f97-bf96-89050819ea04"
-              sourceElement="#a6f08341-a7c0-444b-a701-522baaccff98"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="badcd56a-e40a-4ce8-909b-b2907c50aeaf" targetElement="#4750bdbf-e01b-4f1b-b5cb-0296c4aa4664"
-              sourceElement="#3d379028-fd51-4bb1-9874-dde63caefccf"/>
           <ownedAbstractCapabilityRealizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityRealization"
               id="53f27c89-0ff4-4c7c-a789-135465f9bcc6" targetElement="#a8a20b57-5076-4f8c-a3ca-f9e3a161e24f"
               sourceElement="#25120eb7-0d88-491a-8075-f68460910bde"/>
@@ -1345,9 +1191,6 @@
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
             id="70dd0b4d-ac32-42ad-a1c4-16e0d34bc038" name="followed Space regulations">
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="366a5881-c0b9-4f0e-83ac-eaa5388c5508" targetElement="#70355a60-3d21-45dd-aa38-7697e2c2dccb"
-              sourceElement="#7c0bf58d-a77f-4fcf-b92b-eaaf2e1ac15e"/>
           <ownedAbstractCapabilityRealizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityRealization"
               id="7629e8f1-879a-4c29-9097-6e5c1ce8f2a9" targetElement="#39352a13-6159-47b9-ba01-eebf927de95c"
               sourceElement="#70dd0b4d-ac32-42ad-a1c4-16e0d34bc038"/>
@@ -1361,9 +1204,6 @@
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
             id="db562590-2f52-4683-97c8-efccab8dd792" name="Improve Farming Technology">
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="2dedab95-7257-4915-adea-9e8ecfe37459" targetElement="#6a55cf2f-80b9-44f5-91ed-65134b4373f5"
-              sourceElement="#115e553b-25bd-4754-80af-0703b1c75008"/>
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="d6cd80d0-0165-458b-8541-909a9eaee5f6" targetElement="#8ee4aa44-269f-4efd-be3e-2076af5c7d49"
               sourceElement="#ed35e02c-d4da-415e-9743-82526bc4a529"/>
@@ -1380,12 +1220,6 @@
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="b6e4fbc8-fa40-45d8-9360-246d2e1266b3" targetElement="#d1da0906-7da0-40a1-b107-1fe4f398e3a4"
               sourceElement="#9d6061c8-8a77-4c93-b855-82691e3177b1"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="e8baded2-7fc4-45c3-84ad-c81bbd3dee9c" targetElement="#f6d706e9-c6d3-4937-8131-c9f2aaac4c34"
-              sourceElement="#c2d571c6-3f54-47a5-a072-abbd4d433e93"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="afefc3e9-324c-419e-9042-9c2858517dd9" targetElement="#fea30904-af45-4853-a827-12d4eadce7e6"
-              sourceElement="#2e0b686b-b930-4b2e-8f8e-685c86a14145"/>
           <extends xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityExtend"
               id="9d6061c8-8a77-4c93-b855-82691e3177b1" extended="#caf1416e-ef2d-4d3f-9fa5-e4dbc79cebf8"/>
           <ownedAbstractCapabilityRealizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityRealization"
@@ -1401,9 +1235,6 @@
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="6871ed59-5dc9-4a63-9293-3e5242a69cc9" targetElement="#87ae7128-17e7-427e-9ce8-8d3ec1727d91"
               sourceElement="#2981235b-6430-4de4-8bcb-e16a136fcf59"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="c9cb07fe-d9d8-4d7e-af6a-30ea988eba33" targetElement="#c63eb429-d816-4149-bb4f-fa627ae87417"
-              sourceElement="#4559e7ef-6ab0-483c-8621-5b8d3f141f92"/>
           <ownedScenarios xsi:type="org.polarsys.capella.core.data.interaction:Scenario"
               id="388cb666-1654-430d-8cdb-340871140a58" name="[FS] Constant Communication"
               kind="FUNCTIONAL">
@@ -1748,9 +1579,6 @@
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
             id="3c1df865-3350-44e9-9b9a-a14aeebdbb0a" name="Communciation Medium">
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="f99c9a7d-e570-4387-b6ff-a4f5a5a52079" targetElement="#05c6ea72-4d65-46df-ae8b-7fd15b0a527d"
-              sourceElement="#82157d7a-b35d-45cb-9b97-4f7d04841a48"/>
           <ownedAbstractCapabilityRealizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityRealization"
               id="ff0b436c-c1c7-4f54-ad6a-a6e668649ad4" targetElement="#12e54dd4-1d98-4f76-8c06-2a4940ae9592"
               sourceElement="#3c1df865-3350-44e9-9b9a-a14aeebdbb0a"/>
@@ -1857,24 +1685,6 @@
       </ownedDataPkg>
       <ownedSystemComponentPkg xsi:type="org.polarsys.capella.core.data.ctx:SystemComponentPkg"
           id="97d40e9a-7bd7-42e6-b36e-c4a133d2c009" name="Structure">
-        <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-            id="02d9908e-8b3a-45f5-a280-dad60acd720f" targetElement="#7661de31-761a-46d9-a972-9e368b7394e2"
-            sourceElement="#8e1038e0-7ff5-4535-bd08-cf1c635e2b07"/>
-        <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-            id="bc410510-c596-4e45-9a58-7bff55f22573" targetElement="#5a65c590-678a-4a3e-b941-fd74c1e1e53f"
-            sourceElement="#097eda49-d297-444c-b686-6540eff65efd"/>
-        <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-            id="4af84a47-8cad-4645-8b11-0e2144a3e0fd" targetElement="#d308ef4c-2897-4fb0-80ae-4381d9c8b5cf"
-            sourceElement="#7f6bffa0-6e7f-4525-930c-b9b7afcb26d1"/>
-        <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-            id="ed63bb49-c2ae-434c-a4fc-9fd966f69d10" targetElement="#96ad2a67-1f7e-4262-8f5b-4127a0fdd604"
-            sourceElement="#ae025977-e81c-4c8f-81de-1eee492dda17"/>
-        <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-            id="2552da78-4ffe-4bd4-9591-29ceb6fd38f0" targetElement="#b60dd1fa-98e7-4b08-a79c-9749fd75b34e"
-            sourceElement="#4197ae64-1849-4ada-9843-ce59e66630b6"/>
-        <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-            id="6fb04699-92b0-4a6c-a714-d6c5a797f1d5" targetElement="#0446fd7a-4f33-4ae2-9789-61fbc93fa378"
-            sourceElement="#07b0d586-a3e2-4534-bd77-d48812f88980"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="651ad7ab-203c-44ab-88ed-e64c2ff45122"
             name="System" abstractType="#624ff01a-a6aa-46ec-ade9-b137c425a508"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="097eda49-d297-444c-b686-6540eff65efd"
@@ -1962,9 +1772,6 @@
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
             id="ae6b4c27-966f-44e8-9ff1-9bff65544e8a" name="Chief Engineer" description="&lt;p>Needs modular expansion so not to send eveything at once.&lt;/p>&#xA;"
             actor="true">
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="f9708926-abc7-4892-9642-101fe420eb9d" targetElement="#49540299-2f34-49d5-a9d0-0305c303de4e"
-              sourceElement="#736fe5fd-5240-4901-877c-09f0ef492e6a"/>
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="736fe5fd-5240-4901-877c-09f0ef492e6a" targetElement="#e00968b5-12f5-484a-86ef-e92ecd8a044a"
               sourceElement="#ae6b4c27-966f-44e8-9ff1-9bff65544e8a"/>
@@ -1980,57 +1787,30 @@
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
               id="44b73e76-9b0d-4b2e-992a-bae8c132eff3" name="CP 1" orientation="OUT"
               kind="FLOW"/>
-          <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
-              id="a4181814-bb2c-4293-9313-d4b83168d35a" targetElement="#eeb8b6a1-0401-4562-b8b6-5d5743f6a2df"
-              sourceElement="#ae6b4c27-966f-44e8-9ff1-9bff65544e8a"/>
         </ownedSystemComponents>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-            id="1d983d32-2ef0-49e5-9736-97785e6a8924" name="Financial Officer" actor="true">
-          <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
-              id="3273c20f-2518-482e-84d7-2b83f06737d8" targetElement="#57879358-bbcf-4eb4-b192-2cd3dd3e721f"
-              sourceElement="#1d983d32-2ef0-49e5-9736-97785e6a8924"/>
-        </ownedSystemComponents>
+            id="1d983d32-2ef0-49e5-9736-97785e6a8924" name="Financial Officer" actor="true"/>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-            id="68ef64a5-c750-44d8-8be5-9b3c89eedd48" name="Chief Legal Counsel" actor="true">
-          <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
-              id="cc5a4a8c-839f-4d3c-b733-9ab90524c735" targetElement="#f5679300-a733-4b3f-a1d3-7c0bee50a740"
-              sourceElement="#68ef64a5-c750-44d8-8be5-9b3c89eedd48"/>
-        </ownedSystemComponents>
+            id="68ef64a5-c750-44d8-8be5-9b3c89eedd48" name="Chief Legal Counsel" actor="true"/>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
             id="4a155e00-0068-42fd-ba42-78ee54c71154" name="Chief Agriculture Scientist"
             description="&lt;p>Wants to perform mission on dark side of the mun. Create a testbed for longterm experiments.&lt;/p>&#xA;"
             actor="true">
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="1f02b150-b1c7-4682-b0bc-0622257dd63f" targetElement="#5bb06366-c195-4924-b5fd-7fc19a8a49a9"
-              sourceElement="#3a1ad955-5bdc-4c1a-8a04-441da1d67b00"/>
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="3a1ad955-5bdc-4c1a-8a04-441da1d67b00" targetElement="#8f2ece66-895a-427e-902e-ae4e08366c3b"
-              sourceElement="#4a155e00-0068-42fd-ba42-78ee54c71154"/>
-          <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
-              id="8e533c4b-e697-466f-abb7-4d5d61d240e5" targetElement="#a73865d7-12c3-4418-a3fb-6887ef4319b9"
               sourceElement="#4a155e00-0068-42fd-ba42-78ee54c71154"/>
         </ownedSystemComponents>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
             id="08ae908f-d3ad-4249-aa69-99e4d137d0f8" name="Farm" actor="true">
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="6efceec0-aca2-4337-b32d-7672cb195da2" targetElement="#b75f4e1f-0ee4-4ae0-b5d5-baddaecfa145"
-              sourceElement="#0a0a3f29-94d1-420e-906a-91d65f5fe37d"/>
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="0a0a3f29-94d1-420e-906a-91d65f5fe37d" targetElement="#415d908a-6e44-435c-ab65-a1cdcb365bc6"
               sourceElement="#08ae908f-d3ad-4249-aa69-99e4d137d0f8"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
               id="83c2fb89-37b6-4078-bb70-64ee1c01770e" name="CP 1" orientation="OUT"
               kind="FLOW"/>
-          <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
-              id="3b5e0fb5-e0e7-4534-8d59-3a4672d195b2" targetElement="#80131999-6185-4f8c-a1d5-2fda1362e618"
-              sourceElement="#08ae908f-d3ad-4249-aa69-99e4d137d0f8"/>
         </ownedSystemComponents>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-            id="d290bf36-eeee-4a85-b44e-ef91d7d777de" name="Logistics Manager" actor="true">
-          <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
-              id="73402487-5a5f-4791-98ec-ed4133681343" targetElement="#3d74c62b-1462-412d-868b-631dae815188"
-              sourceElement="#d290bf36-eeee-4a85-b44e-ef91d7d777de"/>
-        </ownedSystemComponents>
+            id="d290bf36-eeee-4a85-b44e-ef91d7d777de" name="Logistics Manager" actor="true"/>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
             id="7340368a-a716-458b-aa43-83419a88637a" name="Mission Control" actor="true">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
