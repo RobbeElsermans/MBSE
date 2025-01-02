@@ -170,6 +170,10 @@
               id="88755bfc-9724-4a08-a15e-b97372dbd243" name="REGULATIONS"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="ffe42357-b0ec-457f-b5cc-9ac5bd819fa2" name="ANALYZING FARM DATA"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="6aa55c15-83ad-48db-a133-45b2a211c3c5" name="ROCKET CONTROL"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="11c6b736-2f70-4a8d-aef3-17090e28500f" name="ROCKET TRANSPORT"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="9a9ca1bc-c67f-4010-bb81-458cfc1f303c" name="Specs information (I)"
               target="#d21278fc-583f-4c14-88ea-d52542eb3408" source="#fe905209-6abe-4cc6-92bf-48b88df84d2d"/>
@@ -430,9 +434,17 @@
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="6d12694d-f402-49cd-9f3f-986a329091c6"
               name="LOGISTICS MANAGER" abstractType="#258d9c7f-d50c-4217-8131-3feb0db1d00d"/>
           <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="a5fb068f-d16d-48c8-a3be-4559b612ec3e"
-              name="SPACE MISSION OPERATORS" actor="true" human="true"/>
+              name="SPACE MISSION OPERATORS" actor="true" human="true">
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="30b07a8b-9d78-4a1d-82ac-ad94ecc2d0ef" targetElement="#6aa55c15-83ad-48db-a133-45b2a211c3c5"
+                sourceElement="#a5fb068f-d16d-48c8-a3be-4559b612ec3e"/>
+          </ownedEntities>
           <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="258d9c7f-d50c-4217-8131-3feb0db1d00d"
-              name="LOGISTICS MANAGER" actor="true" human="true"/>
+              name="LOGISTICS MANAGER" actor="true" human="true">
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="b9351fbb-e027-46b4-92a2-49d7f628a17a" targetElement="#11c6b736-2f70-4a8d-aef3-17090e28500f"
+                sourceElement="#258d9c7f-d50c-4217-8131-3feb0db1d00d"/>
+          </ownedEntities>
         </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="6215be6d-d422-4123-bb05-d742621435ca"
             name="SCIENTIFIC RESEARCH">
