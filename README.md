@@ -62,7 +62,7 @@ Below the actual spending of our rocket
 | Communotron 16-S                   | 3      | 300    | Satellite Network    | 900       |
 | Probodobodyne OKTO2                | 3      | 1480   | Satellite Network    | 4440      |
 | RA-2 Relay Antenna                 | 3      | 1800   | Satellite Network    | 5400      |
-| OX-10C Photovoltaic Panels         | 4      | 1200   | Farm Module          | 4800      |
+| OX-STAT Photovoltaic Panels        | 3      | 70     | Farm Module          | 210       |
 | Rockomax X200-8 Fuel Tank          | 1      | 800    | Transfer Stage       | 800       |
 | LT-1 Landing Struts                | 4      | 440    | Transfer Stage       | 1760      |
 | 24-77 "Twitch" Liquid Fuel Engine  | 2      | 230    | Transfer Stage       | 460       |
@@ -80,7 +80,7 @@ And per category with the difference in the estimation value.
 (positive is leftover, negative is extra money needed)
 | Category             | Funds (F) | Difference with Estimation |
 |----------------------|-----------|----------------------------|
-| Farm Module          | 42306     | -22306                     |
+| Farm Module          | 37716     | -17716                     |
 | Satellite Network    | 18270     | -6270                      |
 | Launch Vehicle       | 7516      | 12484                      |
 | Transfer Stage       | 7440      | 2560                       |
