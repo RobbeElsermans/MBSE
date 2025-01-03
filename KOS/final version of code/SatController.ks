@@ -1,6 +1,5 @@
 // Generated KOS Script...
 WAIT 5.
-PRINT "NEW CODE".
 PRINT "Waiting to be decoupled...".
 
 LOCAL initialRoot TO SHIP:ROOTPART.
@@ -40,7 +39,7 @@ UNTIL increasing {
         IF difference > 40000 {
             LOCK THROTTLE TO 0.1. // High throttle for large corrections
         } ELSE {
-            LOCK THROTTLE TO 0.01. // Medium throttle for moderate corrections
+            LOCK THROTTLE TO 0.05. // Medium throttle for moderate corrections
         }
     }
 

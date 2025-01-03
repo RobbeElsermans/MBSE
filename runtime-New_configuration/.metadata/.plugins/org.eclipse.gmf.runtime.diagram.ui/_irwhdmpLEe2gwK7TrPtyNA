@@ -1,10 +1,10 @@
-#Tue Dec 31 05:18:24 CET 2024
+#Fri Jan 03 21:25:41 CET 2025
 rulergrid.rulerunit=1
 print.margin.left=0.5
-viewport.x=1505
+viewport.x=2908
 rulergrid.gridlinestyle=6
-viewport.y=27
-zoom=1.0
+viewport.y=388
+zoom=1.15
 print.useMillim=true
 print.usePortrait=true
 print.page.height=11.6929134

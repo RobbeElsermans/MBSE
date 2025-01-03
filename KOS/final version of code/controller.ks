@@ -1,190 +1,328 @@
 // Generated KOS Script...
-WAIT 5.
+WAIT 3.
 
 
-
-function perfect_orbit_to_the_moom_region_s{
-    perfect_orbit_region().
-    UNTIL false{
-        IF true{
+  function perfect_orbit_to_the_moom_region_s{
+         perfect_orbit_region().
+         UNTIL false{
+         IF true{
             return to_mun_transfer_to_the_moom_region_s@. 
-        }
-        WAIT 0.001.
+         }
+                                          
+         WAIT 0.001.
+         }
+  }
+ 
+  
+    function doChangeApoapsis_100000__perfect_orbit_region_s{
+           doChangeApoapsis(100000).
+           UNTIL false{
+           IF true{
+              return not_perfect_orbit_perfect_orbit_region_s@. 
+           }
+                                            
+           WAIT 0.001.
+           }
     }
-}
-
-function doChangeApoapsis_100000__perfect_orbit_region_s{
-    doChangeApoapsis(100000).
-    UNTIL false{
-        IF true{
-            return not_perfect_orbit_perfect_orbit_region_s@. 
-        }
-        WAIT 0.001.
+   
+    function doCircularizeFromApoapsis___perfect_orbit_region_s{
+           doCircularizeFromApoapsis().
+           UNTIL false{
+           IF true{
+              return not_perfect_orbit_perfect_orbit_region_s@. 
+           }
+                                            
+           WAIT 0.001.
+           }
     }
-}
-
-function doCircularizeFromApoapsis___perfect_orbit_region_s{
-    doCircularizeFromApoapsis().
-    UNTIL false{
-        IF true{
-            return not_perfect_orbit_perfect_orbit_region_s@. 
-        }
-        WAIT 0.001.
+   
+    function doChangePeriapsis_100000__perfect_orbit_region_s{
+           doChangePeriapsis(100000).
+           UNTIL false{
+           IF true{
+              return not_perfect_orbit_perfect_orbit_region_s@. 
+           }
+                                            
+           WAIT 0.001.
+           }
     }
-}
-
-function doChangePeriapsis_100000__perfect_orbit_region_s{
-    doChangePeriapsis(100000).
-    UNTIL false{
-        IF true{
-            return not_perfect_orbit_perfect_orbit_region_s@. 
-        }
-        WAIT 0.001.
+   
+    function doSafeStage_2__perfect_orbit_region_s{
+           doSafeStage(2).
+           UNTIL false{
+           IF true{
+              return not_perfect_orbit_perfect_orbit_region_s@. 
+           }
+                                            
+           WAIT 0.001.
+           }
     }
-}
-
-function doSafeStage_2__perfect_orbit_region_s{
-    doSafeStage(2).
-    UNTIL false{
-        IF true{
-            return not_perfect_orbit_perfect_orbit_region_s@. 
-        }
-        WAIT 0.001.
+   
+    function not_perfect_orbit_perfect_orbit_region_s{
+           UNTIL false{
+           IF (105000 > apoapsis  AND  apoapsis > 95000  AND  
+           	105000 > periapsis  AND  periapsis > 95000){
+               return 0.
+           }
+           IF (105000 > apoapsis  AND  apoapsis > 95000)
+           {
+               return doCircularizeFromApoapsis___perfect_orbit_region_s@. 
+           }
+           IF (105000 > periapsis  AND  periapsis > 95000)
+           {
+               return doCircularizeFromPeriapsis___perfect_orbit_region_s@. 
+           }
+           IF (apoapsis < 95000){
+               return doChangePeriapsis_100000__perfect_orbit_region_s@. 
+           }
+           IF (periapsis > 105000){
+               return doChangeApoapsis_100000__perfect_orbit_region_s@. 
+           }
+           IF (apoapsis > 105000  AND  95000 > periapsis)
+           {
+               return doChangeApoapsis_100000__perfect_orbit_region_s@. 
+           }
+           WAIT 0.001.
+           }
     }
-}
-
-function not_perfect_orbit_perfect_orbit_region_s{
-    UNTIL false{
-        IF (101000 > apoapsis AND apoapsis > 99000 AND 101000 > periapsis AND periapsis > 99000){
-            return 0.
-        }
-        IF (101000 > apoapsis AND apoapsis > 99000){
-            return doCircularizeFromApoapsis___perfect_orbit_region_s@. 
-        }
-        IF (101000 > periapsis AND periapsis > 99000){
-            return doCircularizeFromPeriapsis___perfect_orbit_region_s@. 
-        }
-        IF (apoapsis < 99000){
-            return doChangePeriapsis_100000__perfect_orbit_region_s@. 
-        }
-        IF (periapsis > 101000){
-            return doChangeApoapsis_100000__perfect_orbit_region_s@. 
-        }
-        IF (apoapsis > 101000 AND 99000 > periapsis){
-            return doChangeApoapsis_100000__perfect_orbit_region_s@. 
-        }
-        WAIT 0.001.
+   
+    function doCircularizeFromPeriapsis___perfect_orbit_region_s{
+           doCircularizeFromPeriapsis().
+           UNTIL false{
+           IF true{
+              return not_perfect_orbit_perfect_orbit_region_s@. 
+           }
+                                            
+           WAIT 0.001.
+           }
     }
-}
-
-function doCircularizeFromPeriapsis___perfect_orbit_region_s{
-    doCircularizeFromPeriapsis().
-    UNTIL false{
-        IF true{
-            return not_perfect_orbit_perfect_orbit_region_s@. 
-        }
-        WAIT 0.001.
+   
+    function doLaunchInToOrbit_2_100000_5000__perfect_orbit_region_s{
+           doLaunchInToOrbit(2,100000,5000).
+           UNTIL false{
+           IF true{
+              return doSafeStage_2__perfect_orbit_region_s@. 
+           }
+                                            
+           WAIT 0.001.
+           }
     }
-}
-
-function doLaunchInToOrbit_2_100000__5000__perfect_orbit_region_s{
-    doLaunchInToOrbit(2,100000, 5000).
-    UNTIL false{
-        IF true{
-            return doSafeStage_2__perfect_orbit_region_s@. 
-        }
-        WAIT 0.001.
+   
+  
+  
+   function perfect_orbit_region{
+          local next_state is doLaunchInToOrbit_2_100000_5000__perfect_orbit_region_s@.
+         UNTIL next_state = 0{
+                set next_state to next_state().
+         }
+   }
+  
+  function to_mun_transfer_to_the_moom_region_s{
+         to_mun_transfer_region().
+         UNTIL false{
+         IF true{
+            return deploying_satellites_region_to_the_moom_region_s@. 
+         }
+                                          
+         WAIT 0.001.
+         }
+  }
+ 
+  
+    function doTransferToBody_mun_400000__to_mun_transfer_region_s{
+           doTransferToBody(mun,400000).
+           UNTIL false{
+           IF true{
+              return warpToNextPatch_mun__to_mun_transfer_region_s@. 
+           }
+                                            
+           WAIT 0.001.
+           }
     }
-}
-
-function perfect_orbit_region{
-    local next_state is doLaunchInToOrbit_2_100000__5000__perfect_orbit_region_s@.
-    UNTIL next_state = 0{
-        set next_state to next_state().
+   
+    function doCircularizeFromPeriapsis___to_mun_transfer_region_s{
+           doCircularizeFromPeriapsis().
+           UNTIL false{
+           IF true{
+           	return 0.
+           }
+           WAIT 0.001.
+           }
     }
-}
-
-function to_mun_transfer_to_the_moom_region_s{
-    to_mun_transfer_region().
-    UNTIL false{
-        WAIT 0.001.
+   
+    function warpToNextPatch_mun__to_mun_transfer_region_s{
+           warpToNextPatch(mun).
+           UNTIL false{
+           IF true{
+              return doCircularizeFromPeriapsis___to_mun_transfer_region_s@. 
+           }
+                                            
+           WAIT 0.001.
+           }
     }
-}
-
-function doTransferToBody_mun_50000__to_mun_transfer_region_s{
-    doTransferToBody(mun,400000).
-    UNTIL false{
-        IF true{
-            return warpToNextPatch_mun__to_mun_transfer_region_s@. 
-        }
-        WAIT 0.001.
+   
+  
+  
+   function to_mun_transfer_region{
+          local next_state is doTransferToBody_mun_400000__to_mun_transfer_region_s@.
+         UNTIL next_state = 0{
+                set next_state to next_state().
+         }
+   }
+  
+  function deploying_satellites_region_to_the_moom_region_s{
+         deploying_satellites_region().
+         UNTIL false{
+         IF true{
+            return landing_on_mun_region_to_the_moom_region_s@. 
+         }
+                                          
+         WAIT 0.001.
+         }
+  }
+ 
+  
+    function doChangeApoapsis_853672__deploying_satellites_region_s{
+           doChangeApoapsis(853672).
+           UNTIL false{
+           IF true{
+              return not_perfect_orbit_deploying_satellites_region_s@. 
+           }
+                                            
+           WAIT 0.001.
+           }
     }
-}
-
-function doCircularizeFromPeriapsis___to_mun_transfer_region_s{
-    doCircularizeFromPeriapsis().
-	print "grapgh code ended".
-	
-	main().
-	
-    UNTIL false{
-        IF true{
-            return 0.
-        }
-        WAIT 0.001.
+   
+    function doChangePeriapsis_400000__deploying_satellites_region_s{
+           doChangePeriapsis(400000).
+           UNTIL false{
+           IF true{
+              return not_perfect_orbit_deploying_satellites_region_s@. 
+           }
+                                            
+           WAIT 0.001.
+           }
     }
-}
-
-function warpToNextPatch_mun__to_mun_transfer_region_s{
-    warpToNextPatch(mun).
-    UNTIL false{
-        IF true{
-            return doCircularizeFromPeriapsis___to_mun_transfer_region_s@. 
-        }
-        WAIT 0.001.
+   
+    function not_perfect_orbit_deploying_satellites_region_s{
+           UNTIL false{
+           IF (periapsis< 390000  AND  apoapsis > 800000){
+               return doChangePeriapsis_400000__deploying_satellites_region_s@. 
+           }
+           IF (apoapsis < 850000){
+               return doChangeApoapsis_853672__deploying_satellites_region_s@. 
+           }
+           IF (apoapsis > 860000){
+               return doChangeApoapsis_853672__deploying_satellites_region_s@. 
+           }
+           IF (periapsis > 410000  AND  apoapsis > 800000){
+               return doChangePeriapsis_400000__deploying_satellites_region_s@. 
+           }
+           IF (860000 > apoapsis  AND  apoapsis > 850000  AND  
+             410000 > periapsis  AND  periapsis > 390000){
+               return DeployThreeSatellites___deploying_satellites_region_s@. 
+           }
+           WAIT 0.001.
+           }
     }
-}
-
-function to_mun_transfer_region{
-    local next_state is doTransferToBody_mun_50000__to_mun_transfer_region_s@.
-    UNTIL next_state = 0{
-        set next_state to next_state().
+   
+    function getIntoSatellitesOrbit___deploying_satellites_region_s{
+           getIntoSatellitesOrbit().
+           UNTIL false{
+           IF true{
+              return not_perfect_orbit_deploying_satellites_region_s@. 
+           }
+                                            
+           WAIT 0.001.
+           }
     }
-}
-
-function to_the_moom_region{
-    local next_state is perfect_orbit_to_the_moom_region_s@.
-    UNTIL next_state = 0{
-        set next_state to next_state().
+   
+    function DeployThreeSatellites___deploying_satellites_region_s{
+           DeployThreeSatellites().
+           UNTIL false{
+           IF true{
+           	return 0.
+           }
+           WAIT 0.001.
+           }
     }
-}
+   
+  
+  
+   function deploying_satellites_region{
+          local next_state is getIntoSatellitesOrbit___deploying_satellites_region_s@.
+         UNTIL next_state = 0{
+                set next_state to next_state().
+         }
+   }
+  
+  function landing_on_mun_region_to_the_moom_region_s{
+         landing_on_mun_region().
+         UNTIL false{
+         WAIT 0.001.
+         }
+  }
+ 
+  
+    function doChangePeriapsis_20000__landing_on_mun_region_s{
+           doChangePeriapsis(20000).
+           UNTIL false{
+           IF true{
+              return doCircularizeFromPeriapsis___landing_on_mun_region_s@. 
+           }
+                                            
+           WAIT 0.001.
+           }
+    }
+   
+    function landDarkSideofMun___landing_on_mun_region_s{
+           landDarkSideofMun().
+           UNTIL false{
+           IF true{
+           	return 0.
+           }
+           WAIT 0.001.
+           }
+    }
+   
+    function doCircularizeFromPeriapsis___landing_on_mun_region_s{
+           doCircularizeFromPeriapsis().
+           UNTIL false{
+           IF true{
+              return landDarkSideofMun___landing_on_mun_region_s@. 
+           }
+                                            
+           WAIT 0.001.
+           }
+    }
+   
+  
+  
+   function landing_on_mun_region{
+          local next_state is doChangePeriapsis_20000__landing_on_mun_region_s@.
+         UNTIL next_state = 0{
+                set next_state to next_state().
+         }
+   }
+  
 
-function main{
-getIntoSatellitesOrbit().
-DeployThreeSatellites().
-doChangePeriapsis(20000).
-doCircularizeFromPeriapsis().
 
-//warpto(time:seconds + eta:apoapsis).
-//wait until eta:apoapsis < 3.
-landDarkSideofMun().
-
-UNTIL false {
-     WAIT 1.
-}
-}
+ function to_the_moom_region{
+        local next_state is perfect_orbit_to_the_moom_region_s@.
+       UNTIL next_state = 0{
+              set next_state to next_state().
+       }
+ }
 
                
 to_the_moom_region().
-
 UNTIL false {
      WAIT 1.
 }
 
-// ------------------------------------------------ manual coding because liscance issues ---------------------------------------------------------------
-
-
 //library version 30.12
+//maneuvers
+
 //maneuvers
 
 function doChangeApoapsis {
@@ -612,7 +750,14 @@ function executeManeuver {
   wait until time:seconds > startTime - lock_offset.
   lockSteeringAtManeuverTarget(mnv).
   wait until time:seconds > startTime.
-  lock throttle to 1.
+
+    local throttleFactor is 1.
+    if mnv:deltaV:mag < 2 {
+      set throttleFactor to 0.1.
+    }
+  
+    lock throttle to throttleFactor.
+  
   until isManeuverComplete(mnv) {
     doAutoStage().
   }
@@ -840,10 +985,10 @@ function groundSlope {
   return vectorCrossProduct(c_vec - a_vec, b_vec - a_vec):normalized.
 }
 	
-           function calcSatellitesOrbit {
+function calcSatellitesOrbit {
 		CLEARSCREEN.
-           	runpath("0:/SatSpacer.ks").
-           }
+	runpath("0:/SatSpacer.ks").
+}
 
 function getIntoSatellitesOrbit{
 SET KUNIVERSE:DEFAULTLOADDISTANCE:ORBIT:UNPACK TO 10000. // Unpack at 5 km
@@ -946,9 +1091,9 @@ until ship:status = "LANDED" {
 		print "not nearlyLanded" at (0, 6).
         // Suicide burn phase
         if landingAltitudeToGround < 70 and landingVerticalSpeed < 10 {
-            set nearlyLanded to true. // Enter fine landing phase
+ set nearlyLanded to true. // Enter fine landing phase
         } else if landingStopDistance >= landingAltitudeToGround - landingAltitude {
-            set landingThrustLevel to 1.0. // Full throttle for suicide burn
+ set landingThrustLevel to 1.0. // Full throttle for suicide burn
         } else if landingVerticalSpeed < 5 {
 			set landingThrustLevel to 0. 
 			set slowed to true.
@@ -965,12 +1110,12 @@ set landingThrustLevel to ThrottleForTWR(1.3).
         // Fine control phase for smooth landing
 			print "nearlyLanded" at (0, 6).
         if distanceToGround() < 1 {
-            // Final coasting phase
-            set landingThrustLevel to 0. 
+ // Final coasting phase
+ set landingThrustLevel to 0. 
         } else if landingVerticalSpeed > 1 {
-            set landingThrustLevel to ThrottleForTWR(1.3). 
+ set landingThrustLevel to ThrottleForTWR(1.3). 
         } else {
-            set landingThrustLevel to ThrottleForTWR(1). // Maintain low descent speed
+ set landingThrustLevel to ThrottleForTWR(1). // Maintain low descent speed
         }
     }
 
@@ -983,6 +1128,40 @@ lock throttle to 0.
 print "Landing successful!".
 wait 5.
 AG1 ON.
-           }
+}
+
+function adjustForGroundSlope {
+    parameter max_slope_angle is 15. // Maximum acceptable slope angle in degrees.
+    
+    // Get the ground slope vector
+    local slope_vector is groundSlope().
+    
+    // Calculate the slope angle relative to the 'up' vector
+    local slope_angle is vang(slope_vector, ship:up:vector).
+    
+    // If the slope angle is greater than the maximum acceptable slope
+    if slope_angle > max_slope_angle {
+        print "Slope too steep: " + slope_angle + " degrees.".
+        
+        // Determine the direction of the steepest descent
+        local descent_vector is (slope_vector * -1):normalized. // Opposite of slope_vector
+        
+        // Move in the direction of descent
+        if ship:velocity:surface:magnitude > 0 {
+            lock steering to descent_vector. // Point towards descent.
+            lock throttle to 0.5. // Set throttle to move forward (adjust as needed).
+            wait 5. // Move for 5 seconds (adjust duration as necessary).
+            lock throttle to 0. // Stop movement.
+        } else {
+            print "Cannot move towards descent vector. Check propulsion system.".
+        }
+    } else {
+        print "Ground slope is safe: " + slope_angle + " degrees.".
+    }
+}
+
+
+
+
 
 

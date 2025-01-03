@@ -1,0 +1,6 @@
+GeneratorModel for yakindu::images {
+
+	const PROJECT : string = ""
+
+	const FOLDER : string = ""
+}
