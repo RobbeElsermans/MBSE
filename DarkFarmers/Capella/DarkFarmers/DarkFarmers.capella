@@ -9669,6 +9669,8 @@
               id="b6e2fa07-2481-4dbd-a881-b9ecfad9fb72" deployedElement="#605b5dfd-7bb6-48f0-8bdb-7b78f53de096"
               location="#86f01ba9-7f1f-4f96-84d3-a0517dd87a81"/>
         </ownedParts>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="04422308-9892-40d4-800a-f6c1636a0bfa"
+            name="Chief Agriculture Scientist" abstractType="#6d225304-e19e-4b2a-9f97-b3c089eb09d2"/>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
             id="434dd0c3-070f-4d0e-85ba-0bdfc48bd096" name="Adjustements" source="#f02259e6-8af3-4a53-ad08-0e83d0cb4af1"
             target="#cac11fce-cadb-450e-bb54-2f12f52b741b" kind="FLOW">
@@ -10519,29 +10521,7 @@
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="87a5c520-c893-4e09-9d80-ac153df263df" name="Real Chief Arguculture Scientist Workplace"
-              nature="NODE">
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="04422308-9892-40d4-800a-f6c1636a0bfa"
-                name="Chief Agriculture Scientist" abstractType="#6d225304-e19e-4b2a-9f97-b3c089eb09d2"/>
-            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-                id="6d225304-e19e-4b2a-9f97-b3c089eb09d2" description="&lt;p>Wants to perform mission on dark side of the mun. Create a testbed for longterm experiments.&lt;/p>&#xA;"
-                name="Chief Agriculture Scientist" actor="true" human="true" nature="NODE">
-              <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-                  id="3c0794de-76e3-464e-8768-18316e9c07f2" targetElement="#0bebf98a-8fb2-4cea-abd3-ff196e1e9f43"
-                  sourceElement="#757bf7bd-45d6-4c23-b937-f9fe03e4ea14"/>
-              <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-                  id="444ad252-9c78-46a4-8a5e-b2f0b298d6cb" targetElement="#84e001d8-2e7f-4f09-a6f3-7a4b2260dcc5"
-                  sourceElement="#84df228b-b5ec-4061-84bb-02753b2ab380"/>
-              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-                  id="757bf7bd-45d6-4c23-b937-f9fe03e4ea14" targetElement="#6f1e8da3-3d38-4845-a9b1-22e57837e398"
-                  sourceElement="#6d225304-e19e-4b2a-9f97-b3c089eb09d2"/>
-              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-                  id="84df228b-b5ec-4061-84bb-02753b2ab380" targetElement="#444f0e6c-b77b-4528-a293-b3ef6d27842e"
-                  sourceElement="#6d225304-e19e-4b2a-9f97-b3c089eb09d2"/>
-              <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
-                  id="e0604001-e8a5-4f97-b8a4-6721df481ac2" targetElement="#1feb4ca9-d031-4e1a-aae8-e336d1dfb6e1"
-                  sourceElement="#6d225304-e19e-4b2a-9f97-b3c089eb09d2"/>
-            </ownedPhysicalComponents>
-          </ownedPhysicalComponents>
+              nature="NODE"/>
         </ownedPhysicalComponents>
         <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
             id="7fd5b44d-ca9d-48d5-9e85-4c9919fe6fab" description="&lt;p>Needs modular expansion so not to send eveything at once.&lt;/p>&#xA;"
@@ -10664,6 +10644,25 @@
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="772ee99c-757b-4921-81f7-511e2401364b" targetElement="#02610cb4-e63d-466b-a675-e90808140efa"
               sourceElement="#f70f073f-c995-49ae-a70a-409ca8a97938"/>
+        </ownedPhysicalComponents>
+        <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+            id="6d225304-e19e-4b2a-9f97-b3c089eb09d2" description="&lt;p>Wants to perform mission on dark side of the mun. Create a testbed for longterm experiments.&lt;/p>&#xA;"
+            name="Chief Agriculture Scientist" actor="true" human="true" nature="NODE">
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="3c0794de-76e3-464e-8768-18316e9c07f2" targetElement="#0bebf98a-8fb2-4cea-abd3-ff196e1e9f43"
+              sourceElement="#757bf7bd-45d6-4c23-b937-f9fe03e4ea14"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="444ad252-9c78-46a4-8a5e-b2f0b298d6cb" targetElement="#84e001d8-2e7f-4f09-a6f3-7a4b2260dcc5"
+              sourceElement="#84df228b-b5ec-4061-84bb-02753b2ab380"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="757bf7bd-45d6-4c23-b937-f9fe03e4ea14" targetElement="#6f1e8da3-3d38-4845-a9b1-22e57837e398"
+              sourceElement="#6d225304-e19e-4b2a-9f97-b3c089eb09d2"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="84df228b-b5ec-4061-84bb-02753b2ab380" targetElement="#444f0e6c-b77b-4528-a293-b3ef6d27842e"
+              sourceElement="#6d225304-e19e-4b2a-9f97-b3c089eb09d2"/>
+          <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
+              id="e0604001-e8a5-4f97-b8a4-6721df481ac2" targetElement="#1feb4ca9-d031-4e1a-aae8-e336d1dfb6e1"
+              sourceElement="#6d225304-e19e-4b2a-9f97-b3c089eb09d2"/>
         </ownedPhysicalComponents>
       </ownedPhysicalComponentPkg>
       <ownedLogicalArchitectureRealizations xsi:type="org.polarsys.capella.core.data.pa:LogicalArchitectureRealization"
