@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+D:\UA\Semester7\System Engineering\Capella\MBSE\runtime-New_configuration\.metadata\.plugins\org.eclipse.jdt.core
-3890143496.index
-3714524758.index
