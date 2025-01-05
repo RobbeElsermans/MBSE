@@ -1,0 +1,20 @@
+#!/bin/bash 
+# Absolute path to this script, e.g. /home/user/bin/foo.sh
+SCRIPT=$(readlink -f "$0")
+# Absolute path this script is in, thus /home/user/bin
+SCRIPTPATH=$(dirname "$SCRIPT")
+
+if test -x "$SCRIPTPATH/SCT"; then
+	SCTEXECUTABLE=$SCRIPTPATH/SCT
+else
+    if test -x "$SCRIPTPATH/eclipse"; then
+        SCTEXECUTABLE=$SCRIPTPATH/eclipse
+    else
+        echo -e "\e[31m[ERROR]\e[0m Neither 'SCT' nor 'eclipse' executable found!" 1>&2
+        exit -1
+    fi
+fi
+
+# Call SCT with its headless.ini via this path and forward arguments
+echo -e "\e[32mLaunching $SCTEXECUTABLE...\e[0m"
+exec "$SCTEXECUTABLE" --launcher.ini "$SCRIPTPATH/headless.ini" "$@"

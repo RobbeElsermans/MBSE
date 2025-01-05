@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Built-By: jenkins
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_221
+
+Name: epl-v10.html
+SHA-256-Digest: BnuUvSCe8V6IFaDcn8VwAvP/U0JJzm4E7EZd3bOjTug=
+
+Name: copyright.txt
+SHA-256-Digest: vMSBgc4UGarLVhl2E51hMv4xwLML/Jq9/+K0kTPx49w=
+
+Name: sourceTemplateFeature/feature.properties
+SHA-256-Digest: EKsFl7Y4+ythDCcpdMo78jk/TA2XjpijEY5OWG01KIo=
+
+Name: feature.xml
+SHA-256-Digest: EZN31FfNpbUgOb7gM8Vawcpfv4x0JpENsb/67ouG2Ww=
+
+Name: feature.properties
+SHA-256-Digest: YEcSxQI7/PBmIf5/JpZ2xgKSpBEabj13oEAT98GqsSY=
+
+Name: license.html
+SHA-256-Digest: csN12PVEifVMOjc+rMKHCBPV90q7aX+ML0SrTBpQ7ck=
+

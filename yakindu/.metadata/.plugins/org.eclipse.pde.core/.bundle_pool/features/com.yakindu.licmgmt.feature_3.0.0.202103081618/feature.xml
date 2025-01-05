@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yakindu.licmgmt.feature"
+      label="%featureName"
+      version="3.0.0.202103081618"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="org.apache.commons.logging"/>
+      <import plugin="com.yakindu.licmgmt.lmx" version="4.8.13" match="greaterOrEqual"/>
+      <import plugin="com.google.guava"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="com.yakindu.licmgmt" version="3.0.0" match="greaterOrEqual"/>
+      <import plugin="com.google.guava" version="15.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.help"/>
+   </requires>
+
+   <plugin
+         id="com.yakindu.licmgmt"
+         download-size="80"
+         install-size="151"
+         version="3.0.0.202103081618"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.licmgmt.eclipse"
+         download-size="44"
+         install-size="84"
+         version="3.0.0.202103081618"/>
+
+   <plugin
+         id="com.yakindu.licmgmt.doc"
+         download-size="171"
+         install-size="192"
+         version="3.0.0.202103081618"/>
+
+   <plugin
+         id="com.yakindu.licmgmt.lmx"
+         os="linux,macosx,win32"
+         download-size="35"
+         install-size="42"
+         version="4.8.13.202103081618"/>
+
+   <plugin
+         id="com.yakindu.licmgmt.lmx.gtk.linux.x86_64"
+         os="linux"
+         ws="gtk"
+         arch="x86_64"
+         download-size="3149"
+         install-size="7355"
+         version="4.8.13.202103081618"
+         fragment="true"/>
+
+   <plugin
+         id="com.yakindu.licmgmt.lmx.win32.win32.x86_64"
+         os="win32"
+         ws="win32"
+         arch="x86_64"
+         download-size="9637"
+         install-size="17721"
+         version="4.8.13.202103081618"
+         fragment="true"/>
+
+   <plugin
+         id="com.yakindu.licmgmt.lmx.cocoa.macosx.x86_64"
+         os="macosx"
+         ws="cocoa"
+         arch="x86_64"
+         download-size="2285"
+         install-size="5124"
+         version="4.8.13.202103081618"
+         fragment="true"/>
+</feature>

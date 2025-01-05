@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yakindu.base.xtext.utils.gmf.feature"
+      label="Xtext GMF Integration (XGI) Feature"
+      version="4.0.6.202104190728"
+      plugin="com.yakindu.sct.branding"
+      provider-name="itemis AG"
+      >
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+   
+   <url>
+      <discovery label="YAKINDU SCT Repository" url="https://updates.yakindu.com/sct/releases/"/>
+   </url>
+
+   <requires>
+      <import feature="com.yakindu.base.xtext.utils.jface.feature" version="4.0.6" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="com.yakindu.base.xtext.utils.gmf"
+         download-size="87"
+         install-size="182"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+<license url="%licenseURL">
+      %license
+   </license></feature>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yakindu.sct.product.editor.feature"
+      label="YAKINDU Statechart Tools Editor and Simulation"
+      version="4.0.6.202104190728"
+      provider-name="itemis AG"
+      plugin="com.yakindu.sct.branding">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <url>
+      <discovery label="YAKINDU SCT Repository" url="https://updates.yakindu.com/sct/releases/"/>
+   </url>
+
+   <includes
+         id="com.yakindu.base.feature"
+         version="4.0.6.202104190728"/>
+
+   <includes
+         id="com.yakindu.base.gmf.runtime.feature"
+         version="4.0.6.202104190728"/>
+
+   <includes
+         id="com.yakindu.base.xtext.utils.gmf.feature"
+         version="4.0.6.202104190728"/>
+
+   <includes
+         id="com.yakindu.base.xtext.utils.jface.feature"
+         version="4.0.6.202104190728"/>
+
+   <includes
+         id="com.yakindu.sct.feature"
+         version="4.0.6.202104190728"/>
+
+   <includes
+         id="com.yakindu.sct.generator.application.feature"
+         version="4.0.6.202104190728"/>
+
+   <includes
+         id="com.yakindu.sct.license.feature"
+         version="4.0.6.202104190728"/>
+
+   <includes
+         id="com.yakindu.licmgmt.feature"
+         version="3.0.0.202103081618"/>
+
+   <includes
+         id="com.yakindu.licmgmt.ui.feature"
+         version="3.1.0.202103081618"/>
+
+   <includes
+         id="com.yakindu.sct.license.pro.feature"
+         version="4.0.6.202104190728"/>
+
+   <includes
+         id="com.yakindu.sct.license.standard.feature"
+         version="4.0.6.202104190728"/>
+
+   <includes
+         id="com.yakindu.sct.search.feature"
+         version="4.0.6.202104190728"/>
+
+   <includes
+         id="com.yakindu.sct.simulation.debugging.feature"
+         version="4.0.6.202104190728"/>
+
+   <includes
+         id="com.yakindu.sct.types.feature"
+         version="4.0.6.202104190728"/>
+
+   <includes
+         id="com.yakindu.sctunit.coverage.feature"
+         version="4.0.6.202104190728"/>
+
+   <includes
+         id="com.yakindu.sctunit.feature"
+         version="4.0.6.202104190728"/>
+
+   <includes
+         id="com.yakindu.sctunit.generator.application.feature"
+         version="4.0.6.202104190728"/>
+
+   <includes
+         id="com.yakindu.sct.generator.image.feature"
+         version="4.0.6.202104190728"/>
+
+<license url="%licenseURL">
+      %license
+   </license></feature>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yakindu.sctunit.generator.application.feature"
+      label="YAKINDU SCTUnit Headless Generator Support"
+      version="4.0.6.202104190728"
+      provider-name="itemis AG"
+      plugin="com.yakindu.sct.branding">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+   
+   <requires>
+      <import feature="com.yakindu.sct.generator.application.feature" version="4.0.6.qualifier"/>
+      <import feature="com.yakindu.sctunit.feature" version="4.0.6.qualifier"/>
+   </requires>
+
+   <plugin
+         id="com.yakindu.sctunit.generator.application"
+         download-size="10"
+         install-size="14"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+<license url="%licenseURL">
+      %license
+   </license></feature>

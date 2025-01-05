@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yakindu.sct.search.feature"
+      label="YAKINDU Statechart Tools Search"
+      version="4.0.6.202104190728"
+      provider-name="itemis AG"
+      plugin="com.yakindu.sct.branding">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <url>
+      <discovery label="YAKINDU SCT Repository" url="https://updates.yakindu.com/sct/releases/"/>
+   </url>
+   
+   <requires>
+      <import feature="com.yakindu.sct.feature" version="4.0.6" match="equivalent"/>
+   </requires>
+
+   <plugin
+         id="com.yakindu.sct.search.core"
+         download-size="34"
+         install-size="61"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.search.ui"
+         download-size="69"
+         install-size="138"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+<license url="%licenseURL">
+      %license
+   </license></feature>

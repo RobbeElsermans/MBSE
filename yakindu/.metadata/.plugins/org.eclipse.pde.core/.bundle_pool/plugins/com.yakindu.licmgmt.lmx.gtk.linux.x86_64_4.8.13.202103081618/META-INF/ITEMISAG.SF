@@ -1,0 +1,12 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: fn6t6VL2081U8pxaj7HAPf0jWSi2j
+ 50BE6mXYhDknFo=
+SHA-256-Digest-Manifest: 2cOyDxHEszi6JS5XQRPl1oTMR76Fn27m19nqx0T9UbE=
+Created-By: 1.8.0_91 (Oracle Corporation)
+
+Name: liblmxjava.so
+SHA-256-Digest: 1RFRjFLtWh6upDLGEagdN/RMKKuus+OEglxlcHuJmwI=
+
+Name: liblmx.so
+SHA-256-Digest: XDWiOn4Wb2wRxx9IrUPx8wLaVBwyRAdEtThh1q5+tBg=
+

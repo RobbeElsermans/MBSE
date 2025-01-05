@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yakindu.licmgmt.ui.feature"
+      label="%featureName"
+      version="3.1.0.202103081618"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="com.yakindu.licmgmt.feature" version="3.0.0" match="greaterOrEqual"/>
+      <import plugin="com.google.guava" version="15.0.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.platform" version="4.6.3.v20170301-0400"/>
+   </requires>
+
+   <plugin
+         id="com.yakindu.licmgmt.ui"
+         download-size="142"
+         install-size="271"
+         version="3.1.0.202103081618"/>
+
+   <plugin
+         id="com.yakindu.licmgmt.ui.notification"
+         download-size="48"
+         install-size="75"
+         version="3.0.0.202103081618"/>
+
+</feature>

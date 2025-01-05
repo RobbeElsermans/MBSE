@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.yakindu.licmgmt.lmx.gtk.linux.x86_64
+Built-By: jenkins
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Eclipse-PlatformFilter: (& (osgi.os=linux) (osgi.ws=gtk) (osgi.arch=x8
+ 6_64))
+Bundle-Vendor: itemis AG
+Fragment-Host: com.yakindu.licmgmt.lmx;bundle-version="4.8.13"
+Bundle-Version: 4.8.13.202103081618
+Bundle-Name: YAKINDU LM-X Licensemanagement Linux x86_64
+Bundle-NativeCode: liblmx.so;liblmxjava.so;osname = Linux;processor = 
+ x86-64,\*
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_221
+Eclipse-BundleShape: dir
+
+Name: liblmxjava.so
+SHA-256-Digest: HIzMg6+/AgSfRhrhGfp1zaqGFhRSmLK+Cu3zeFX8ugI=
+
+Name: liblmx.so
+SHA-256-Digest: qZ4Asjy9GsLI+YkTAztNvEFb1pNuRVPkD9qp/F3J7J0=
+

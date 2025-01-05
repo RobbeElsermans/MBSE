@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yakindu.sct.generator.application.feature"
+      label="YAKINDU Headless Code Generator"
+      version="4.0.6.202104190728"
+      provider-name="itemis AG"
+      plugin="com.yakindu.sct.branding">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <includes
+         id="com.yakindu.sct.generator.application.linux.feature"
+         version="4.0.6.202104190728"
+         os="linux"/>
+
+   <includes
+         id="com.yakindu.sct.generator.application.macos.feature"
+         version="4.0.6.202104190728"
+         os="macosx"/>
+
+   <includes
+         id="com.yakindu.sct.generator.application.win32.feature"
+         version="4.0.6.202104190728"
+         os="win32"/>
+
+   <requires>
+      <import feature="com.yakindu.sct.feature" version="4.0.6" match="equivalent"/>
+   </requires>
+
+   <plugin
+         id="com.yakindu.sct.generator.application"
+         download-size="34"
+         install-size="69"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+<license url="%licenseURL">
+      %license
+   </license></feature>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yakindu.base.gmf.runtime.feature"
+      label="GMF Runtime"
+      version="4.0.6.202104190728"
+      provider-name="itemis AG"
+      plugin="com.yakindu.sct.branding">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+ 
+	<url>
+      <discovery label="YAKINDU SCT Repository" url="https://updates.yakindu.com/sct/releases/"/>
+   </url>
+   
+   <plugin
+         id="com.yakindu.base.gmf.runtime"
+         download-size="136"
+         install-size="283"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+<license url="%licenseURL">
+      %license
+   </license></feature>

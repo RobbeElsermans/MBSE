@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yakindu.base.xtext.utils.jface.feature"
+      label="Xtext JFace Integration Feature"
+      version="4.0.6.202104190728"
+      provider-name="itemis AG"
+      plugin="com.yakindu.sct.branding">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <url>
+      <discovery label="YAKINDU SCT Repository" url="https://updates.yakindu.com/sct/releases/"/>
+   </url>
+   <plugin
+         id="com.yakindu.base.xtext.utils.jface"
+         download-size="78"
+         install-size="158"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+<license url="%licenseURL">
+      %license
+   </license></feature>

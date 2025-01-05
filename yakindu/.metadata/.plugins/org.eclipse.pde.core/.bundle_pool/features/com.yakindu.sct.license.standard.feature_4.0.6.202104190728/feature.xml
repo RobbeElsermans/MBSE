@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yakindu.sct.license.standard.feature"
+      label="YAKINDU License Integration For Standard Edition"
+      version="4.0.6.202104190728"
+      provider-name="itemis AG"
+      plugin="com.yakindu.sct.branding">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <requires>
+      <import feature="com.yakindu.sct.license.feature" version="0.0.0"/>
+   </requires>
+
+   <plugin
+         id="com.yakindu.sct.license.standard.lmx.ui"
+         download-size="13"
+         install-size="20"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+<license url="%licenseURL">
+      %license
+   </license></feature>

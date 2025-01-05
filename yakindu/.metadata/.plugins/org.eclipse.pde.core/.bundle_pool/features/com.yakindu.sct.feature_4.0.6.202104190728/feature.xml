@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yakindu.sct.feature"
+      label="YAKINDU Statechart Tools"
+      version="4.0.6.202104190728"
+      provider-name="itemis AG"
+      plugin="com.yakindu.sct.branding">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <url>
+      <discovery label="YAKINDU SCT Repository" url="https://updates.yakindu.com/sct/releases/"/>
+   </url>
+
+   <requires>
+      <import feature="com.yakindu.base.feature" version="4.0.6.qualifier"/>
+      <import plugin="com.google.guava" version="12.0.0" match="greaterOrEqual"/>
+      <import plugin="com.google.inject" version="3.0.0" match="compatible"/>
+      <import plugin="com.google.inject.multibindings" version="3.0.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="com.yakindu.sct.ui.intro"
+         download-size="20"
+         install-size="28"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.model.resource"
+         download-size="11"
+         install-size="17"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.branding"
+         download-size="9"
+         install-size="13"
+         version="4.0.6.202104190728"/>
+
+   <plugin
+         id="com.yakindu.sct.model.sexec"
+         download-size="1316"
+         install-size="3298"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.model.sexec.edit"
+         download-size="346"
+         install-size="508"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.simulation.core.sexec"
+         download-size="297"
+         install-size="697"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.simulation.ui.sexec"
+         download-size="21"
+         install-size="38"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.simulation.core"
+         download-size="36"
+         install-size="68"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.simulation.ui"
+         download-size="127"
+         install-size="247"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.commons"
+         download-size="14"
+         install-size="24"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.ui"
+         download-size="38"
+         install-size="68"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.ui.navigator"
+         download-size="25"
+         install-size="49"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.domain"
+         download-size="32"
+         install-size="61"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.domain.generic"
+         download-size="15"
+         install-size="20"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.ui.editor"
+         download-size="526"
+         install-size="1121"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.model.sgraph"
+         download-size="303"
+         install-size="751"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.model.sgraph.edit"
+         download-size="139"
+         install-size="221"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.model.sgraph.ui"
+         download-size="15"
+         install-size="24"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.model.stext"
+         download-size="549"
+         install-size="1496"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.model.stext.edit"
+         download-size="782"
+         install-size="921"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+ 	<plugin
+         id="com.yakindu.sct.model.stext.ide"
+         download-size="194"
+         install-size="922"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.model.stext.ui"
+         download-size="132"
+         install-size="319"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.refactoring"
+         download-size="64"
+         install-size="143"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.compare"
+         download-size="15"
+         install-size="25"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.doc.user"
+         download-size="19783"
+         install-size="22492"
+         version="4.0.6.202104190728"/>
+
+   <plugin
+         id="com.yakindu.sct.examples.wizard"
+         download-size="80"
+         install-size="157"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.model.sgen"
+         download-size="67"
+         install-size="153"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.model.sgen.edit"
+         download-size="83"
+         install-size="129"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.generator.genmodel"
+         download-size="183"
+         install-size="511"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.generator.genmodel.ui"
+         download-size="269"
+         install-size="886"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.generator.builder"
+         download-size="46"
+         install-size="89"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.generator.core"
+         download-size="103"
+         install-size="208"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.domain.generic.editor"
+         download-size="15"
+         install-size="27"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.domain.generic.generator"
+         download-size="8"
+         install-size="11"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.domain.generic.simulation"
+         download-size="9"
+         install-size="16"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.domain.generic.resource"
+         download-size="9"
+         install-size="12"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.model.stext.lib"
+         download-size="9"
+         install-size="14"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.runtime"
+         download-size="13"
+         install-size="21"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+<license url="%licenseURL">
+      %license
+   </license></feature>

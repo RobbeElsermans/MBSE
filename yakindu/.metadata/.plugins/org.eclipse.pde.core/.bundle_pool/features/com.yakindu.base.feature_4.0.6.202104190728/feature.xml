@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yakindu.base.feature"
+      label="YAKINDU Statechart Tools Base"
+      version="4.0.6.202104190728"
+      provider-name="itemis AG"
+      plugin="com.yakindu.sct.branding">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <url>
+      <discovery label="YAKINDU SCT Repository" url="https://updates.yakindu.com/sct/releases/"/>
+   </url>
+
+   <includes
+         id="com.yakindu.base.gmf.runtime.feature"
+         version="4.0.6.202104190728"/>
+
+   <includes
+         id="com.yakindu.base.xtext.utils.gmf.feature"
+         version="4.0.6.202104190728"/>
+
+   <includes
+         id="com.yakindu.base.xtext.utils.jface.feature"
+         version="4.0.6.202104190728"/>
+
+   <plugin
+         id="com.yakindu.base.types"
+         download-size="400"
+         install-size="718"
+         version="4.0.6.202104190728"/>
+
+   <plugin
+         id="com.yakindu.base.types.edit"
+         download-size="155"
+         install-size="263"
+         version="4.0.6.202104190728"/>
+
+   <plugin
+         id="com.yakindu.base.expressions"
+         download-size="398"
+         install-size="1084"
+         version="4.0.6.202104190728"/>
+
+   <plugin
+         id="com.yakindu.base.expressions.edit"
+         download-size="503"
+         install-size="615"
+         version="4.0.6.202104190728"/>
+
+   <plugin
+         id="com.yakindu.base.expressions.ui"
+         download-size="32"
+         install-size="68"
+         version="4.0.6.202104190728"/>
+
+   <plugin
+         id="com.yakindu.base.expressions.interpreter"
+         download-size="331"
+         install-size="871"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sct.model.sruntime"
+         download-size="57"
+         install-size="119"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.core"
+         download-size="11"
+         install-size="15"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.base.expressions.ide"
+         download-size="100"
+         install-size="448"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+<license url="%licenseURL">
+      %license
+   </license></feature>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yakindu.sct.types.feature"
+      label="YAKINDU Multi-Statemachine Feature"
+      version="4.0.6.202104190728"
+      provider-name="itemis AG"
+      plugin="com.yakindu.sct.branding">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <url>
+      <discovery label="YAKINDU SCT Repository" url="https://updates.yakindu.com/sct/releases/"/>
+   </url>
+
+   <requires>
+      <import feature="com.yakindu.sct.feature" version="4.0.6" match="equivalent"/>
+   </requires>
+
+   <plugin
+         id="com.yakindu.sct.types"
+         download-size="82"
+         install-size="185"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+<license url="%licenseURL">
+      %license
+   </license></feature>

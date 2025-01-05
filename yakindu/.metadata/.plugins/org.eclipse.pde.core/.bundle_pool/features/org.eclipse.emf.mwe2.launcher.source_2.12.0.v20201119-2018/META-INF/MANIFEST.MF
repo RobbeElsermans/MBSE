@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.0
+
+Name: epl-2.0.html
+SHA1-Digest: DL72OuvPzUzSAevrSM4pTjd6YyE=
+
+Name: META-INF/maven/org.eclipse.emf/org.eclipse.emf.mwe2.launcher/pom
+ .xml
+SHA1-Digest: WYgo+dM7kZkpll3AuSHSDKIUfkM=
+
+Name: feature.xml
+SHA1-Digest: ENtRcIT/kHZ6mGeyRFlih9n1vHg=
+
+Name: META-INF/maven/org.eclipse.emf/org.eclipse.emf.mwe2.launcher/pom
+ .properties
+SHA1-Digest: 3xdzjsGWBw4K/9XNkd9c+08HV44=
+
+Name: feature.properties
+SHA1-Digest: G+WFHTdd/Zmr+0ieTzI8BGgjKvg=
+
+Name: license.html
+SHA1-Digest: xQG3zgse5GrYb/9Da8t9ws1UncI=
+

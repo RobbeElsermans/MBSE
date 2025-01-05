@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yakindu.sctunit.feature"
+      label="YAKINDU SCTUnit (BETA)"
+      version="4.0.6.202104190728"
+      provider-name="itemis AG"
+      plugin="com.yakindu.sct.branding">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <requires>
+      <import feature="com.yakindu.sct.feature" version="4.0.6" match="equivalent"/>
+   </requires>
+
+   <plugin
+         id="com.yakindu.sctunit"
+         download-size="401"
+         install-size="1173"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sctunit.ui"
+         download-size="328"
+         install-size="1397"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sctunit.lib"
+         download-size="7"
+         install-size="10"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sctunit.simulation.core"
+         download-size="198"
+         install-size="498"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+   <plugin
+         id="com.yakindu.sctunit.simulation.ui"
+         download-size="33"
+         install-size="73"
+         version="4.0.6.202104190728"
+         unpack="false"/>
+
+<license url="%licenseURL">
+      %license
+   </license></feature>

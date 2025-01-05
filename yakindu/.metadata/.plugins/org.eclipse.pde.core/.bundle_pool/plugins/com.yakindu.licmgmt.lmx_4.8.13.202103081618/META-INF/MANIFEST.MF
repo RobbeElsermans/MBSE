@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: com.yakindu.licmgmt.lmx
+Bundle-SymbolicName: com.yakindu.licmgmt.lmx;singleton:=true
+Built-By: jenkins
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: itemis AG
+Export-Package: com.xformation.lmx
+Bundle-Name: YAKINDU LM-X Licensemanagement
+Bundle-Version: 4.8.13.202103081618
+Bundle-ClassPath: ., lib/liblmxjava.jar
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_221
+Eclipse-BundleShape: dir
+
+Name: lib/liblmxjava.jar
+SHA-256-Digest: jFa+slSTdOnZngeXrqytyHg/WvrxdgA/Ar2TkSfoSB0=
+
