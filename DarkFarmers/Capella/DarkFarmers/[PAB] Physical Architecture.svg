@@ -571,70 +571,76 @@
             <use diagram:semanticTargetId="5cb2c772-b34a-4c7c-91d3-afd7811b9411" stroke="black" width="10" xlink:show="embed" xlink:type="simple" fill="black" stroke-width="0" height="10" x="644" y="1319" xlink:href="#a5c68b3f-0ed7-3efe-84c7-981099bd99cb" xlink:actuate="onLoad"/>
         </g>
         <g fill="rgb(9,92,46)" font-size="10px" stroke-width="1.1" stroke-linecap="butt" stroke="rgb(9,92,46)">
-            <line diagram:semanticTargetId="096188cf-db7d-4f95-9956-8ce1ebe9c80a" clip-path="url(#clipPath375)" fill="none" x1="268" x2="268" y1="421" y2="472"/>
-            <image x="276" y="435" diagram:semanticTargetId="096188cf-db7d-4f95-9956-8ce1ebe9c80a" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="295" xml:space="preserve" y="447" clip-path="url(#clipPath377)" diagram:semanticTargetId="096188cf-db7d-4f95-9956-8ce1ebe9c80a" stroke="none">'transfering to mun' signal</text>
-            <text x="259" diagram:semanticTargetId="096188cf-db7d-4f95-9956-8ce1ebe9c80a" y="437" clip-path="url(#clipPath378)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="257" diagram:semanticTargetId="096188cf-db7d-4f95-9956-8ce1ebe9c80a" y="471" clip-path="url(#clipPath379)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <line diagram:semanticTargetId="cf64c0aa-43b7-48bd-85b6-e803f9dd14f5" clip-path="url(#clipPath375)" fill="none" x1="338" x2="492" y1="565" y2="565"/>
-            <line diagram:semanticTargetId="cf64c0aa-43b7-48bd-85b6-e803f9dd14f5" clip-path="url(#clipPath375)" fill="none" x1="492" x2="492" y1="565" y2="435"/>
-            <line diagram:semanticTargetId="cf64c0aa-43b7-48bd-85b6-e803f9dd14f5" clip-path="url(#clipPath375)" fill="none" x1="492" x2="511" y1="435" y2="435"/>
-            <image x="353" y="550" diagram:semanticTargetId="cf64c0aa-43b7-48bd-85b6-e803f9dd14f5" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="372" xml:space="preserve" y="562" clip-path="url(#clipPath381)" diagram:semanticTargetId="cf64c0aa-43b7-48bd-85b6-e803f9dd14f5" stroke="none">Manauver Data</text>
-            <text x="398" diagram:semanticTargetId="cf64c0aa-43b7-48bd-85b6-e803f9dd14f5" y="579" clip-path="url(#clipPath382)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="503" diagram:semanticTargetId="cf64c0aa-43b7-48bd-85b6-e803f9dd14f5" y="448" clip-path="url(#clipPath383)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <line diagram:semanticTargetId="1390cacc-d223-41ce-a455-bf8e989d1a03" clip-path="url(#clipPath375)" fill="none" x1="293" x2="487" y1="515" y2="515"/>
-            <line diagram:semanticTargetId="1390cacc-d223-41ce-a455-bf8e989d1a03" clip-path="url(#clipPath375)" fill="none" x1="497" x2="512" y1="515" y2="515"/>
-            <line diagram:semanticTargetId="1390cacc-d223-41ce-a455-bf8e989d1a03" clip-path="url(#clipPath375)" fill="none" x1="512" x2="512" y1="515" y2="569"/>
-            <line diagram:semanticTargetId="1390cacc-d223-41ce-a455-bf8e989d1a03" clip-path="url(#clipPath375)" fill="none" x1="512" x2="561" y1="569" y2="569"/>
-            <image x="303" y="500" diagram:semanticTargetId="1390cacc-d223-41ce-a455-bf8e989d1a03" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="322" xml:space="preserve" y="512" clip-path="url(#clipPath385)" diagram:semanticTargetId="1390cacc-d223-41ce-a455-bf8e989d1a03" stroke="none">'in orbite around mun' signal</text>
-            <text x="364" diagram:semanticTargetId="1390cacc-d223-41ce-a455-bf8e989d1a03" y="529" clip-path="url(#clipPath386)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="544" diagram:semanticTargetId="1390cacc-d223-41ce-a455-bf8e989d1a03" y="583" clip-path="url(#clipPath387)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <line diagram:semanticTargetId="10fd433e-673d-4fba-90db-140797fa5d80" clip-path="url(#clipPath375)" fill="none" x1="218" x2="218" y1="101" y2="128"/>
-            <image x="105" y="110" diagram:semanticTargetId="10fd433e-673d-4fba-90db-140797fa5d80" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="124" xml:space="preserve" y="122" clip-path="url(#clipPath389)" diagram:semanticTargetId="10fd433e-673d-4fba-90db-140797fa5d80" stroke="none">'launched' signal</text>
-            <text x="207" diagram:semanticTargetId="10fd433e-673d-4fba-90db-140797fa5d80" y="109" clip-path="url(#clipPath390)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="207" diagram:semanticTargetId="10fd433e-673d-4fba-90db-140797fa5d80" y="127" clip-path="url(#clipPath391)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <line diagram:semanticTargetId="37d04231-f029-4c04-a3de-0fd444f4f29e" clip-path="url(#clipPath375)" fill="none" x1="213" x2="112" y1="187" y2="187"/>
+            <line diagram:semanticTargetId="37d04231-f029-4c04-a3de-0fd444f4f29e" clip-path="url(#clipPath375)" fill="none" x1="112" x2="112" y1="187" y2="373"/>
+            <line diagram:semanticTargetId="37d04231-f029-4c04-a3de-0fd444f4f29e" clip-path="url(#clipPath375)" fill="none" x1="112" x2="167" y1="373" y2="373"/>
+            <line diagram:semanticTargetId="37d04231-f029-4c04-a3de-0fd444f4f29e" clip-path="url(#clipPath375)" fill="none" x1="177" x2="212" y1="373" y2="373"/>
+            <image x="13" y="159" diagram:semanticTargetId="37d04231-f029-4c04-a3de-0fd444f4f29e" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
+            <text x="32" xml:space="preserve" y="171" clip-path="url(#clipPath377)" diagram:semanticTargetId="37d04231-f029-4c04-a3de-0fd444f4f29e" stroke="none">'in orbit around Kerbin' signal</text>
+            <text x="166" diagram:semanticTargetId="37d04231-f029-4c04-a3de-0fd444f4f29e" y="201" clip-path="url(#clipPath378)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="152" diagram:semanticTargetId="37d04231-f029-4c04-a3de-0fd444f4f29e" y="387" clip-path="url(#clipPath379)" fill="white" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="d008053e-7e56-434b-b100-2eda1016609a" clip-path="url(#clipPath375)" fill="none" x1="317" x2="472" y1="170" y2="170"/>
             <line diagram:semanticTargetId="d008053e-7e56-434b-b100-2eda1016609a" clip-path="url(#clipPath375)" fill="none" x1="472" x2="472" y1="170" y2="245"/>
             <line diagram:semanticTargetId="d008053e-7e56-434b-b100-2eda1016609a" clip-path="url(#clipPath375)" fill="none" x1="472" x2="472" y1="255" y2="335"/>
             <line diagram:semanticTargetId="d008053e-7e56-434b-b100-2eda1016609a" clip-path="url(#clipPath375)" fill="none" x1="472" x2="511" y1="335" y2="335"/>
             <image x="343" y="152" diagram:semanticTargetId="d008053e-7e56-434b-b100-2eda1016609a" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="362" xml:space="preserve" y="164" clip-path="url(#clipPath393)" diagram:semanticTargetId="d008053e-7e56-434b-b100-2eda1016609a" stroke="none">Manauver Data</text>
-            <text x="384" diagram:semanticTargetId="d008053e-7e56-434b-b100-2eda1016609a" y="184" clip-path="url(#clipPath394)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="497" diagram:semanticTargetId="d008053e-7e56-434b-b100-2eda1016609a" y="349" clip-path="url(#clipPath395)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <line diagram:semanticTargetId="f3c5deee-dd79-4d97-b5b9-079788cd948c" clip-path="url(#clipPath375)" fill="none" x1="315" x2="452" y1="303" y2="303"/>
-            <line diagram:semanticTargetId="f3c5deee-dd79-4d97-b5b9-079788cd948c" clip-path="url(#clipPath375)" fill="none" x1="452" x2="452" y1="303" y2="375"/>
-            <line diagram:semanticTargetId="f3c5deee-dd79-4d97-b5b9-079788cd948c" clip-path="url(#clipPath375)" fill="none" x1="452" x2="511" y1="375" y2="375"/>
-            <image x="336" y="307" diagram:semanticTargetId="f3c5deee-dd79-4d97-b5b9-079788cd948c" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="355" xml:space="preserve" y="319" clip-path="url(#clipPath397)" diagram:semanticTargetId="f3c5deee-dd79-4d97-b5b9-079788cd948c" stroke="none">Manauver Data</text>
-            <text x="384" diagram:semanticTargetId="f3c5deee-dd79-4d97-b5b9-079788cd948c" y="307" clip-path="url(#clipPath398)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="484" diagram:semanticTargetId="f3c5deee-dd79-4d97-b5b9-079788cd948c" y="382" clip-path="url(#clipPath399)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <line diagram:semanticTargetId="23d4d278-e0e7-4aee-91fa-233a6ad133ea" clip-path="url(#clipPath375)" fill="none" x1="293" x2="483" y1="485" y2="485"/>
-            <line diagram:semanticTargetId="23d4d278-e0e7-4aee-91fa-233a6ad133ea" clip-path="url(#clipPath375)" fill="none" x1="483" x2="483" y1="485" y2="415"/>
-            <line diagram:semanticTargetId="23d4d278-e0e7-4aee-91fa-233a6ad133ea" clip-path="url(#clipPath375)" fill="none" x1="483" x2="511" y1="415" y2="415"/>
-            <image x="303" y="470" diagram:semanticTargetId="23d4d278-e0e7-4aee-91fa-233a6ad133ea" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="322" xml:space="preserve" y="482" clip-path="url(#clipPath401)" diagram:semanticTargetId="23d4d278-e0e7-4aee-91fa-233a6ad133ea" stroke="none">Manauver Data</text>
-            <text x="354" diagram:semanticTargetId="23d4d278-e0e7-4aee-91fa-233a6ad133ea" y="499" clip-path="url(#clipPath402)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="490" diagram:semanticTargetId="23d4d278-e0e7-4aee-91fa-233a6ad133ea" y="428" clip-path="url(#clipPath403)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <line diagram:semanticTargetId="da83060d-d1f9-4ec1-99ea-2baa0a93090c" clip-path="url(#clipPath375)" fill="none" x1="561" x2="338" y1="595" y2="595"/>
-            <image x="383" y="576" diagram:semanticTargetId="da83060d-d1f9-4ec1-99ea-2baa0a93090c" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="402" xml:space="preserve" y="588" clip-path="url(#clipPath405)" diagram:semanticTargetId="da83060d-d1f9-4ec1-99ea-2baa0a93090c" stroke="none">'all sateliets Deployed' signal</text>
-            <text x="515" diagram:semanticTargetId="da83060d-d1f9-4ec1-99ea-2baa0a93090c" y="592" clip-path="url(#clipPath406)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="357" diagram:semanticTargetId="da83060d-d1f9-4ec1-99ea-2baa0a93090c" y="595" clip-path="url(#clipPath407)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <line diagram:semanticTargetId="57aab58b-55d7-4c77-87a5-60ac2d5857f3" clip-path="url(#clipPath375)" fill="none" x1="319" x2="511" y1="395" y2="395"/>
-            <image x="317" y="380" diagram:semanticTargetId="57aab58b-55d7-4c77-87a5-60ac2d5857f3" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="336" xml:space="preserve" y="392" clip-path="url(#clipPath409)" diagram:semanticTargetId="57aab58b-55d7-4c77-87a5-60ac2d5857f3" stroke="none">Manauver Data</text>
-            <text x="340" diagram:semanticTargetId="57aab58b-55d7-4c77-87a5-60ac2d5857f3" y="389" clip-path="url(#clipPath410)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="475" diagram:semanticTargetId="57aab58b-55d7-4c77-87a5-60ac2d5857f3" y="392" clip-path="url(#clipPath411)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="362" xml:space="preserve" y="164" clip-path="url(#clipPath381)" diagram:semanticTargetId="d008053e-7e56-434b-b100-2eda1016609a" stroke="none">Manauver Data</text>
+            <text x="384" diagram:semanticTargetId="d008053e-7e56-434b-b100-2eda1016609a" y="184" clip-path="url(#clipPath382)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="497" diagram:semanticTargetId="d008053e-7e56-434b-b100-2eda1016609a" y="349" clip-path="url(#clipPath383)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <line diagram:semanticTargetId="d59488c7-37d1-4577-bac4-375e3464891a" clip-path="url(#clipPath375)" fill="none" x1="267" x2="463" y1="235" y2="235"/>
+            <line diagram:semanticTargetId="d59488c7-37d1-4577-bac4-375e3464891a" clip-path="url(#clipPath375)" fill="none" x1="463" x2="463" y1="235" y2="245"/>
+            <line diagram:semanticTargetId="d59488c7-37d1-4577-bac4-375e3464891a" clip-path="url(#clipPath375)" fill="none" x1="463" x2="463" y1="255" y2="355"/>
+            <line diagram:semanticTargetId="d59488c7-37d1-4577-bac4-375e3464891a" clip-path="url(#clipPath375)" fill="none" x1="463" x2="511" y1="355" y2="355"/>
+            <image x="274" y="220" diagram:semanticTargetId="d59488c7-37d1-4577-bac4-375e3464891a" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
+            <text x="293" xml:space="preserve" y="232" clip-path="url(#clipPath385)" diagram:semanticTargetId="d59488c7-37d1-4577-bac4-375e3464891a" stroke="none">Manauver Data</text>
+            <text x="337" diagram:semanticTargetId="d59488c7-37d1-4577-bac4-375e3464891a" y="247" clip-path="url(#clipPath386)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="495" diagram:semanticTargetId="d59488c7-37d1-4577-bac4-375e3464891a" y="369" clip-path="url(#clipPath387)" fill="white" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="9268a6a3-837c-4d83-9e08-c3b5428c2d78" clip-path="url(#clipPath375)" fill="none" x1="201" x2="172" y1="575" y2="575"/>
             <line diagram:semanticTargetId="9268a6a3-837c-4d83-9e08-c3b5428c2d78" clip-path="url(#clipPath375)" fill="none" x1="172" x2="172" y1="575" y2="235"/>
             <line diagram:semanticTargetId="9268a6a3-837c-4d83-9e08-c3b5428c2d78" clip-path="url(#clipPath375)" fill="none" x1="172" x2="201" y1="235" y2="235"/>
             <image x="33" y="440" diagram:semanticTargetId="9268a6a3-837c-4d83-9e08-c3b5428c2d78" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="52" xml:space="preserve" y="452" clip-path="url(#clipPath413)" diagram:semanticTargetId="9268a6a3-837c-4d83-9e08-c3b5428c2d78" stroke="none">'ready to land' signal</text>
-            <text x="183" diagram:semanticTargetId="9268a6a3-837c-4d83-9e08-c3b5428c2d78" y="579" clip-path="url(#clipPath414)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="171" diagram:semanticTargetId="9268a6a3-837c-4d83-9e08-c3b5428c2d78" y="280" clip-path="url(#clipPath415)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="52" xml:space="preserve" y="452" clip-path="url(#clipPath389)" diagram:semanticTargetId="9268a6a3-837c-4d83-9e08-c3b5428c2d78" stroke="none">'ready to land' signal</text>
+            <text x="183" diagram:semanticTargetId="9268a6a3-837c-4d83-9e08-c3b5428c2d78" y="579" clip-path="url(#clipPath390)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="171" diagram:semanticTargetId="9268a6a3-837c-4d83-9e08-c3b5428c2d78" y="280" clip-path="url(#clipPath391)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <line diagram:semanticTargetId="f3c5deee-dd79-4d97-b5b9-079788cd948c" clip-path="url(#clipPath375)" fill="none" x1="315" x2="452" y1="303" y2="303"/>
+            <line diagram:semanticTargetId="f3c5deee-dd79-4d97-b5b9-079788cd948c" clip-path="url(#clipPath375)" fill="none" x1="452" x2="452" y1="303" y2="375"/>
+            <line diagram:semanticTargetId="f3c5deee-dd79-4d97-b5b9-079788cd948c" clip-path="url(#clipPath375)" fill="none" x1="452" x2="511" y1="375" y2="375"/>
+            <image x="336" y="307" diagram:semanticTargetId="f3c5deee-dd79-4d97-b5b9-079788cd948c" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
+            <text x="355" xml:space="preserve" y="319" clip-path="url(#clipPath393)" diagram:semanticTargetId="f3c5deee-dd79-4d97-b5b9-079788cd948c" stroke="none">Manauver Data</text>
+            <text x="384" diagram:semanticTargetId="f3c5deee-dd79-4d97-b5b9-079788cd948c" y="307" clip-path="url(#clipPath394)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="484" diagram:semanticTargetId="f3c5deee-dd79-4d97-b5b9-079788cd948c" y="382" clip-path="url(#clipPath395)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <line diagram:semanticTargetId="1390cacc-d223-41ce-a455-bf8e989d1a03" clip-path="url(#clipPath375)" fill="none" x1="293" x2="487" y1="515" y2="515"/>
+            <line diagram:semanticTargetId="1390cacc-d223-41ce-a455-bf8e989d1a03" clip-path="url(#clipPath375)" fill="none" x1="497" x2="512" y1="515" y2="515"/>
+            <line diagram:semanticTargetId="1390cacc-d223-41ce-a455-bf8e989d1a03" clip-path="url(#clipPath375)" fill="none" x1="512" x2="512" y1="515" y2="569"/>
+            <line diagram:semanticTargetId="1390cacc-d223-41ce-a455-bf8e989d1a03" clip-path="url(#clipPath375)" fill="none" x1="512" x2="561" y1="569" y2="569"/>
+            <image x="303" y="500" diagram:semanticTargetId="1390cacc-d223-41ce-a455-bf8e989d1a03" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
+            <text x="322" xml:space="preserve" y="512" clip-path="url(#clipPath397)" diagram:semanticTargetId="1390cacc-d223-41ce-a455-bf8e989d1a03" stroke="none">'in orbite around mun' signal</text>
+            <text x="364" diagram:semanticTargetId="1390cacc-d223-41ce-a455-bf8e989d1a03" y="529" clip-path="url(#clipPath398)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="544" diagram:semanticTargetId="1390cacc-d223-41ce-a455-bf8e989d1a03" y="583" clip-path="url(#clipPath399)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <line diagram:semanticTargetId="10fd433e-673d-4fba-90db-140797fa5d80" clip-path="url(#clipPath375)" fill="none" x1="218" x2="218" y1="101" y2="128"/>
+            <image x="105" y="110" diagram:semanticTargetId="10fd433e-673d-4fba-90db-140797fa5d80" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
+            <text x="124" xml:space="preserve" y="122" clip-path="url(#clipPath401)" diagram:semanticTargetId="10fd433e-673d-4fba-90db-140797fa5d80" stroke="none">'launched' signal</text>
+            <text x="207" diagram:semanticTargetId="10fd433e-673d-4fba-90db-140797fa5d80" y="109" clip-path="url(#clipPath402)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="207" diagram:semanticTargetId="10fd433e-673d-4fba-90db-140797fa5d80" y="127" clip-path="url(#clipPath403)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <line diagram:semanticTargetId="23d4d278-e0e7-4aee-91fa-233a6ad133ea" clip-path="url(#clipPath375)" fill="none" x1="293" x2="483" y1="485" y2="485"/>
+            <line diagram:semanticTargetId="23d4d278-e0e7-4aee-91fa-233a6ad133ea" clip-path="url(#clipPath375)" fill="none" x1="483" x2="483" y1="485" y2="415"/>
+            <line diagram:semanticTargetId="23d4d278-e0e7-4aee-91fa-233a6ad133ea" clip-path="url(#clipPath375)" fill="none" x1="483" x2="511" y1="415" y2="415"/>
+            <image x="303" y="470" diagram:semanticTargetId="23d4d278-e0e7-4aee-91fa-233a6ad133ea" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
+            <text x="322" xml:space="preserve" y="482" clip-path="url(#clipPath405)" diagram:semanticTargetId="23d4d278-e0e7-4aee-91fa-233a6ad133ea" stroke="none">Manauver Data</text>
+            <text x="354" diagram:semanticTargetId="23d4d278-e0e7-4aee-91fa-233a6ad133ea" y="499" clip-path="url(#clipPath406)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="490" diagram:semanticTargetId="23d4d278-e0e7-4aee-91fa-233a6ad133ea" y="428" clip-path="url(#clipPath407)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <line diagram:semanticTargetId="cf64c0aa-43b7-48bd-85b6-e803f9dd14f5" clip-path="url(#clipPath375)" fill="none" x1="338" x2="492" y1="565" y2="565"/>
+            <line diagram:semanticTargetId="cf64c0aa-43b7-48bd-85b6-e803f9dd14f5" clip-path="url(#clipPath375)" fill="none" x1="492" x2="492" y1="565" y2="435"/>
+            <line diagram:semanticTargetId="cf64c0aa-43b7-48bd-85b6-e803f9dd14f5" clip-path="url(#clipPath375)" fill="none" x1="492" x2="511" y1="435" y2="435"/>
+            <image x="353" y="550" diagram:semanticTargetId="cf64c0aa-43b7-48bd-85b6-e803f9dd14f5" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
+            <text x="372" xml:space="preserve" y="562" clip-path="url(#clipPath409)" diagram:semanticTargetId="cf64c0aa-43b7-48bd-85b6-e803f9dd14f5" stroke="none">Manauver Data</text>
+            <text x="398" diagram:semanticTargetId="cf64c0aa-43b7-48bd-85b6-e803f9dd14f5" y="579" clip-path="url(#clipPath410)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="503" diagram:semanticTargetId="cf64c0aa-43b7-48bd-85b6-e803f9dd14f5" y="448" clip-path="url(#clipPath411)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <line diagram:semanticTargetId="096188cf-db7d-4f95-9956-8ce1ebe9c80a" clip-path="url(#clipPath375)" fill="none" x1="268" x2="268" y1="421" y2="472"/>
+            <image x="276" y="435" diagram:semanticTargetId="096188cf-db7d-4f95-9956-8ce1ebe9c80a" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
+            <text x="295" xml:space="preserve" y="447" clip-path="url(#clipPath413)" diagram:semanticTargetId="096188cf-db7d-4f95-9956-8ce1ebe9c80a" stroke="none">'transfering to mun' signal</text>
+            <text x="259" diagram:semanticTargetId="096188cf-db7d-4f95-9956-8ce1ebe9c80a" y="437" clip-path="url(#clipPath414)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="257" diagram:semanticTargetId="096188cf-db7d-4f95-9956-8ce1ebe9c80a" y="471" clip-path="url(#clipPath415)" fill="white" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="207a1ec9-3409-413e-8e84-507347bc4e1a" clip-path="url(#clipPath375)" fill="none" x1="278" x2="483" y1="90" y2="90"/>
             <line diagram:semanticTargetId="207a1ec9-3409-413e-8e84-507347bc4e1a" clip-path="url(#clipPath375)" fill="none" x1="483" x2="483" y1="90" y2="245"/>
             <line diagram:semanticTargetId="207a1ec9-3409-413e-8e84-507347bc4e1a" clip-path="url(#clipPath375)" fill="none" x1="483" x2="483" y1="255" y2="315"/>
@@ -643,56 +649,50 @@
             <text x="355" xml:space="preserve" y="82" clip-path="url(#clipPath417)" diagram:semanticTargetId="207a1ec9-3409-413e-8e84-507347bc4e1a" stroke="none">Manauver Data</text>
             <text x="348" diagram:semanticTargetId="207a1ec9-3409-413e-8e84-507347bc4e1a" y="103" clip-path="url(#clipPath418)" fill="white" stroke="none" xml:space="preserve">.</text>
             <text x="496" diagram:semanticTargetId="207a1ec9-3409-413e-8e84-507347bc4e1a" y="329" clip-path="url(#clipPath419)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <line diagram:semanticTargetId="d59488c7-37d1-4577-bac4-375e3464891a" clip-path="url(#clipPath375)" fill="none" x1="267" x2="463" y1="235" y2="235"/>
-            <line diagram:semanticTargetId="d59488c7-37d1-4577-bac4-375e3464891a" clip-path="url(#clipPath375)" fill="none" x1="463" x2="463" y1="235" y2="245"/>
-            <line diagram:semanticTargetId="d59488c7-37d1-4577-bac4-375e3464891a" clip-path="url(#clipPath375)" fill="none" x1="463" x2="463" y1="255" y2="355"/>
-            <line diagram:semanticTargetId="d59488c7-37d1-4577-bac4-375e3464891a" clip-path="url(#clipPath375)" fill="none" x1="463" x2="511" y1="355" y2="355"/>
-            <image x="274" y="220" diagram:semanticTargetId="d59488c7-37d1-4577-bac4-375e3464891a" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="293" xml:space="preserve" y="232" clip-path="url(#clipPath421)" diagram:semanticTargetId="d59488c7-37d1-4577-bac4-375e3464891a" stroke="none">Manauver Data</text>
-            <text x="337" diagram:semanticTargetId="d59488c7-37d1-4577-bac4-375e3464891a" y="247" clip-path="url(#clipPath422)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="495" diagram:semanticTargetId="d59488c7-37d1-4577-bac4-375e3464891a" y="369" clip-path="url(#clipPath423)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <line diagram:semanticTargetId="37d04231-f029-4c04-a3de-0fd444f4f29e" clip-path="url(#clipPath375)" fill="none" x1="213" x2="112" y1="187" y2="187"/>
-            <line diagram:semanticTargetId="37d04231-f029-4c04-a3de-0fd444f4f29e" clip-path="url(#clipPath375)" fill="none" x1="112" x2="112" y1="187" y2="373"/>
-            <line diagram:semanticTargetId="37d04231-f029-4c04-a3de-0fd444f4f29e" clip-path="url(#clipPath375)" fill="none" x1="112" x2="167" y1="373" y2="373"/>
-            <line diagram:semanticTargetId="37d04231-f029-4c04-a3de-0fd444f4f29e" clip-path="url(#clipPath375)" fill="none" x1="177" x2="212" y1="373" y2="373"/>
-            <image x="13" y="159" diagram:semanticTargetId="37d04231-f029-4c04-a3de-0fd444f4f29e" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="32" xml:space="preserve" y="171" clip-path="url(#clipPath425)" diagram:semanticTargetId="37d04231-f029-4c04-a3de-0fd444f4f29e" stroke="none">'in orbit around Kerbin' signal</text>
-            <text x="166" diagram:semanticTargetId="37d04231-f029-4c04-a3de-0fd444f4f29e" y="201" clip-path="url(#clipPath426)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="152" diagram:semanticTargetId="37d04231-f029-4c04-a3de-0fd444f4f29e" y="387" clip-path="url(#clipPath427)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <line diagram:semanticTargetId="da83060d-d1f9-4ec1-99ea-2baa0a93090c" clip-path="url(#clipPath375)" fill="none" x1="561" x2="338" y1="595" y2="595"/>
+            <image x="383" y="576" diagram:semanticTargetId="da83060d-d1f9-4ec1-99ea-2baa0a93090c" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
+            <text x="402" xml:space="preserve" y="588" clip-path="url(#clipPath421)" diagram:semanticTargetId="da83060d-d1f9-4ec1-99ea-2baa0a93090c" stroke="none">'all sateliets Deployed' signal</text>
+            <text x="515" diagram:semanticTargetId="da83060d-d1f9-4ec1-99ea-2baa0a93090c" y="592" clip-path="url(#clipPath422)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="357" diagram:semanticTargetId="da83060d-d1f9-4ec1-99ea-2baa0a93090c" y="595" clip-path="url(#clipPath423)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <line diagram:semanticTargetId="57aab58b-55d7-4c77-87a5-60ac2d5857f3" clip-path="url(#clipPath375)" fill="none" x1="319" x2="511" y1="395" y2="395"/>
+            <image x="317" y="380" diagram:semanticTargetId="57aab58b-55d7-4c77-87a5-60ac2d5857f3" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
+            <text x="336" xml:space="preserve" y="392" clip-path="url(#clipPath425)" diagram:semanticTargetId="57aab58b-55d7-4c77-87a5-60ac2d5857f3" stroke="none">Manauver Data</text>
+            <text x="340" diagram:semanticTargetId="57aab58b-55d7-4c77-87a5-60ac2d5857f3" y="389" clip-path="url(#clipPath426)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="475" diagram:semanticTargetId="57aab58b-55d7-4c77-87a5-60ac2d5857f3" y="392" clip-path="url(#clipPath427)" fill="white" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="417a9814-f7dd-44f3-91fa-93204a35f1b4" clip-path="url(#clipPath375)" fill="none" x1="1301" x2="1121" y1="151" y2="151"/>
             <image x="1185" y="141" diagram:semanticTargetId="417a9814-f7dd-44f3-91fa-93204a35f1b4" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
             <text x="1204" xml:space="preserve" y="153" clip-path="url(#clipPath429)" diagram:semanticTargetId="417a9814-f7dd-44f3-91fa-93204a35f1b4" stroke="none">Fuel</text>
             <text x="1278" diagram:semanticTargetId="417a9814-f7dd-44f3-91fa-93204a35f1b4" y="150" clip-path="url(#clipPath430)" fill="white" stroke="none" xml:space="preserve">.</text>
             <text x="1154" diagram:semanticTargetId="417a9814-f7dd-44f3-91fa-93204a35f1b4" y="153" clip-path="url(#clipPath431)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <line diagram:semanticTargetId="30923545-eb7b-4a11-9505-fd9b05833d26" clip-path="url(#clipPath375)" fill="none" x1="1201" x2="1201" y1="503" y2="558" stroke="rgb(239,41,41)"/>
+            <image diagram:semanticTargetId="30923545-eb7b-4a11-9505-fd9b05833d26" stroke="rgb(239,41,41)" width="16" xlink:show="embed" xlink:type="simple" fill="rgb(239,41,41)" preserveAspectRatio="none" height="16" x="1190" y="525" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAd0lEQVR4XmNgGBbg&#10;PwwHBAeAaHwArhYJM/z//x+CQWxVbWWchoAsgKmFqQeJwwVACth4WNBtwMA4DQBh&#10;kAHfuLhwYpALk4picRsADQcMjcgYpgerARS5AGY7IYwzDEBsfLHQ0NCA4loGmAEw&#10;TGo64JfgJaR+RAAAvNnS9zAJoI8AAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
+            <text x="1209" diagram:semanticTargetId="30923545-eb7b-4a11-9505-fd9b05833d26" y="537" clip-path="url(#clipPath433)" fill="rgb(239,41,41)" stroke="none" xml:space="preserve">Energy</text>
+            <text x="1201" diagram:semanticTargetId="30923545-eb7b-4a11-9505-fd9b05833d26" y="509" clip-path="url(#clipPath434)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="1200" diagram:semanticTargetId="30923545-eb7b-4a11-9505-fd9b05833d26" y="548" clip-path="url(#clipPath435)" fill="white" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="437b26eb-8fbc-4d72-92cb-8f3cdb594fb2" clip-path="url(#clipPath375)" fill="none" x1="1073" x2="1003" y1="467" y2="467"/>
             <line diagram:semanticTargetId="437b26eb-8fbc-4d72-92cb-8f3cdb594fb2" clip-path="url(#clipPath375)" fill="none" x1="1003" x2="1003" y1="467" y2="651"/>
             <line diagram:semanticTargetId="437b26eb-8fbc-4d72-92cb-8f3cdb594fb2" clip-path="url(#clipPath375)" fill="none" x1="1003" x2="1061" y1="651" y2="651"/>
             <image x="1003" y="530" diagram:semanticTargetId="437b26eb-8fbc-4d72-92cb-8f3cdb594fb2" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="1022" xml:space="preserve" y="542" clip-path="url(#clipPath433)" diagram:semanticTargetId="437b26eb-8fbc-4d72-92cb-8f3cdb594fb2" stroke="none">Energy</text>
-            <text x="1026" diagram:semanticTargetId="437b26eb-8fbc-4d72-92cb-8f3cdb594fb2" y="481" clip-path="url(#clipPath434)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="1021" diagram:semanticTargetId="437b26eb-8fbc-4d72-92cb-8f3cdb594fb2" y="665" clip-path="url(#clipPath435)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <line diagram:semanticTargetId="30923545-eb7b-4a11-9505-fd9b05833d26" clip-path="url(#clipPath375)" fill="none" x1="1201" x2="1201" y1="503" y2="558" stroke="rgb(239,41,41)"/>
-            <image diagram:semanticTargetId="30923545-eb7b-4a11-9505-fd9b05833d26" stroke="rgb(239,41,41)" width="16" xlink:show="embed" xlink:type="simple" fill="rgb(239,41,41)" preserveAspectRatio="none" height="16" x="1190" y="525" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAd0lEQVR4XmNgGBbg&#10;PwwHBAeAaHwArhYJM/z//x+CQWxVbWWchoAsgKmFqQeJwwVACth4WNBtwMA4DQBh&#10;kAHfuLhwYpALk4picRsADQcMjcgYpgerARS5AGY7IYwzDEBsfLHQ0NCA4loGmAEw&#10;TGo64JfgJaR+RAAAvNnS9zAJoI8AAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
-            <text x="1209" diagram:semanticTargetId="30923545-eb7b-4a11-9505-fd9b05833d26" y="537" clip-path="url(#clipPath437)" fill="rgb(239,41,41)" stroke="none" xml:space="preserve">Energy</text>
-            <text x="1201" diagram:semanticTargetId="30923545-eb7b-4a11-9505-fd9b05833d26" y="509" clip-path="url(#clipPath438)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="1200" diagram:semanticTargetId="30923545-eb7b-4a11-9505-fd9b05833d26" y="548" clip-path="url(#clipPath439)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="1022" xml:space="preserve" y="542" clip-path="url(#clipPath437)" diagram:semanticTargetId="437b26eb-8fbc-4d72-92cb-8f3cdb594fb2" stroke="none">Energy</text>
+            <text x="1026" diagram:semanticTargetId="437b26eb-8fbc-4d72-92cb-8f3cdb594fb2" y="481" clip-path="url(#clipPath438)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="1021" diagram:semanticTargetId="437b26eb-8fbc-4d72-92cb-8f3cdb594fb2" y="665" clip-path="url(#clipPath439)" fill="white" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="5c0c6ba9-a944-40d4-a072-49f57e1e9c08" clip-path="url(#clipPath375)" fill="none" x1="1378" x2="1378" y1="468" y2="493"/>
             <image x="1345" y="472" diagram:semanticTargetId="5c0c6ba9-a944-40d4-a072-49f57e1e9c08" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
             <text x="1364" xml:space="preserve" y="484" clip-path="url(#clipPath441)" diagram:semanticTargetId="5c0c6ba9-a944-40d4-a072-49f57e1e9c08" stroke="none">'deploy' signal</text>
             <text x="1367" diagram:semanticTargetId="5c0c6ba9-a944-40d4-a072-49f57e1e9c08" y="475" clip-path="url(#clipPath442)" fill="white" stroke="none" xml:space="preserve">.</text>
             <text x="1367" diagram:semanticTargetId="5c0c6ba9-a944-40d4-a072-49f57e1e9c08" y="493" clip-path="url(#clipPath443)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <line diagram:semanticTargetId="87aa6d43-895d-4da4-a45d-306b3b3972f2" clip-path="url(#clipPath375)" fill="none" x1="1417" x2="1417" y1="1021" y2="1098" stroke="rgb(239,41,41)"/>
+            <image diagram:semanticTargetId="87aa6d43-895d-4da4-a45d-306b3b3972f2" stroke="rgb(239,41,41)" width="16" xlink:show="embed" xlink:type="simple" fill="rgb(239,41,41)" preserveAspectRatio="none" height="16" font-family="'Cantarell'" x="1420" y="1047" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAd0lEQVR4XmNgGBbg&#10;PwwHBAeAaHwArhYJM/z//x+CQWxVbWWchoAsgKmFqQeJwwVACth4WNBtwMA4DQBh&#10;kAHfuLhwYpALk4picRsADQcMjcgYpgerARS5AGY7IYwzDEBsfLHQ0NCA4loGmAEw&#10;TGo64JfgJaR+RAAAvNnS9zAJoI8AAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
+            <text x="1439" diagram:semanticTargetId="87aa6d43-895d-4da4-a45d-306b3b3972f2" y="1058" clip-path="url(#clipPath445)" fill="rgb(239,41,41)" font-family="'Cantarell'" stroke="none" xml:space="preserve">Power</text>
+            <text x="1408" diagram:semanticTargetId="87aa6d43-895d-4da4-a45d-306b3b3972f2" y="1035" clip-path="url(#clipPath446)" fill="white" font-family="'Cantarell'" stroke="none" xml:space="preserve">.</text>
+            <text x="1407" diagram:semanticTargetId="87aa6d43-895d-4da4-a45d-306b3b3972f2" y="1089" clip-path="url(#clipPath447)" fill="white" font-family="'Cantarell'" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="75bb4c73-e27b-4e27-bc4a-8b0b0d551f65" clip-path="url(#clipPath375)" fill="none" x1="1472" x2="1552" y1="1185" y2="1185"/>
             <line diagram:semanticTargetId="75bb4c73-e27b-4e27-bc4a-8b0b0d551f65" clip-path="url(#clipPath375)" fill="none" x1="1552" x2="1552" y1="1185" y2="993"/>
             <line diagram:semanticTargetId="75bb4c73-e27b-4e27-bc4a-8b0b0d551f65" clip-path="url(#clipPath375)" fill="none" x1="1552" x2="1483" y1="993" y2="993"/>
             <image x="1482" y="1060" diagram:semanticTargetId="75bb4c73-e27b-4e27-bc4a-8b0b0d551f65" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="1501" xml:space="preserve" y="1072" clip-path="url(#clipPath445)" diagram:semanticTargetId="75bb4c73-e27b-4e27-bc4a-8b0b0d551f65" stroke="none">Energy</text>
-            <text x="1508" diagram:semanticTargetId="75bb4c73-e27b-4e27-bc4a-8b0b0d551f65" y="1199" clip-path="url(#clipPath446)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="1545" diagram:semanticTargetId="75bb4c73-e27b-4e27-bc4a-8b0b0d551f65" y="996" clip-path="url(#clipPath447)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <line diagram:semanticTargetId="87aa6d43-895d-4da4-a45d-306b3b3972f2" clip-path="url(#clipPath375)" fill="none" x1="1417" x2="1417" y1="1021" y2="1098" stroke="rgb(239,41,41)"/>
-            <image diagram:semanticTargetId="87aa6d43-895d-4da4-a45d-306b3b3972f2" stroke="rgb(239,41,41)" width="16" xlink:show="embed" xlink:type="simple" fill="rgb(239,41,41)" preserveAspectRatio="none" height="16" font-family="'Cantarell'" x="1420" y="1047" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAd0lEQVR4XmNgGBbg&#10;PwwHBAeAaHwArhYJM/z//x+CQWxVbWWchoAsgKmFqQeJwwVACth4WNBtwMA4DQBh&#10;kAHfuLhwYpALk4picRsADQcMjcgYpgerARS5AGY7IYwzDEBsfLHQ0NCA4loGmAEw&#10;TGo64JfgJaR+RAAAvNnS9zAJoI8AAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
-            <text x="1439" diagram:semanticTargetId="87aa6d43-895d-4da4-a45d-306b3b3972f2" y="1058" clip-path="url(#clipPath449)" fill="rgb(239,41,41)" font-family="'Cantarell'" stroke="none" xml:space="preserve">Power</text>
-            <text x="1408" diagram:semanticTargetId="87aa6d43-895d-4da4-a45d-306b3b3972f2" y="1035" clip-path="url(#clipPath450)" fill="white" font-family="'Cantarell'" stroke="none" xml:space="preserve">.</text>
-            <text x="1407" diagram:semanticTargetId="87aa6d43-895d-4da4-a45d-306b3b3972f2" y="1089" clip-path="url(#clipPath451)" fill="white" font-family="'Cantarell'" stroke="none" xml:space="preserve">.</text>
+            <text x="1501" xml:space="preserve" y="1072" clip-path="url(#clipPath449)" diagram:semanticTargetId="75bb4c73-e27b-4e27-bc4a-8b0b0d551f65" stroke="none">Energy</text>
+            <text x="1508" diagram:semanticTargetId="75bb4c73-e27b-4e27-bc4a-8b0b0d551f65" y="1199" clip-path="url(#clipPath450)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="1545" diagram:semanticTargetId="75bb4c73-e27b-4e27-bc4a-8b0b0d551f65" y="996" clip-path="url(#clipPath451)" fill="white" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="46756771-6803-4702-a686-14c096885e7b" clip-path="url(#clipPath375)" fill="none" x1="1782" x2="1782" y1="511" y2="540"/>
             <image x="1711" y="508" diagram:semanticTargetId="46756771-6803-4702-a686-14c096885e7b" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
             <text x="1730" xml:space="preserve" y="520" clip-path="url(#clipPath453)" diagram:semanticTargetId="46756771-6803-4702-a686-14c096885e7b" stroke="none">Start singal</text>
@@ -713,18 +713,18 @@
             <text x="1784" diagram:semanticTargetId="909107c0-c9fa-48cf-88e1-cdd943a7cb82" y="723" clip-path="url(#clipPath465)" font-family="'Cantarell'" stroke="none" xml:space="preserve">Data</text>
             <text x="1793" diagram:semanticTargetId="909107c0-c9fa-48cf-88e1-cdd943a7cb82" y="729" clip-path="url(#clipPath466)" fill="white" font-family="'Cantarell'" stroke="none" xml:space="preserve">.</text>
             <text x="1763" diagram:semanticTargetId="909107c0-c9fa-48cf-88e1-cdd943a7cb82" y="730" clip-path="url(#clipPath467)" fill="white" font-family="'Cantarell'" stroke="none" xml:space="preserve">.</text>
+            <line diagram:semanticTargetId="4e0df3bf-ccc0-462f-9d8d-dad69d049fba" clip-path="url(#clipPath375)" fill="none" x1="1097" x2="1097" y1="1145" y2="1120"/>
+            <image diagram:semanticTargetId="4e0df3bf-ccc0-462f-9d8d-dad69d049fba" width="16" xlink:show="embed" xlink:type="simple" preserveAspectRatio="none" height="16" font-family="'Cantarell'" x="1099" y="1128" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:actuate="onLoad"/>
+            <text x="1118" diagram:semanticTargetId="4e0df3bf-ccc0-462f-9d8d-dad69d049fba" y="1139" clip-path="url(#clipPath469)" font-family="'Cantarell'" stroke="none" xml:space="preserve">Start Signal</text>
+            <text x="1096" diagram:semanticTargetId="4e0df3bf-ccc0-462f-9d8d-dad69d049fba" y="1155" clip-path="url(#clipPath470)" fill="white" font-family="'Cantarell'" stroke="none" xml:space="preserve">.</text>
+            <text x="1086" diagram:semanticTargetId="4e0df3bf-ccc0-462f-9d8d-dad69d049fba" y="1130" clip-path="url(#clipPath471)" fill="white" font-family="'Cantarell'" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="a0fc7340-8b44-40f2-8e83-0c780bd248be" clip-path="url(#clipPath375)" fill="none" x1="1060" x2="1001" y1="1163" y2="1163"/>
             <line diagram:semanticTargetId="a0fc7340-8b44-40f2-8e83-0c780bd248be" clip-path="url(#clipPath375)" fill="none" x1="1001" x2="1001" y1="1163" y2="1003"/>
             <line diagram:semanticTargetId="a0fc7340-8b44-40f2-8e83-0c780bd248be" clip-path="url(#clipPath375)" fill="none" x1="1001" x2="1060" y1="1003" y2="1003"/>
             <image diagram:semanticTargetId="a0fc7340-8b44-40f2-8e83-0c780bd248be" width="16" xlink:show="embed" xlink:type="simple" preserveAspectRatio="none" height="16" font-family="'Cantarell'" x="992" y="1027" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:actuate="onLoad"/>
-            <text x="1011" diagram:semanticTargetId="a0fc7340-8b44-40f2-8e83-0c780bd248be" y="1038" clip-path="url(#clipPath469)" font-family="'Cantarell'" stroke="none" xml:space="preserve">Start Signal</text>
-            <text x="1006" diagram:semanticTargetId="a0fc7340-8b44-40f2-8e83-0c780bd248be" y="1176" clip-path="url(#clipPath470)" fill="white" font-family="'Cantarell'" stroke="none" xml:space="preserve">.</text>
-            <text x="1026" diagram:semanticTargetId="a0fc7340-8b44-40f2-8e83-0c780bd248be" y="1015" clip-path="url(#clipPath471)" fill="white" font-family="'Cantarell'" stroke="none" xml:space="preserve">.</text>
-            <line diagram:semanticTargetId="4e0df3bf-ccc0-462f-9d8d-dad69d049fba" clip-path="url(#clipPath375)" fill="none" x1="1097" x2="1097" y1="1145" y2="1120"/>
-            <image diagram:semanticTargetId="4e0df3bf-ccc0-462f-9d8d-dad69d049fba" width="16" xlink:show="embed" xlink:type="simple" preserveAspectRatio="none" height="16" font-family="'Cantarell'" x="1099" y="1128" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:actuate="onLoad"/>
-            <text x="1118" diagram:semanticTargetId="4e0df3bf-ccc0-462f-9d8d-dad69d049fba" y="1139" clip-path="url(#clipPath473)" font-family="'Cantarell'" stroke="none" xml:space="preserve">Start Signal</text>
-            <text x="1096" diagram:semanticTargetId="4e0df3bf-ccc0-462f-9d8d-dad69d049fba" y="1155" clip-path="url(#clipPath474)" fill="white" font-family="'Cantarell'" stroke="none" xml:space="preserve">.</text>
-            <text x="1086" diagram:semanticTargetId="4e0df3bf-ccc0-462f-9d8d-dad69d049fba" y="1130" clip-path="url(#clipPath475)" fill="white" font-family="'Cantarell'" stroke="none" xml:space="preserve">.</text>
+            <text x="1011" diagram:semanticTargetId="a0fc7340-8b44-40f2-8e83-0c780bd248be" y="1038" clip-path="url(#clipPath473)" font-family="'Cantarell'" stroke="none" xml:space="preserve">Start Signal</text>
+            <text x="1006" diagram:semanticTargetId="a0fc7340-8b44-40f2-8e83-0c780bd248be" y="1176" clip-path="url(#clipPath474)" fill="white" font-family="'Cantarell'" stroke="none" xml:space="preserve">.</text>
+            <text x="1026" diagram:semanticTargetId="a0fc7340-8b44-40f2-8e83-0c780bd248be" y="1015" clip-path="url(#clipPath475)" fill="white" font-family="'Cantarell'" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="a5f490b1-0c05-4afd-8f79-c1dee5d2bcfd" clip-path="url(#clipPath375)" fill="none" x1="1844" x2="1903" y1="1195" y2="1195"/>
             <line diagram:semanticTargetId="a5f490b1-0c05-4afd-8f79-c1dee5d2bcfd" clip-path="url(#clipPath375)" fill="none" x1="1903" x2="1903" y1="1195" y2="1045"/>
             <line diagram:semanticTargetId="a5f490b1-0c05-4afd-8f79-c1dee5d2bcfd" clip-path="url(#clipPath375)" fill="none" x1="1903" x2="1840" y1="1045" y2="1045"/>
@@ -742,84 +742,84 @@
             <text x="496" diagram:semanticTargetId="207a1ec9-3409-413e-8e84-507347bc4e1a" y="329" clip-path="url(#clipPath419)" fill="white" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="10fd433e-673d-4fba-90db-140797fa5d80" clip-path="url(#clipPath375)" fill="none" x1="218" x2="218" y1="101" y2="128"/>
             <image x="105" y="110" diagram:semanticTargetId="10fd433e-673d-4fba-90db-140797fa5d80" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="124" xml:space="preserve" y="122" clip-path="url(#clipPath389)" diagram:semanticTargetId="10fd433e-673d-4fba-90db-140797fa5d80" stroke="none">'launched' signal</text>
-            <text x="207" diagram:semanticTargetId="10fd433e-673d-4fba-90db-140797fa5d80" y="109" clip-path="url(#clipPath390)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="207" diagram:semanticTargetId="10fd433e-673d-4fba-90db-140797fa5d80" y="127" clip-path="url(#clipPath391)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="124" xml:space="preserve" y="122" clip-path="url(#clipPath401)" diagram:semanticTargetId="10fd433e-673d-4fba-90db-140797fa5d80" stroke="none">'launched' signal</text>
+            <text x="207" diagram:semanticTargetId="10fd433e-673d-4fba-90db-140797fa5d80" y="109" clip-path="url(#clipPath402)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="207" diagram:semanticTargetId="10fd433e-673d-4fba-90db-140797fa5d80" y="127" clip-path="url(#clipPath403)" fill="white" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="d008053e-7e56-434b-b100-2eda1016609a" clip-path="url(#clipPath375)" fill="none" x1="317" x2="472" y1="170" y2="170"/>
             <line diagram:semanticTargetId="d008053e-7e56-434b-b100-2eda1016609a" clip-path="url(#clipPath375)" fill="none" x1="472" x2="472" y1="170" y2="245"/>
             <line diagram:semanticTargetId="d008053e-7e56-434b-b100-2eda1016609a" clip-path="url(#clipPath375)" fill="none" x1="472" x2="472" y1="255" y2="335"/>
             <line diagram:semanticTargetId="d008053e-7e56-434b-b100-2eda1016609a" clip-path="url(#clipPath375)" fill="none" x1="472" x2="511" y1="335" y2="335"/>
             <image x="343" y="152" diagram:semanticTargetId="d008053e-7e56-434b-b100-2eda1016609a" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="362" xml:space="preserve" y="164" clip-path="url(#clipPath393)" diagram:semanticTargetId="d008053e-7e56-434b-b100-2eda1016609a" stroke="none">Manauver Data</text>
-            <text x="384" diagram:semanticTargetId="d008053e-7e56-434b-b100-2eda1016609a" y="184" clip-path="url(#clipPath394)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="497" diagram:semanticTargetId="d008053e-7e56-434b-b100-2eda1016609a" y="349" clip-path="url(#clipPath395)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="362" xml:space="preserve" y="164" clip-path="url(#clipPath381)" diagram:semanticTargetId="d008053e-7e56-434b-b100-2eda1016609a" stroke="none">Manauver Data</text>
+            <text x="384" diagram:semanticTargetId="d008053e-7e56-434b-b100-2eda1016609a" y="184" clip-path="url(#clipPath382)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="497" diagram:semanticTargetId="d008053e-7e56-434b-b100-2eda1016609a" y="349" clip-path="url(#clipPath383)" fill="white" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="37d04231-f029-4c04-a3de-0fd444f4f29e" clip-path="url(#clipPath375)" fill="none" x1="213" x2="112" y1="187" y2="187"/>
             <line diagram:semanticTargetId="37d04231-f029-4c04-a3de-0fd444f4f29e" clip-path="url(#clipPath375)" fill="none" x1="112" x2="112" y1="187" y2="373"/>
             <line diagram:semanticTargetId="37d04231-f029-4c04-a3de-0fd444f4f29e" clip-path="url(#clipPath375)" fill="none" x1="112" x2="167" y1="373" y2="373"/>
             <line diagram:semanticTargetId="37d04231-f029-4c04-a3de-0fd444f4f29e" clip-path="url(#clipPath375)" fill="none" x1="177" x2="212" y1="373" y2="373"/>
             <image x="13" y="159" diagram:semanticTargetId="37d04231-f029-4c04-a3de-0fd444f4f29e" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="32" xml:space="preserve" y="171" clip-path="url(#clipPath425)" diagram:semanticTargetId="37d04231-f029-4c04-a3de-0fd444f4f29e" stroke="none">'in orbit around Kerbin' signal</text>
-            <text x="166" diagram:semanticTargetId="37d04231-f029-4c04-a3de-0fd444f4f29e" y="201" clip-path="url(#clipPath426)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="152" diagram:semanticTargetId="37d04231-f029-4c04-a3de-0fd444f4f29e" y="387" clip-path="url(#clipPath427)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="32" xml:space="preserve" y="171" clip-path="url(#clipPath377)" diagram:semanticTargetId="37d04231-f029-4c04-a3de-0fd444f4f29e" stroke="none">'in orbit around Kerbin' signal</text>
+            <text x="166" diagram:semanticTargetId="37d04231-f029-4c04-a3de-0fd444f4f29e" y="201" clip-path="url(#clipPath378)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="152" diagram:semanticTargetId="37d04231-f029-4c04-a3de-0fd444f4f29e" y="387" clip-path="url(#clipPath379)" fill="white" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="d59488c7-37d1-4577-bac4-375e3464891a" clip-path="url(#clipPath375)" fill="none" x1="267" x2="463" y1="235" y2="235"/>
             <line diagram:semanticTargetId="d59488c7-37d1-4577-bac4-375e3464891a" clip-path="url(#clipPath375)" fill="none" x1="463" x2="463" y1="235" y2="245"/>
             <line diagram:semanticTargetId="d59488c7-37d1-4577-bac4-375e3464891a" clip-path="url(#clipPath375)" fill="none" x1="463" x2="463" y1="255" y2="355"/>
             <line diagram:semanticTargetId="d59488c7-37d1-4577-bac4-375e3464891a" clip-path="url(#clipPath375)" fill="none" x1="463" x2="511" y1="355" y2="355"/>
             <image x="274" y="220" diagram:semanticTargetId="d59488c7-37d1-4577-bac4-375e3464891a" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="293" xml:space="preserve" y="232" clip-path="url(#clipPath421)" diagram:semanticTargetId="d59488c7-37d1-4577-bac4-375e3464891a" stroke="none">Manauver Data</text>
-            <text x="337" diagram:semanticTargetId="d59488c7-37d1-4577-bac4-375e3464891a" y="247" clip-path="url(#clipPath422)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="495" diagram:semanticTargetId="d59488c7-37d1-4577-bac4-375e3464891a" y="369" clip-path="url(#clipPath423)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="293" xml:space="preserve" y="232" clip-path="url(#clipPath385)" diagram:semanticTargetId="d59488c7-37d1-4577-bac4-375e3464891a" stroke="none">Manauver Data</text>
+            <text x="337" diagram:semanticTargetId="d59488c7-37d1-4577-bac4-375e3464891a" y="247" clip-path="url(#clipPath386)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="495" diagram:semanticTargetId="d59488c7-37d1-4577-bac4-375e3464891a" y="369" clip-path="url(#clipPath387)" fill="white" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="da83060d-d1f9-4ec1-99ea-2baa0a93090c" clip-path="url(#clipPath375)" fill="none" x1="561" x2="338" y1="595" y2="595"/>
             <image x="383" y="576" diagram:semanticTargetId="da83060d-d1f9-4ec1-99ea-2baa0a93090c" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="402" xml:space="preserve" y="588" clip-path="url(#clipPath405)" diagram:semanticTargetId="da83060d-d1f9-4ec1-99ea-2baa0a93090c" stroke="none">'all sateliets Deployed' signal</text>
-            <text x="515" diagram:semanticTargetId="da83060d-d1f9-4ec1-99ea-2baa0a93090c" y="592" clip-path="url(#clipPath406)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="357" diagram:semanticTargetId="da83060d-d1f9-4ec1-99ea-2baa0a93090c" y="595" clip-path="url(#clipPath407)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="402" xml:space="preserve" y="588" clip-path="url(#clipPath421)" diagram:semanticTargetId="da83060d-d1f9-4ec1-99ea-2baa0a93090c" stroke="none">'all sateliets Deployed' signal</text>
+            <text x="515" diagram:semanticTargetId="da83060d-d1f9-4ec1-99ea-2baa0a93090c" y="592" clip-path="url(#clipPath422)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="357" diagram:semanticTargetId="da83060d-d1f9-4ec1-99ea-2baa0a93090c" y="595" clip-path="url(#clipPath423)" fill="white" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="57aab58b-55d7-4c77-87a5-60ac2d5857f3" clip-path="url(#clipPath375)" fill="none" x1="319" x2="511" y1="395" y2="395"/>
             <image x="317" y="380" diagram:semanticTargetId="57aab58b-55d7-4c77-87a5-60ac2d5857f3" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="336" xml:space="preserve" y="392" clip-path="url(#clipPath409)" diagram:semanticTargetId="57aab58b-55d7-4c77-87a5-60ac2d5857f3" stroke="none">Manauver Data</text>
-            <text x="340" diagram:semanticTargetId="57aab58b-55d7-4c77-87a5-60ac2d5857f3" y="389" clip-path="url(#clipPath410)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="475" diagram:semanticTargetId="57aab58b-55d7-4c77-87a5-60ac2d5857f3" y="392" clip-path="url(#clipPath411)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="336" xml:space="preserve" y="392" clip-path="url(#clipPath425)" diagram:semanticTargetId="57aab58b-55d7-4c77-87a5-60ac2d5857f3" stroke="none">Manauver Data</text>
+            <text x="340" diagram:semanticTargetId="57aab58b-55d7-4c77-87a5-60ac2d5857f3" y="389" clip-path="url(#clipPath426)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="475" diagram:semanticTargetId="57aab58b-55d7-4c77-87a5-60ac2d5857f3" y="392" clip-path="url(#clipPath427)" fill="white" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="096188cf-db7d-4f95-9956-8ce1ebe9c80a" clip-path="url(#clipPath375)" fill="none" x1="268" x2="268" y1="421" y2="472"/>
             <image x="276" y="435" diagram:semanticTargetId="096188cf-db7d-4f95-9956-8ce1ebe9c80a" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="295" xml:space="preserve" y="447" clip-path="url(#clipPath377)" diagram:semanticTargetId="096188cf-db7d-4f95-9956-8ce1ebe9c80a" stroke="none">'transfering to mun' signal</text>
-            <text x="259" diagram:semanticTargetId="096188cf-db7d-4f95-9956-8ce1ebe9c80a" y="437" clip-path="url(#clipPath378)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="257" diagram:semanticTargetId="096188cf-db7d-4f95-9956-8ce1ebe9c80a" y="471" clip-path="url(#clipPath379)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="295" xml:space="preserve" y="447" clip-path="url(#clipPath413)" diagram:semanticTargetId="096188cf-db7d-4f95-9956-8ce1ebe9c80a" stroke="none">'transfering to mun' signal</text>
+            <text x="259" diagram:semanticTargetId="096188cf-db7d-4f95-9956-8ce1ebe9c80a" y="437" clip-path="url(#clipPath414)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="257" diagram:semanticTargetId="096188cf-db7d-4f95-9956-8ce1ebe9c80a" y="471" clip-path="url(#clipPath415)" fill="white" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="23d4d278-e0e7-4aee-91fa-233a6ad133ea" clip-path="url(#clipPath375)" fill="none" x1="293" x2="483" y1="485" y2="485"/>
             <line diagram:semanticTargetId="23d4d278-e0e7-4aee-91fa-233a6ad133ea" clip-path="url(#clipPath375)" fill="none" x1="483" x2="483" y1="485" y2="415"/>
             <line diagram:semanticTargetId="23d4d278-e0e7-4aee-91fa-233a6ad133ea" clip-path="url(#clipPath375)" fill="none" x1="483" x2="511" y1="415" y2="415"/>
             <image x="303" y="470" diagram:semanticTargetId="23d4d278-e0e7-4aee-91fa-233a6ad133ea" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="322" xml:space="preserve" y="482" clip-path="url(#clipPath401)" diagram:semanticTargetId="23d4d278-e0e7-4aee-91fa-233a6ad133ea" stroke="none">Manauver Data</text>
-            <text x="354" diagram:semanticTargetId="23d4d278-e0e7-4aee-91fa-233a6ad133ea" y="499" clip-path="url(#clipPath402)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="490" diagram:semanticTargetId="23d4d278-e0e7-4aee-91fa-233a6ad133ea" y="428" clip-path="url(#clipPath403)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="322" xml:space="preserve" y="482" clip-path="url(#clipPath405)" diagram:semanticTargetId="23d4d278-e0e7-4aee-91fa-233a6ad133ea" stroke="none">Manauver Data</text>
+            <text x="354" diagram:semanticTargetId="23d4d278-e0e7-4aee-91fa-233a6ad133ea" y="499" clip-path="url(#clipPath406)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="490" diagram:semanticTargetId="23d4d278-e0e7-4aee-91fa-233a6ad133ea" y="428" clip-path="url(#clipPath407)" fill="white" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="1390cacc-d223-41ce-a455-bf8e989d1a03" clip-path="url(#clipPath375)" fill="none" x1="293" x2="487" y1="515" y2="515"/>
             <line diagram:semanticTargetId="1390cacc-d223-41ce-a455-bf8e989d1a03" clip-path="url(#clipPath375)" fill="none" x1="497" x2="512" y1="515" y2="515"/>
             <line diagram:semanticTargetId="1390cacc-d223-41ce-a455-bf8e989d1a03" clip-path="url(#clipPath375)" fill="none" x1="512" x2="512" y1="515" y2="569"/>
             <line diagram:semanticTargetId="1390cacc-d223-41ce-a455-bf8e989d1a03" clip-path="url(#clipPath375)" fill="none" x1="512" x2="561" y1="569" y2="569"/>
             <image x="303" y="500" diagram:semanticTargetId="1390cacc-d223-41ce-a455-bf8e989d1a03" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="322" xml:space="preserve" y="512" clip-path="url(#clipPath385)" diagram:semanticTargetId="1390cacc-d223-41ce-a455-bf8e989d1a03" stroke="none">'in orbite around mun' signal</text>
-            <text x="364" diagram:semanticTargetId="1390cacc-d223-41ce-a455-bf8e989d1a03" y="529" clip-path="url(#clipPath386)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="544" diagram:semanticTargetId="1390cacc-d223-41ce-a455-bf8e989d1a03" y="583" clip-path="url(#clipPath387)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="322" xml:space="preserve" y="512" clip-path="url(#clipPath397)" diagram:semanticTargetId="1390cacc-d223-41ce-a455-bf8e989d1a03" stroke="none">'in orbite around mun' signal</text>
+            <text x="364" diagram:semanticTargetId="1390cacc-d223-41ce-a455-bf8e989d1a03" y="529" clip-path="url(#clipPath398)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="544" diagram:semanticTargetId="1390cacc-d223-41ce-a455-bf8e989d1a03" y="583" clip-path="url(#clipPath399)" fill="white" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="cf64c0aa-43b7-48bd-85b6-e803f9dd14f5" clip-path="url(#clipPath375)" fill="none" x1="338" x2="492" y1="565" y2="565"/>
             <line diagram:semanticTargetId="cf64c0aa-43b7-48bd-85b6-e803f9dd14f5" clip-path="url(#clipPath375)" fill="none" x1="492" x2="492" y1="565" y2="435"/>
             <line diagram:semanticTargetId="cf64c0aa-43b7-48bd-85b6-e803f9dd14f5" clip-path="url(#clipPath375)" fill="none" x1="492" x2="511" y1="435" y2="435"/>
             <image x="353" y="550" diagram:semanticTargetId="cf64c0aa-43b7-48bd-85b6-e803f9dd14f5" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="372" xml:space="preserve" y="562" clip-path="url(#clipPath381)" diagram:semanticTargetId="cf64c0aa-43b7-48bd-85b6-e803f9dd14f5" stroke="none">Manauver Data</text>
-            <text x="398" diagram:semanticTargetId="cf64c0aa-43b7-48bd-85b6-e803f9dd14f5" y="579" clip-path="url(#clipPath382)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="503" diagram:semanticTargetId="cf64c0aa-43b7-48bd-85b6-e803f9dd14f5" y="448" clip-path="url(#clipPath383)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="372" xml:space="preserve" y="562" clip-path="url(#clipPath409)" diagram:semanticTargetId="cf64c0aa-43b7-48bd-85b6-e803f9dd14f5" stroke="none">Manauver Data</text>
+            <text x="398" diagram:semanticTargetId="cf64c0aa-43b7-48bd-85b6-e803f9dd14f5" y="579" clip-path="url(#clipPath410)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="503" diagram:semanticTargetId="cf64c0aa-43b7-48bd-85b6-e803f9dd14f5" y="448" clip-path="url(#clipPath411)" fill="white" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="9268a6a3-837c-4d83-9e08-c3b5428c2d78" clip-path="url(#clipPath375)" fill="none" x1="201" x2="172" y1="575" y2="575"/>
             <line diagram:semanticTargetId="9268a6a3-837c-4d83-9e08-c3b5428c2d78" clip-path="url(#clipPath375)" fill="none" x1="172" x2="172" y1="575" y2="235"/>
             <line diagram:semanticTargetId="9268a6a3-837c-4d83-9e08-c3b5428c2d78" clip-path="url(#clipPath375)" fill="none" x1="172" x2="201" y1="235" y2="235"/>
             <image x="33" y="440" diagram:semanticTargetId="9268a6a3-837c-4d83-9e08-c3b5428c2d78" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="52" xml:space="preserve" y="452" clip-path="url(#clipPath413)" diagram:semanticTargetId="9268a6a3-837c-4d83-9e08-c3b5428c2d78" stroke="none">'ready to land' signal</text>
-            <text x="183" diagram:semanticTargetId="9268a6a3-837c-4d83-9e08-c3b5428c2d78" y="579" clip-path="url(#clipPath414)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="171" diagram:semanticTargetId="9268a6a3-837c-4d83-9e08-c3b5428c2d78" y="280" clip-path="url(#clipPath415)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="52" xml:space="preserve" y="452" clip-path="url(#clipPath389)" diagram:semanticTargetId="9268a6a3-837c-4d83-9e08-c3b5428c2d78" stroke="none">'ready to land' signal</text>
+            <text x="183" diagram:semanticTargetId="9268a6a3-837c-4d83-9e08-c3b5428c2d78" y="579" clip-path="url(#clipPath390)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="171" diagram:semanticTargetId="9268a6a3-837c-4d83-9e08-c3b5428c2d78" y="280" clip-path="url(#clipPath391)" fill="white" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="f3c5deee-dd79-4d97-b5b9-079788cd948c" clip-path="url(#clipPath375)" fill="none" x1="315" x2="452" y1="303" y2="303"/>
             <line diagram:semanticTargetId="f3c5deee-dd79-4d97-b5b9-079788cd948c" clip-path="url(#clipPath375)" fill="none" x1="452" x2="452" y1="303" y2="375"/>
             <line diagram:semanticTargetId="f3c5deee-dd79-4d97-b5b9-079788cd948c" clip-path="url(#clipPath375)" fill="none" x1="452" x2="511" y1="375" y2="375"/>
             <image x="336" y="307" diagram:semanticTargetId="f3c5deee-dd79-4d97-b5b9-079788cd948c" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="355" xml:space="preserve" y="319" clip-path="url(#clipPath397)" diagram:semanticTargetId="f3c5deee-dd79-4d97-b5b9-079788cd948c" stroke="none">Manauver Data</text>
-            <text x="384" diagram:semanticTargetId="f3c5deee-dd79-4d97-b5b9-079788cd948c" y="307" clip-path="url(#clipPath398)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="484" diagram:semanticTargetId="f3c5deee-dd79-4d97-b5b9-079788cd948c" y="382" clip-path="url(#clipPath399)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="355" xml:space="preserve" y="319" clip-path="url(#clipPath393)" diagram:semanticTargetId="f3c5deee-dd79-4d97-b5b9-079788cd948c" stroke="none">Manauver Data</text>
+            <text x="384" diagram:semanticTargetId="f3c5deee-dd79-4d97-b5b9-079788cd948c" y="307" clip-path="url(#clipPath394)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="484" diagram:semanticTargetId="f3c5deee-dd79-4d97-b5b9-079788cd948c" y="382" clip-path="url(#clipPath395)" fill="white" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="6dce9aeb-a923-4a73-9fec-b71301e11c16" clip-path="url(#clipPath375)" fill="none" x1="588" x2="588" y1="298" y2="255"/>
             <line diagram:semanticTargetId="6dce9aeb-a923-4a73-9fec-b71301e11c16" clip-path="url(#clipPath375)" fill="none" x1="588" x2="588" y1="245" y2="151"/>
             <line diagram:semanticTargetId="6dce9aeb-a923-4a73-9fec-b71301e11c16" clip-path="url(#clipPath375)" fill="none" x1="588" x2="1031" y1="151" y2="151"/>
@@ -846,14 +846,14 @@
             <line diagram:semanticTargetId="437b26eb-8fbc-4d72-92cb-8f3cdb594fb2" clip-path="url(#clipPath375)" fill="none" x1="1003" x2="1003" y1="467" y2="651"/>
             <line diagram:semanticTargetId="437b26eb-8fbc-4d72-92cb-8f3cdb594fb2" clip-path="url(#clipPath375)" fill="none" x1="1003" x2="1061" y1="651" y2="651"/>
             <image x="1003" y="530" diagram:semanticTargetId="437b26eb-8fbc-4d72-92cb-8f3cdb594fb2" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="1022" xml:space="preserve" y="542" clip-path="url(#clipPath433)" diagram:semanticTargetId="437b26eb-8fbc-4d72-92cb-8f3cdb594fb2" stroke="none">Energy</text>
-            <text x="1026" diagram:semanticTargetId="437b26eb-8fbc-4d72-92cb-8f3cdb594fb2" y="481" clip-path="url(#clipPath434)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="1021" diagram:semanticTargetId="437b26eb-8fbc-4d72-92cb-8f3cdb594fb2" y="665" clip-path="url(#clipPath435)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="1022" xml:space="preserve" y="542" clip-path="url(#clipPath437)" diagram:semanticTargetId="437b26eb-8fbc-4d72-92cb-8f3cdb594fb2" stroke="none">Energy</text>
+            <text x="1026" diagram:semanticTargetId="437b26eb-8fbc-4d72-92cb-8f3cdb594fb2" y="481" clip-path="url(#clipPath438)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="1021" diagram:semanticTargetId="437b26eb-8fbc-4d72-92cb-8f3cdb594fb2" y="665" clip-path="url(#clipPath439)" fill="white" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="30923545-eb7b-4a11-9505-fd9b05833d26" clip-path="url(#clipPath375)" fill="none" x1="1201" x2="1201" y1="503" y2="558" stroke="rgb(239,41,41)"/>
             <image diagram:semanticTargetId="30923545-eb7b-4a11-9505-fd9b05833d26" stroke="rgb(239,41,41)" width="16" xlink:show="embed" xlink:type="simple" fill="rgb(239,41,41)" preserveAspectRatio="none" height="16" x="1190" y="525" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAd0lEQVR4XmNgGBbg&#10;PwwHBAeAaHwArhYJM/z//x+CQWxVbWWchoAsgKmFqQeJwwVACth4WNBtwMA4DQBh&#10;kAHfuLhwYpALk4picRsADQcMjcgYpgerARS5AGY7IYwzDEBsfLHQ0NCA4loGmAEw&#10;TGo64JfgJaR+RAAAvNnS9zAJoI8AAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
-            <text x="1209" diagram:semanticTargetId="30923545-eb7b-4a11-9505-fd9b05833d26" y="537" clip-path="url(#clipPath437)" fill="rgb(239,41,41)" stroke="none" xml:space="preserve">Energy</text>
-            <text x="1201" diagram:semanticTargetId="30923545-eb7b-4a11-9505-fd9b05833d26" y="509" clip-path="url(#clipPath438)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="1200" diagram:semanticTargetId="30923545-eb7b-4a11-9505-fd9b05833d26" y="548" clip-path="url(#clipPath439)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="1209" diagram:semanticTargetId="30923545-eb7b-4a11-9505-fd9b05833d26" y="537" clip-path="url(#clipPath433)" fill="rgb(239,41,41)" stroke="none" xml:space="preserve">Energy</text>
+            <text x="1201" diagram:semanticTargetId="30923545-eb7b-4a11-9505-fd9b05833d26" y="509" clip-path="url(#clipPath434)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="1200" diagram:semanticTargetId="30923545-eb7b-4a11-9505-fd9b05833d26" y="548" clip-path="url(#clipPath435)" fill="white" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="60d41acf-2930-4b8e-b88c-de9c0f1acc46" clip-path="url(#clipPath375)" fill="none" x1="1229" x2="1229" y1="308" y2="304" stroke="rgb(239,41,41)"/>
             <line diagram:semanticTargetId="60d41acf-2930-4b8e-b88c-de9c0f1acc46" clip-path="url(#clipPath375)" fill="none" x1="1229" x2="1229" y1="294" y2="252" stroke="rgb(239,41,41)"/>
             <image diagram:semanticTargetId="60d41acf-2930-4b8e-b88c-de9c0f1acc46" stroke="rgb(239,41,41)" width="16" xlink:show="embed" xlink:type="simple" fill="rgb(239,41,41)" preserveAspectRatio="none" height="16" x="1199" y="263" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAd0lEQVR4XmNgGBbg&#10;PwwHBAeAaHwArhYJM/z//x+CQWxVbWWchoAsgKmFqQeJwwVACth4WNBtwMA4DQBh&#10;kAHfuLhwYpALk4picRsADQcMjcgYpgerARS5AGY7IYwzDEBsfLHQ0NCA4loGmAEw&#10;TGo64JfgJaR+RAAAvNnS9zAJoI8AAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
@@ -898,9 +898,9 @@
             <line diagram:semanticTargetId="75bb4c73-e27b-4e27-bc4a-8b0b0d551f65" clip-path="url(#clipPath375)" fill="none" x1="1552" x2="1552" y1="1185" y2="993"/>
             <line diagram:semanticTargetId="75bb4c73-e27b-4e27-bc4a-8b0b0d551f65" clip-path="url(#clipPath375)" fill="none" x1="1552" x2="1483" y1="993" y2="993"/>
             <image x="1482" y="1060" diagram:semanticTargetId="75bb4c73-e27b-4e27-bc4a-8b0b0d551f65" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="1501" xml:space="preserve" y="1072" clip-path="url(#clipPath445)" diagram:semanticTargetId="75bb4c73-e27b-4e27-bc4a-8b0b0d551f65" stroke="none">Energy</text>
-            <text x="1508" diagram:semanticTargetId="75bb4c73-e27b-4e27-bc4a-8b0b0d551f65" y="1199" clip-path="url(#clipPath446)" fill="white" stroke="none" xml:space="preserve">.</text>
-            <text x="1545" diagram:semanticTargetId="75bb4c73-e27b-4e27-bc4a-8b0b0d551f65" y="996" clip-path="url(#clipPath447)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="1501" xml:space="preserve" y="1072" clip-path="url(#clipPath449)" diagram:semanticTargetId="75bb4c73-e27b-4e27-bc4a-8b0b0d551f65" stroke="none">Energy</text>
+            <text x="1508" diagram:semanticTargetId="75bb4c73-e27b-4e27-bc4a-8b0b0d551f65" y="1199" clip-path="url(#clipPath450)" fill="white" stroke="none" xml:space="preserve">.</text>
+            <text x="1545" diagram:semanticTargetId="75bb4c73-e27b-4e27-bc4a-8b0b0d551f65" y="996" clip-path="url(#clipPath451)" fill="white" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="9381aa98-2f31-47a0-bdf0-3036601cd22a" clip-path="url(#clipPath375)" fill="none" x1="1246" x2="1297" y1="696" y2="696" stroke="rgb(239,41,41)"/>
             <line diagram:semanticTargetId="9381aa98-2f31-47a0-bdf0-3036601cd22a" clip-path="url(#clipPath375)" fill="none" x1="1297" x2="1297" y1="696" y2="730" stroke="rgb(239,41,41)"/>
             <line diagram:semanticTargetId="9381aa98-2f31-47a0-bdf0-3036601cd22a" clip-path="url(#clipPath375)" fill="none" x1="1297" x2="1297" y1="740" y2="858" stroke="rgb(239,41,41)"/>
@@ -959,14 +959,14 @@
             <line diagram:semanticTargetId="a0fc7340-8b44-40f2-8e83-0c780bd248be" clip-path="url(#clipPath375)" fill="none" x1="1001" x2="1001" y1="1163" y2="1003"/>
             <line diagram:semanticTargetId="a0fc7340-8b44-40f2-8e83-0c780bd248be" clip-path="url(#clipPath375)" fill="none" x1="1001" x2="1060" y1="1003" y2="1003"/>
             <image diagram:semanticTargetId="a0fc7340-8b44-40f2-8e83-0c780bd248be" width="16" xlink:show="embed" xlink:type="simple" preserveAspectRatio="none" height="16" font-family="'Cantarell'" x="992" y="1027" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:actuate="onLoad"/>
-            <text x="1011" diagram:semanticTargetId="a0fc7340-8b44-40f2-8e83-0c780bd248be" y="1038" clip-path="url(#clipPath469)" font-family="'Cantarell'" stroke="none" xml:space="preserve">Start Signal</text>
-            <text x="1006" diagram:semanticTargetId="a0fc7340-8b44-40f2-8e83-0c780bd248be" y="1176" clip-path="url(#clipPath470)" fill="white" font-family="'Cantarell'" stroke="none" xml:space="preserve">.</text>
-            <text x="1026" diagram:semanticTargetId="a0fc7340-8b44-40f2-8e83-0c780bd248be" y="1015" clip-path="url(#clipPath471)" fill="white" font-family="'Cantarell'" stroke="none" xml:space="preserve">.</text>
+            <text x="1011" diagram:semanticTargetId="a0fc7340-8b44-40f2-8e83-0c780bd248be" y="1038" clip-path="url(#clipPath473)" font-family="'Cantarell'" stroke="none" xml:space="preserve">Start Signal</text>
+            <text x="1006" diagram:semanticTargetId="a0fc7340-8b44-40f2-8e83-0c780bd248be" y="1176" clip-path="url(#clipPath474)" fill="white" font-family="'Cantarell'" stroke="none" xml:space="preserve">.</text>
+            <text x="1026" diagram:semanticTargetId="a0fc7340-8b44-40f2-8e83-0c780bd248be" y="1015" clip-path="url(#clipPath475)" fill="white" font-family="'Cantarell'" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="4e0df3bf-ccc0-462f-9d8d-dad69d049fba" clip-path="url(#clipPath375)" fill="none" x1="1097" x2="1097" y1="1145" y2="1120"/>
             <image diagram:semanticTargetId="4e0df3bf-ccc0-462f-9d8d-dad69d049fba" width="16" xlink:show="embed" xlink:type="simple" preserveAspectRatio="none" height="16" font-family="'Cantarell'" x="1099" y="1128" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR4XmNgGBbg&#10;PzIOCA4A0dgAijokzPC//lje/7lXJv7fcGcZWFBVWxnDEJDBN95e/r/n4Wawusnn&#10;WzENAEmCFLLxsPyXMBDGwCC1u89vw28ASAHIgMTDPhgY5LKkolj8BsBcARJHNwCE&#10;QeJ4DaDYBTDbcWGCYQDiY4uFhoYG3LGAjElJB/wSvLjUjigAAMUk/IRD6yXQAAAA&#10;AElFTkSuQmCC" xlink:actuate="onLoad"/>
-            <text x="1118" diagram:semanticTargetId="4e0df3bf-ccc0-462f-9d8d-dad69d049fba" y="1139" clip-path="url(#clipPath473)" font-family="'Cantarell'" stroke="none" xml:space="preserve">Start Signal</text>
-            <text x="1096" diagram:semanticTargetId="4e0df3bf-ccc0-462f-9d8d-dad69d049fba" y="1155" clip-path="url(#clipPath474)" fill="white" font-family="'Cantarell'" stroke="none" xml:space="preserve">.</text>
-            <text x="1086" diagram:semanticTargetId="4e0df3bf-ccc0-462f-9d8d-dad69d049fba" y="1130" clip-path="url(#clipPath475)" fill="white" font-family="'Cantarell'" stroke="none" xml:space="preserve">.</text>
+            <text x="1118" diagram:semanticTargetId="4e0df3bf-ccc0-462f-9d8d-dad69d049fba" y="1139" clip-path="url(#clipPath469)" font-family="'Cantarell'" stroke="none" xml:space="preserve">Start Signal</text>
+            <text x="1096" diagram:semanticTargetId="4e0df3bf-ccc0-462f-9d8d-dad69d049fba" y="1155" clip-path="url(#clipPath470)" fill="white" font-family="'Cantarell'" stroke="none" xml:space="preserve">.</text>
+            <text x="1086" diagram:semanticTargetId="4e0df3bf-ccc0-462f-9d8d-dad69d049fba" y="1130" clip-path="url(#clipPath471)" fill="white" font-family="'Cantarell'" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="e56a922b-65c5-4f25-89eb-f5aa938613ec" clip-path="url(#clipPath375)" fill="none" x1="1172" x2="1248" y1="1083" y2="1083"/>
             <line diagram:semanticTargetId="e56a922b-65c5-4f25-89eb-f5aa938613ec" clip-path="url(#clipPath375)" fill="none" x1="1258" x2="1268" y1="1083" y2="1083"/>
             <line diagram:semanticTargetId="e56a922b-65c5-4f25-89eb-f5aa938613ec" clip-path="url(#clipPath375)" fill="none" x1="1278" x2="1323" y1="1083" y2="1083"/>
@@ -983,9 +983,9 @@
             <text x="1237" diagram:semanticTargetId="86f01684-ba1f-4fa9-b896-3d528b38cd05" y="908" clip-path="url(#clipPath533)" fill="white" font-family="'Cantarell'" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="87aa6d43-895d-4da4-a45d-306b3b3972f2" clip-path="url(#clipPath375)" fill="none" x1="1417" x2="1417" y1="1021" y2="1098" stroke="rgb(239,41,41)"/>
             <image diagram:semanticTargetId="87aa6d43-895d-4da4-a45d-306b3b3972f2" stroke="rgb(239,41,41)" width="16" xlink:show="embed" xlink:type="simple" fill="rgb(239,41,41)" preserveAspectRatio="none" height="16" font-family="'Cantarell'" x="1420" y="1047" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAd0lEQVR4XmNgGBbg&#10;PwwHBAeAaHwArhYJM/z//x+CQWxVbWWchoAsgKmFqQeJwwVACth4WNBtwMA4DQBh&#10;kAHfuLhwYpALk4picRsADQcMjcgYpgerARS5AGY7IYwzDEBsfLHQ0NCA4loGmAEw&#10;TGo64JfgJaR+RAAAvNnS9zAJoI8AAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
-            <text x="1439" diagram:semanticTargetId="87aa6d43-895d-4da4-a45d-306b3b3972f2" y="1058" clip-path="url(#clipPath449)" fill="rgb(239,41,41)" font-family="'Cantarell'" stroke="none" xml:space="preserve">Power</text>
-            <text x="1408" diagram:semanticTargetId="87aa6d43-895d-4da4-a45d-306b3b3972f2" y="1035" clip-path="url(#clipPath450)" fill="white" font-family="'Cantarell'" stroke="none" xml:space="preserve">.</text>
-            <text x="1407" diagram:semanticTargetId="87aa6d43-895d-4da4-a45d-306b3b3972f2" y="1089" clip-path="url(#clipPath451)" fill="white" font-family="'Cantarell'" stroke="none" xml:space="preserve">.</text>
+            <text x="1439" diagram:semanticTargetId="87aa6d43-895d-4da4-a45d-306b3b3972f2" y="1058" clip-path="url(#clipPath445)" fill="rgb(239,41,41)" font-family="'Cantarell'" stroke="none" xml:space="preserve">Power</text>
+            <text x="1408" diagram:semanticTargetId="87aa6d43-895d-4da4-a45d-306b3b3972f2" y="1035" clip-path="url(#clipPath446)" fill="white" font-family="'Cantarell'" stroke="none" xml:space="preserve">.</text>
+            <text x="1407" diagram:semanticTargetId="87aa6d43-895d-4da4-a45d-306b3b3972f2" y="1089" clip-path="url(#clipPath447)" fill="white" font-family="'Cantarell'" stroke="none" xml:space="preserve">.</text>
             <line diagram:semanticTargetId="2b1244fd-e52d-41d5-a2ab-c52f435b614b" clip-path="url(#clipPath375)" fill="none" x1="578" x2="578" y1="615" y2="670"/>
             <line diagram:semanticTargetId="2b1244fd-e52d-41d5-a2ab-c52f435b614b" clip-path="url(#clipPath375)" fill="none" x1="578" x2="413" y1="670" y2="670"/>
             <line diagram:semanticTargetId="2b1244fd-e52d-41d5-a2ab-c52f435b614b" clip-path="url(#clipPath375)" fill="none" x1="413" x2="413" y1="670" y2="870"/>
@@ -2384,124 +2384,124 @@
             <path d="M-1 -1 L1946 -1 L1946 1464 L-1 1464 L-1 -1 Z"/>
         </clipPath>
         <clipPath clipPathUnits="userSpaceOnUse" id="clipPath376">
-            <path d="M275 434 L420 434 L420 452 L275 452 L275 434 Z"/>
+            <path d="M12 158 L171 158 L171 176 L12 176 L12 158 Z"/>
         </clipPath>
         <clipPath clipPathUnits="userSpaceOnUse" id="clipPath377">
-            <path d="M275 434 L422 434 L422 452 L275 452 L275 434 Z"/>
+            <path d="M12 158 L173 158 L173 176 L12 176 L12 158 Z"/>
         </clipPath>
         <clipPath clipPathUnits="userSpaceOnUse" id="clipPath378">
-            <path d="M258 425 L264 425 L264 441 L258 441 L258 425 Z"/>
+            <path d="M165 189 L171 189 L171 205 L165 205 L165 189 Z"/>
         </clipPath>
         <clipPath clipPathUnits="userSpaceOnUse" id="clipPath379">
-            <path d="M256 459 L262 459 L262 475 L256 475 L256 459 Z"/>
+            <path d="M151 375 L157 375 L157 391 L151 391 L151 375 Z"/>
         </clipPath>
         <clipPath clipPathUnits="userSpaceOnUse" id="clipPath380">
-            <path d="M352 549 L443 549 L443 567 L352 567 L352 549 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath381">
-            <path d="M352 549 L445 549 L445 567 L352 567 L352 549 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath382">
-            <path d="M397 567 L403 567 L403 583 L397 583 L397 567 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath383">
-            <path d="M502 436 L508 436 L508 452 L502 452 L502 436 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath384">
-            <path d="M302 499 L457 499 L457 517 L302 517 L302 499 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath385">
-            <path d="M302 499 L459 499 L459 517 L302 517 L302 499 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath386">
-            <path d="M363 517 L369 517 L369 533 L363 533 L363 517 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath387">
-            <path d="M543 571 L549 571 L549 587 L543 587 L543 571 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath388">
-            <path d="M104 109 L204 109 L204 127 L104 127 L104 109 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath389">
-            <path d="M104 109 L206 109 L206 127 L104 127 L104 109 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath390">
-            <path d="M206 97 L212 97 L212 113 L206 113 L206 97 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath391">
-            <path d="M206 115 L212 115 L212 131 L206 131 L206 115 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath392">
             <path d="M342 151 L433 151 L433 169 L342 169 L342 151 Z"/>
         </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath393">
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath381">
             <path d="M342 151 L435 151 L435 169 L342 169 L342 151 Z"/>
         </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath394">
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath382">
             <path d="M383 172 L389 172 L389 188 L383 188 L383 172 Z"/>
         </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath395">
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath383">
             <path d="M496 337 L502 337 L502 353 L496 353 L496 337 Z"/>
         </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath396">
-            <path d="M335 306 L426 306 L426 324 L335 324 L335 306 Z"/>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath384">
+            <path d="M273 219 L364 219 L364 237 L273 237 L273 219 Z"/>
         </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath397">
-            <path d="M335 306 L428 306 L428 324 L335 324 L335 306 Z"/>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath385">
+            <path d="M273 219 L366 219 L366 237 L273 237 L273 219 Z"/>
         </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath398">
-            <path d="M383 295 L389 295 L389 311 L383 311 L383 295 Z"/>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath386">
+            <path d="M336 235 L342 235 L342 251 L336 251 L336 235 Z"/>
         </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath399">
-            <path d="M483 370 L489 370 L489 386 L483 386 L483 370 Z"/>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath387">
+            <path d="M494 357 L500 357 L500 373 L494 373 L494 357 Z"/>
         </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath400">
-            <path d="M302 469 L393 469 L393 487 L302 487 L302 469 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath401">
-            <path d="M302 469 L395 469 L395 487 L302 487 L302 469 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath402">
-            <path d="M353 487 L359 487 L359 503 L353 503 L353 487 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath403">
-            <path d="M489 416 L495 416 L495 432 L489 432 L489 416 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath404">
-            <path d="M382 575 L541 575 L541 593 L382 593 L382 575 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath405">
-            <path d="M382 575 L543 575 L543 593 L382 593 L382 575 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath406">
-            <path d="M514 580 L520 580 L520 596 L514 596 L514 580 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath407">
-            <path d="M356 583 L362 583 L362 599 L356 599 L356 583 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath408">
-            <path d="M316 379 L407 379 L407 397 L316 397 L316 379 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath409">
-            <path d="M316 379 L409 379 L409 397 L316 397 L316 379 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath410">
-            <path d="M339 377 L345 377 L345 393 L339 393 L339 377 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath411">
-            <path d="M474 380 L480 380 L480 396 L474 396 L474 380 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath412">
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath388">
             <path d="M32 439 L149 439 L149 457 L32 457 L32 439 Z"/>
         </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath413">
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath389">
             <path d="M32 439 L151 439 L151 457 L32 457 L32 439 Z"/>
         </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath414">
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath390">
             <path d="M182 567 L188 567 L188 583 L182 583 L182 567 Z"/>
         </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath415">
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath391">
             <path d="M170 268 L176 268 L176 284 L170 284 L170 268 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath392">
+            <path d="M335 306 L426 306 L426 324 L335 324 L335 306 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath393">
+            <path d="M335 306 L428 306 L428 324 L335 324 L335 306 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath394">
+            <path d="M383 295 L389 295 L389 311 L383 311 L383 295 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath395">
+            <path d="M483 370 L489 370 L489 386 L483 386 L483 370 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath396">
+            <path d="M302 499 L457 499 L457 517 L302 517 L302 499 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath397">
+            <path d="M302 499 L459 499 L459 517 L302 517 L302 499 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath398">
+            <path d="M363 517 L369 517 L369 533 L363 533 L363 517 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath399">
+            <path d="M543 571 L549 571 L549 587 L543 587 L543 571 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath400">
+            <path d="M104 109 L204 109 L204 127 L104 127 L104 109 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath401">
+            <path d="M104 109 L206 109 L206 127 L104 127 L104 109 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath402">
+            <path d="M206 97 L212 97 L212 113 L206 113 L206 97 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath403">
+            <path d="M206 115 L212 115 L212 131 L206 131 L206 115 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath404">
+            <path d="M302 469 L393 469 L393 487 L302 487 L302 469 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath405">
+            <path d="M302 469 L395 469 L395 487 L302 487 L302 469 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath406">
+            <path d="M353 487 L359 487 L359 503 L353 503 L353 487 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath407">
+            <path d="M489 416 L495 416 L495 432 L489 432 L489 416 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath408">
+            <path d="M352 549 L443 549 L443 567 L352 567 L352 549 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath409">
+            <path d="M352 549 L445 549 L445 567 L352 567 L352 549 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath410">
+            <path d="M397 567 L403 567 L403 583 L397 583 L397 567 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath411">
+            <path d="M502 436 L508 436 L508 452 L502 452 L502 436 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath412">
+            <path d="M275 434 L420 434 L420 452 L275 452 L275 434 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath413">
+            <path d="M275 434 L422 434 L422 452 L275 452 L275 434 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath414">
+            <path d="M258 425 L264 425 L264 441 L258 441 L258 425 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath415">
+            <path d="M256 459 L262 459 L262 475 L256 475 L256 459 Z"/>
         </clipPath>
         <clipPath clipPathUnits="userSpaceOnUse" id="clipPath416">
             <path d="M335 69 L426 69 L426 87 L335 87 L335 69 Z"/>
@@ -2516,28 +2516,28 @@
             <path d="M495 317 L501 317 L501 333 L495 333 L495 317 Z"/>
         </clipPath>
         <clipPath clipPathUnits="userSpaceOnUse" id="clipPath420">
-            <path d="M273 219 L364 219 L364 237 L273 237 L273 219 Z"/>
+            <path d="M382 575 L541 575 L541 593 L382 593 L382 575 Z"/>
         </clipPath>
         <clipPath clipPathUnits="userSpaceOnUse" id="clipPath421">
-            <path d="M273 219 L366 219 L366 237 L273 237 L273 219 Z"/>
+            <path d="M382 575 L543 575 L543 593 L382 593 L382 575 Z"/>
         </clipPath>
         <clipPath clipPathUnits="userSpaceOnUse" id="clipPath422">
-            <path d="M336 235 L342 235 L342 251 L336 251 L336 235 Z"/>
+            <path d="M514 580 L520 580 L520 596 L514 596 L514 580 Z"/>
         </clipPath>
         <clipPath clipPathUnits="userSpaceOnUse" id="clipPath423">
-            <path d="M494 357 L500 357 L500 373 L494 373 L494 357 Z"/>
+            <path d="M356 583 L362 583 L362 599 L356 599 L356 583 Z"/>
         </clipPath>
         <clipPath clipPathUnits="userSpaceOnUse" id="clipPath424">
-            <path d="M12 158 L171 158 L171 176 L12 176 L12 158 Z"/>
+            <path d="M316 379 L407 379 L407 397 L316 397 L316 379 Z"/>
         </clipPath>
         <clipPath clipPathUnits="userSpaceOnUse" id="clipPath425">
-            <path d="M12 158 L173 158 L173 176 L12 176 L12 158 Z"/>
+            <path d="M316 379 L409 379 L409 397 L316 397 L316 379 Z"/>
         </clipPath>
         <clipPath clipPathUnits="userSpaceOnUse" id="clipPath426">
-            <path d="M165 189 L171 189 L171 205 L165 205 L165 189 Z"/>
+            <path d="M339 377 L345 377 L345 393 L339 393 L339 377 Z"/>
         </clipPath>
         <clipPath clipPathUnits="userSpaceOnUse" id="clipPath427">
-            <path d="M151 375 L157 375 L157 391 L151 391 L151 375 Z"/>
+            <path d="M474 380 L480 380 L480 396 L474 396 L474 380 Z"/>
         </clipPath>
         <clipPath clipPathUnits="userSpaceOnUse" id="clipPath428">
             <path d="M1184 140 L1226 140 L1226 158 L1184 158 L1184 140 Z"/>
@@ -2552,28 +2552,28 @@
             <path d="M1153 141 L1159 141 L1159 157 L1153 157 L1153 141 Z"/>
         </clipPath>
         <clipPath clipPathUnits="userSpaceOnUse" id="clipPath432">
-            <path d="M1002 529 L1056 529 L1056 547 L1002 547 L1002 529 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath433">
-            <path d="M1002 529 L1058 529 L1058 547 L1002 547 L1002 529 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath434">
-            <path d="M1025 469 L1031 469 L1031 485 L1025 485 L1025 469 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath435">
-            <path d="M1020 653 L1026 653 L1026 669 L1020 669 L1020 653 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath436">
             <path d="M1189 524 L1243 524 L1243 542 L1189 542 L1189 524 Z"/>
         </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath437">
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath433">
             <path d="M1189 524 L1245 524 L1245 542 L1189 542 L1189 524 Z"/>
         </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath438">
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath434">
             <path d="M1200 497 L1206 497 L1206 513 L1200 513 L1200 497 Z"/>
         </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath439">
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath435">
             <path d="M1199 536 L1205 536 L1205 552 L1199 552 L1199 536 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath436">
+            <path d="M1002 529 L1056 529 L1056 547 L1002 547 L1002 529 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath437">
+            <path d="M1002 529 L1058 529 L1058 547 L1002 547 L1002 529 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath438">
+            <path d="M1025 469 L1031 469 L1031 485 L1025 485 L1025 469 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath439">
+            <path d="M1020 653 L1026 653 L1026 669 L1020 669 L1020 653 Z"/>
         </clipPath>
         <clipPath clipPathUnits="userSpaceOnUse" id="clipPath440">
             <path d="M1344 471 L1433 471 L1433 489 L1344 489 L1344 471 Z"/>
@@ -2588,28 +2588,28 @@
             <path d="M1366 481 L1372 481 L1372 497 L1366 497 L1366 481 Z"/>
         </clipPath>
         <clipPath clipPathUnits="userSpaceOnUse" id="clipPath444">
-            <path d="M1481 1059 L1535 1059 L1535 1077 L1481 1077 L1481 1059 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath445">
-            <path d="M1481 1059 L1537 1059 L1537 1077 L1481 1077 L1481 1059 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath446">
-            <path d="M1507 1187 L1513 1187 L1513 1203 L1507 1203 L1507 1187 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath447">
-            <path d="M1544 984 L1550 984 L1550 1000 L1544 1000 L1544 984 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath448">
             <path d="M1419 1046 L1470 1046 L1470 1064 L1419 1064 L1419 1046 Z"/>
         </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath449">
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath445">
             <path d="M1419 1046 L1473 1046 L1473 1064 L1419 1064 L1419 1046 Z"/>
         </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath450">
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath446">
             <path d="M1407 1024 L1413 1024 L1413 1040 L1407 1040 L1407 1024 Z"/>
         </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath451">
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath447">
             <path d="M1406 1078 L1412 1078 L1412 1094 L1406 1094 L1406 1078 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath448">
+            <path d="M1481 1059 L1535 1059 L1535 1077 L1481 1077 L1481 1059 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath449">
+            <path d="M1481 1059 L1537 1059 L1537 1077 L1481 1077 L1481 1059 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath450">
+            <path d="M1507 1187 L1513 1187 L1513 1203 L1507 1203 L1507 1187 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath451">
+            <path d="M1544 984 L1550 984 L1550 1000 L1544 1000 L1544 984 Z"/>
         </clipPath>
         <clipPath clipPathUnits="userSpaceOnUse" id="clipPath452">
             <path d="M1710 507 L1784 507 L1784 525 L1710 525 L1710 507 Z"/>
@@ -2660,28 +2660,28 @@
             <path d="M1762 719 L1768 719 L1768 735 L1762 735 L1762 719 Z"/>
         </clipPath>
         <clipPath clipPathUnits="userSpaceOnUse" id="clipPath468">
-            <path d="M991 1026 L1066 1026 L1066 1044 L991 1044 L991 1026 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath469">
-            <path d="M991 1026 L1068 1026 L1068 1044 L991 1044 L991 1026 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath470">
-            <path d="M1005 1165 L1011 1165 L1011 1181 L1005 1181 L1005 1165 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath471">
-            <path d="M1025 1004 L1031 1004 L1031 1020 L1025 1020 L1025 1004 Z"/>
-        </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath472">
             <path d="M1098 1127 L1173 1127 L1173 1145 L1098 1145 L1098 1127 Z"/>
         </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath473">
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath469">
             <path d="M1098 1127 L1175 1127 L1175 1145 L1098 1145 L1098 1127 Z"/>
         </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath474">
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath470">
             <path d="M1095 1144 L1101 1144 L1101 1160 L1095 1160 L1095 1144 Z"/>
         </clipPath>
-        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath475">
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath471">
             <path d="M1085 1119 L1091 1119 L1091 1135 L1085 1135 L1085 1119 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath472">
+            <path d="M991 1026 L1066 1026 L1066 1044 L991 1044 L991 1026 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath473">
+            <path d="M991 1026 L1068 1026 L1068 1044 L991 1044 L991 1026 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath474">
+            <path d="M1005 1165 L1011 1165 L1011 1181 L1005 1181 L1005 1165 Z"/>
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="clipPath475">
+            <path d="M1025 1004 L1031 1004 L1031 1020 L1025 1020 L1025 1004 Z"/>
         </clipPath>
         <clipPath clipPathUnits="userSpaceOnUse" id="clipPath476">
             <path d="M1882 1099 L1924 1099 L1924 1117 L1882 1117 L1882 1099 Z"/>

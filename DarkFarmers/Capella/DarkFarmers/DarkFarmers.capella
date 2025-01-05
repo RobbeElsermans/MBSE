@@ -492,6 +492,12 @@
               id="636cc0b2-e509-4f33-ab72-1a41a276cca7" involved="#a5fb068f-d16d-48c8-a3be-4559b612ec3e"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="83689a2f-88ba-4564-9716-3999801655fc" involved="#4eea5466-40a8-4ff4-abbb-3176fbbf5fce"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="ecf5b238-b0c4-4489-9668-0f5b2d1b2e84" involved="#a24be15c-9697-4b2d-a689-427eb817f806"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="fa6260d7-fd65-42f9-be3b-23b2daa19c96" involved="#d343ee57-c353-40aa-bb0a-a8e17ffea7ea"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="6d46d891-7ca6-4961-8fe9-70ef9ca23e62" involved="#7b7bfc38-00a6-44a2-9103-ede767dfebe0"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="c56d5b5b-ca32-42d7-87e3-6d3f5034efcd" name="IMPROVE SPACE DELIVERY">
@@ -656,6 +662,8 @@
               name="MUN" abstractType="#f8032c51-b65f-4a7c-b6f5-7625aff19803"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="35035c41-6836-416f-9b81-9961719f2530"
               name="KERBIN" abstractType="#d343ee57-c353-40aa-bb0a-a8e17ffea7ea"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="89a4b302-e2e2-406e-80b2-2e3d9672be04"
+              name="SATELITE" abstractType="#a24be15c-9697-4b2d-a689-427eb817f806"/>
           <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="7c968c26-9882-4c4c-be2b-57f6b679163e"
               name="ROCKET">
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
@@ -684,6 +692,8 @@
           </ownedEntities>
           <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="d343ee57-c353-40aa-bb0a-a8e17ffea7ea"
               name="KERBIN"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="a24be15c-9697-4b2d-a689-427eb817f806"
+              name="SATELITE"/>
         </ownedEntities>
       </ownedEntityPkg>
     </ownedArchitectures>
