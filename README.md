@@ -1,6 +1,3 @@
-#TODO
-a small overview of the mission with the group name, the summary of the business/scientific requirements of your mission, the constraints your project worked in (e.g., budget, time, performance, etc. ), the high-level choices and drivers for your architecture and the work plan you followed. Also, add a reflection (1 paragraph) on the workflow compared to a more ad-hoc workflow you started within the first lab session. 
-
 # Dark Farmers
 ![Image of the concept](Wall_Paper.png)
 
