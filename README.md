@@ -126,6 +126,26 @@ More money did go in the Satellite Network setup and Launch Vehicle. Nevertheles
 - 1 way ticket with no return vessels
 
 ## Workplan
+1. Initial Phase:
 
+- Define mission goals, constraints, and requirements.
+- Draft preliminary design and perform feasibility studies, including $\Delta V$ calculations.
+
+2. Design Phase:
+
+- Select and procure components based on budget and performance needs.
+- Build a comprehensive mission architecture incorporating all system requirements.
+
+3. Implementation Phase:
+
+- Assemble the rocket and payload, including farm module and satellite systems.
+- Conduct simulations and tests to validate performance.
+
+4. Deployment Phase:
+
+- Launch and deliver the payload to the Mun.
+- Deploy satellites in triangular formation for communication coverage.
+- Land and activate the farm module on Mun's dark side.
 
 ## Reflection workflow
+At the start, our workflow was all over the place. Everyone was trying to tackle different things at once without a clear plan. Once we shifted to a structured approach, everything started clicking. Having a step-by-step plan helped us focus on what mattered most, divide tasks properly, and make smarter decisions. We avoided wasting time and resources, which was crucial given the tight timeline. This organized way of working kept everyone on the same page and made the entire project run much smoother.
