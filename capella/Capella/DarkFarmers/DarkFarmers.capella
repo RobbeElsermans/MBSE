@@ -11247,6 +11247,14 @@
               name="Guidance and Navigation System" abstractType="#18785289-ee44-4eaa-9c0b-cc14f60b134e"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="605e722c-f8ba-40ba-8573-7b4a0c38b4cc"
               name="Real Chief Arguculture Scientist Workplace" abstractType="#87a5c520-c893-4e09-9d80-ac153df263df"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="afcbd1d5-954f-481c-8a77-ce8920252853"
+              name="Farm Module" abstractType="#bbf9f3e8-69b5-4c5a-97c2-0d297781e8d7"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="a3339fc4-ddcb-4ec6-8635-3b93cce94e1b"
+              name="Transfer Stage" abstractType="#5ec54981-4049-42d4-9dc5-1ff9e9e2b801"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="18dd36d5-ce17-42f6-9a01-5d48a4bedb62"
+              name="Satellite Network" abstractType="#be76cd49-b7db-442a-a748-e6da6e8db6ac"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="ee177d49-659d-43dd-b408-02514b08b1d3"
+              name="Launch Vehicle" abstractType="#c145f834-9055-409e-9aae-1237993ec4c4"/>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="b91aabe8-838f-4d8c-a33b-bb3c4e9f5833" targetElement="#38c97b76-14c1-4370-ad66-2d2e7722a49e"
               sourceElement="#0de38604-aa09-4d97-852c-accf6acaf97d"/>
@@ -11885,6 +11893,178 @@
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="87a5c520-c893-4e09-9d80-ac153df263df" name="Real Chief Arguculture Scientist Workplace"
               nature="NODE"/>
+          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+              id="bbf9f3e8-69b5-4c5a-97c2-0d297781e8d7" name="Farm Module" nature="NODE">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="30d4da21-1068-42dc-9635-c710ea2ff3da"
+                name="24-77 &quot;Twitch&quot; Liquid Fuel Engine" abstractType="#cd2e8119-2411-4a2c-9d8e-de8a955ed546"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="27d0ad3e-00b3-4e61-95bd-3a11074806e3"
+                name="Communotron 16" abstractType="#15196632-f7c3-47af-a768-d48df61ff452"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="a252e20a-918b-4007-b26e-864f630caa78"
+                name="Mk2 Lander Can" abstractType="#a74c1149-c38a-4d8e-a479-90f7307a13ce"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="d2f9d54d-97ce-4737-b2d5-802b1897b512"
+                name="OX-10C Photovoltaic Panels" abstractType="#09646e01-2951-4e78-95b6-8801b7d37c7e"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="ff90293f-e6c4-46a5-a4ee-ef6b08bb9227"
+                name="Rockomax X200-8 Fuel Tank" abstractType="#f5158aca-5c15-4262-8cf5-3e7ed81a3d1e"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="f8752e97-abd3-49e0-8601-7768f1e67f4e"
+                name="LT-2 Landing Strut" abstractType="#f981cca2-f6e3-4916-8544-42d4e01c5f60"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="4bd58724-1fb9-4cba-8f4e-0f0dbc7bbd97"
+                name="Z-4K Rechargeable Battery Bank" abstractType="#01e06faf-4552-4aff-9afa-d9bbeedd09b2"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="cd2e8119-2411-4a2c-9d8e-de8a955ed546" name="24-77 &quot;Twitch&quot; Liquid Fuel Engine"
+                nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="15196632-f7c3-47af-a768-d48df61ff452" name="Communotron 16" nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="a74c1149-c38a-4d8e-a479-90f7307a13ce" name="Mk2 Lander Can" nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="09646e01-2951-4e78-95b6-8801b7d37c7e" name="OX-10C Photovoltaic Panels"
+                nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="f5158aca-5c15-4262-8cf5-3e7ed81a3d1e" name="Rockomax X200-8 Fuel Tank"
+                nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="f981cca2-f6e3-4916-8544-42d4e01c5f60" name="LT-2 Landing Strut"
+                nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="01e06faf-4552-4aff-9afa-d9bbeedd09b2" name="Z-4K Rechargeable Battery Bank"
+                nature="NODE"/>
+          </ownedPhysicalComponents>
+          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+              id="5ec54981-4049-42d4-9dc5-1ff9e9e2b801" name="Transfer Stage" nature="NODE">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="7346dd7f-04ec-437f-aeae-46fb59b7cdbb"
+                name="Fairing Construction Estemate" abstractType="#46538c19-407e-4ea2-9ca0-f40bc6a7a832"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="0fdaba87-c5de-42c2-8f34-dcaf5012c833"
+                name="Mk-55 &quot;Thud&quot; Liquid Fuel Engine" abstractType="#fb92447b-e104-4d5b-9e24-bc92ac8a3b23"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="11dc091c-04a0-4440-a3f5-8c992a3f3286"
+                name="RC-L01 Remote Guidance Unit" abstractType="#fca61e04-384b-4558-abda-7b7504f2ea38"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="6cc28c4b-a66a-4316-8197-0d39a6011a21"
+                name="TD-25 Decoupler" abstractType="#b8409305-0d53-4c20-9254-aeac30f3194d"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="46538c19-407e-4ea2-9ca0-f40bc6a7a832" name="Fairing Construction Estemate"
+                nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="fb92447b-e104-4d5b-9e24-bc92ac8a3b23" name="Mk-55 &quot;Thud&quot; Liquid Fuel Engine"
+                nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="fca61e04-384b-4558-abda-7b7504f2ea38" name="RC-L01 Remote Guidance Unit"
+                nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="b8409305-0d53-4c20-9254-aeac30f3194d" name="TD-25 Decoupler" nature="NODE"/>
+          </ownedPhysicalComponents>
+          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+              id="be76cd49-b7db-442a-a748-e6da6e8db6ac" name="Satellite Network" nature="NODE">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="ab09d855-7ec2-47c7-83ee-c78aef6d2213"
+                name="48-7S &quot;Spark&quot; Liquid Fuel Engine" abstractType="#04f163e2-4317-45e1-9f8b-b813fed59f57"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="4e8a9ed1-bea5-4267-9c04-46d260ed3595"
+                name="Small Inline Reaction Wheel" abstractType="#8da19980-446c-486e-ba59-c817cbc74a12"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="45200599-ab42-460b-935b-8b57c453c2cf"
+                name="AE-FF2 Airstream Protective Shell (2,5m)" abstractType="#07331688-4efb-4bee-9dba-c75f7d668a97"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="d6cfd15d-0ad5-496e-9724-e1dfaea7b7c8"
+                name="Communotron 16-S" abstractType="#5d2e7300-070e-4f45-b564-d1594e39cfd9"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="3af87cde-600e-4d38-a37f-165ab037dbe6"
+                name="TD-06 Decoupler" abstractType="#33eadb6c-c4e5-4b0e-8e97-922b374fea89"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="632a4016-4516-488a-99f8-d94344d4c1da"
+                name="Z-200 Rechargeable Battery Bank" abstractType="#3cae6b1d-d8fa-4abe-8394-1b919718ea7b"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="b12da6b1-60dc-42ef-a9ee-9390688b5876"
+                name="Octagonal Strut" abstractType="#e1ebaa17-77fa-4c79-bfec-14d6d6e39c05"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="94aa2d6b-2eae-4223-a9ee-92a1156a5be8"
+                name="Cubic Octagonal Strut" abstractType="#b0bbc09f-62f5-4308-92b4-de64a6bf72ca"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="bd4b2802-ba25-4fcf-aae2-25149e4a7126"
+                name="CompoMax Radial Tubeless (kOS)" abstractType="#413a232d-f2b1-42a5-8ea3-0baa39e80e97"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="1633a7b9-e617-4b73-ace5-77bf262f982b"
+                name="RA-2 Relay Antenna" abstractType="#111ade71-0cd1-4f34-b7ed-78329766a454"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="ef208cd9-059c-43b7-924f-0892339ac0e9"
+                name="Oscar-B Fuel Tank" abstractType="#94cc44c4-43e1-43a4-b87c-19651d03519d"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="469489f3-1d51-4795-a416-a0d185576533"
+                name="OX-4W 3x2 Photovoltaic Panels" abstractType="#e772f45b-5a94-49c7-8eee-0be63a3b729a"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="ce92eed3-9d4a-479a-93a1-604fa834e0ec"
+                name="Probodobodyne OKTO2" abstractType="#320775a3-eb04-45bc-85a1-ec75e4c7712e"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="04f163e2-4317-45e1-9f8b-b813fed59f57" name="48-7S &quot;Spark&quot; Liquid Fuel Engine"
+                nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="8da19980-446c-486e-ba59-c817cbc74a12" name="Small Inline Reaction Wheel"
+                nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="07331688-4efb-4bee-9dba-c75f7d668a97" name="AE-FF2 Airstream Protective Shell (2,5m)"
+                nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="5d2e7300-070e-4f45-b564-d1594e39cfd9" name="Communotron 16-S"
+                nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="33eadb6c-c4e5-4b0e-8e97-922b374fea89" name="TD-06 Decoupler" nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="3cae6b1d-d8fa-4abe-8394-1b919718ea7b" name="Z-200 Rechargeable Battery Bank"
+                nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="e1ebaa17-77fa-4c79-bfec-14d6d6e39c05" name="Octagonal Strut" nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="b0bbc09f-62f5-4308-92b4-de64a6bf72ca" name="Cubic Octagonal Strut"
+                nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="413a232d-f2b1-42a5-8ea3-0baa39e80e97" name="CompoMax Radial Tubeless (kOS)"
+                nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="111ade71-0cd1-4f34-b7ed-78329766a454" name="RA-2 Relay Antenna"
+                nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="94cc44c4-43e1-43a4-b87c-19651d03519d" name="Oscar-B Fuel Tank"
+                nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="e772f45b-5a94-49c7-8eee-0be63a3b729a" name="OX-4W 3x2 Photovoltaic Panels"
+                nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="320775a3-eb04-45bc-85a1-ec75e4c7712e" name="Probodobodyne OKTO2"
+                nature="NODE"/>
+          </ownedPhysicalComponents>
+          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+              id="c145f834-9055-409e-9aae-1237993ec4c4" name="Launch Vehicle" nature="NODE">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="9f650446-27cc-421d-ae43-636b2f91b525"
+                name="Delta-Deluxe Winglet" abstractType="#167e695d-5f57-4be1-8b94-0887860c269a"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="d4b22d0b-3eda-4cdf-b1bf-d1377e08c83d"
+                name="RE-M3 &quot;Mainsail&quot; Liquid Fuel Engine" abstractType="#6437d862-ede7-4f0d-8175-5db908a2933e"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="b6d435cb-8240-4830-a723-9bac5f8f12ce"
+                name="Protective Rocket Nose Cone Mk7" abstractType="#1c523261-5406-47d7-929b-a8e26741805c"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="ffaa0298-3c30-439c-8775-9f7a1f58e896"
+                name="EAS-4 Strut Connector" abstractType="#69c37731-a4a6-46bb-ba55-770759687ec3"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="a5642888-8a3f-44d3-9b75-7b418b33a554"
+                name="Rockomax X200-32 Fuel Tank" abstractType="#966e2d9d-6ac5-44f8-a64a-868b36e261cf"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="ae295eaa-2d2f-4f18-819e-86625c4c36c1"
+                name="S2-33 &quot;Clydesdale&quot; Solid Fuel Booster" abstractType="#9130c460-1079-494d-a49a-55d91a93078c"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="daaff04e-c610-4c6b-a551-6815cce422a1"
+                name="Rockomax Jumbo-64 Fuel Tank" abstractType="#3a7a0527-a054-49a7-a1b1-3092e6d09b0e"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="596e564e-f6e1-49be-83c9-dd4225ed5b0a"
+                name="TT18-A Launch Stability Enhancer" abstractType="#a1d841e4-09f2-4068-8463-87c6834916bf"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="35097d28-e996-4a54-8c27-18bd3e4ed1dd"
+                name="TT-70 Radial Decoupler" abstractType="#fd1922bf-d804-49f9-867a-5a217d4df65e"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="167e695d-5f57-4be1-8b94-0887860c269a" name="Delta-Deluxe Winglet"
+                nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="6437d862-ede7-4f0d-8175-5db908a2933e" name="RE-M3 &quot;Mainsail&quot; Liquid Fuel Engine"
+                nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="1c523261-5406-47d7-929b-a8e26741805c" name="Protective Rocket Nose Cone Mk7"
+                nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="69c37731-a4a6-46bb-ba55-770759687ec3" name="EAS-4 Strut Connector"
+                nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="966e2d9d-6ac5-44f8-a64a-868b36e261cf" name="Rockomax X200-32 Fuel Tank"
+                nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="9130c460-1079-494d-a49a-55d91a93078c" name="S2-33 &quot;Clydesdale&quot; Solid Fuel Booster"
+                nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="3a7a0527-a054-49a7-a1b1-3092e6d09b0e" name="Rockomax Jumbo-64 Fuel Tank"
+                nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="a1d841e4-09f2-4068-8463-87c6834916bf" name="TT18-A Launch Stability Enhancer"
+                nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="fd1922bf-d804-49f9-867a-5a217d4df65e" name="TT-70 Radial Decoupler"
+                nature="NODE"/>
+          </ownedPhysicalComponents>
         </ownedPhysicalComponents>
         <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
             id="7fd5b44d-ca9d-48d5-9e85-4c9919fe6fab" description="&lt;p>Needs modular expansion so not to send eveything at once.&lt;/p>&#xA;"
