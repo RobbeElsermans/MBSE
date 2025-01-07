@@ -4002,7 +4002,7 @@
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                 id="24669ab5-7d8e-4ebd-b32c-1d812c840f67" name="FOP 1"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="fcb4373b-a92e-44f3-93d7-99667141528d" name="FOP 2"/>
+                id="cf704e3c-cbb5-4ccd-b6da-9cc81c474f27" name="FOP 2"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
               id="848e4844-f750-49f4-bbb3-da6c95642ec9" name="Deploy Satellites">
@@ -4022,6 +4022,8 @@
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
               id="22586e89-cb57-43d4-a00a-679012256aad" name="Transfer to Mun">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="19759415-361e-445c-bd4d-ebfb0def108b" name="FIP 1"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                 id="4a7ff1d9-b09f-449c-bba0-314b5c08807c" name="FOP 1"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
@@ -4030,7 +4032,7 @@
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
               id="a3d36827-e6df-4226-ad01-d6b4975e797e" name="Orbit Mun">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
-                id="9b0dd04b-ebfd-4dcf-a921-8f280bb011fd" name="FIP 1"/>
+                id="489cca1d-3a29-4eec-babf-6d31c6912589" name="FIP 1"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                 id="03529151-fcd9-4f0f-bf68-cc51c53d686d" name="FOP 1"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
@@ -4051,6 +4053,8 @@
                 id="df734495-22f7-4557-8f54-7dbd777d2b4b" name="FIP 1"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                 id="59300e20-2cbe-48a1-b1ff-7dbed02aafee" name="FOP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="82b9487b-8f8a-4874-8837-1a616721ad15" name="FOP 2"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
               id="93ff5f7c-a251-4a38-bd0b-431a9bf491e3" name="Make energy">
@@ -5472,11 +5476,53 @@
                 id="399c82a4-748a-4922-83f2-72d31052e053" name="FOP 1"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="ffe8a629-889c-4d1d-8d95-53adec3d37fd" name="Reach 99 740 m">
+              id="ffe8a629-889c-4d1d-8d95-53adec3d37fd" name="Reach 99 740 m (Apoapsis)">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="740262c5-0aa2-4cbb-b0fb-16f18271836e" name="FIP 1"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                 id="fb01e520-aa3c-4339-b73a-d6f3c427b530" name="FOP 2"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="44176879-4da0-40b3-bc4f-476b1fca907e" name="Reach Periapsis">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="e3c4dce4-2463-425e-b66d-df5708e200a0" name="FIP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="437d6904-f31e-4cfb-b4c9-aca8154e9f90" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="704f0e38-3525-41bf-b0f1-58436af41903" name="Reach Trans-Lunar injection point">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="b5252ff1-1af1-4ce5-a5e1-05b8f111f8c8" name="FIP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="95a81786-949a-4932-ada1-7e9d5a9f5eb5" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="7ea3a571-9fdb-4573-aafe-e3dc765a8c5e" name="Determine Hohmann Transfer Orbit">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="8c77f556-9e1a-4029-9013-4f3403463ea8" name="FIP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="d9422b8a-f34e-44d0-bdb4-22354bb6efe5" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="179ef001-6cdc-4ab5-ba7b-9ad6b89520df" name="Reach Mun Apoapsis">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="9b0dd04b-ebfd-4dcf-a921-8f280bb011fd" name="FIP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="245d085d-1996-4547-90d0-886eddc48b1e" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="4932ca22-a109-4c36-acd4-0547caad48f0" name="Reach Mun Periapsis">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="c34b8279-0c30-4094-bcd2-17e48cbf8043" name="FIP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="36da814f-4da9-45cd-9fe3-dc0f4b246228" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="f73f7d1c-9911-453c-a810-7d1b85954af0" name="Reach 7500 m">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="82b5636a-e740-4d2c-ba67-32d7173a85d2" name="FIP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="fcb4373b-a92e-44f3-93d7-99667141528d" name="FOP 2"/>
           </ownedFunctions>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="bfbdb1cf-7928-4dad-9333-9b497452e5f4" targetElement="#b88b6d43-73dc-41b2-8c7b-d0427d762a21"
@@ -5560,7 +5606,7 @@
               id="5d47a02b-1b9d-48be-9646-42fcee10b419" name="'ready to land' signal"
               target="#ae0291a1-f919-4049-be6d-2cb68b627c14" source="#02fa1b4b-3f44-4917-a343-8bc55efb7b7c"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="eb8b1307-ee7b-4029-8977-6d292d88c18d" name="'in orbite around mun' signal"
+              id="eb8b1307-ee7b-4029-8977-6d292d88c18d" name="'In orbit around mun' signal"
               target="#adbe3fe5-0eed-4caa-ae63-9b0c255b6775" source="#82eda790-d37f-4850-83e4-1e46a66aa0ed"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="fe88a453-4d2f-4f62-850a-8b5fe2b71973" name="'launched' signal" target="#27947849-c4ec-45a1-a95c-b1bb2ba53145"
@@ -5992,6 +6038,27 @@
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="142f7d15-0940-42c5-bae7-474cdd92ca88" name="'Turned' signal" target="#740262c5-0aa2-4cbb-b0fb-16f18271836e"
               source="#399c82a4-748a-4922-83f2-72d31052e053"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="2a37155c-f6a6-4385-9c4e-42737918bf09" name="'Change Orbit' signal"
+              target="#e3c4dce4-2463-425e-b66d-df5708e200a0" source="#82b9487b-8f8a-4874-8837-1a616721ad15"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="224f147d-0e8b-42de-9212-a2646ddc5b29" name="'Periapsis' reached"
+              target="#8c77f556-9e1a-4029-9013-4f3403463ea8" source="#437d6904-f31e-4cfb-b4c9-aca8154e9f90"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="c9676565-6072-4dce-b5fd-613d7b65ce11" name="'Transfer Orbit' determined"
+              target="#b5252ff1-1af1-4ce5-a5e1-05b8f111f8c8" source="#d9422b8a-f34e-44d0-bdb4-22354bb6efe5"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="5a76ca28-4bea-4cb0-b644-99ab08ffd7b9" name="'Exit Kerbin Orbit' signal"
+              target="#19759415-361e-445c-bd4d-ebfb0def108b" source="#95a81786-949a-4932-ada1-7e9d5a9f5eb5"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="a04f2be7-5823-4834-ba46-2ebb19a18f02" name="'Apoapsis reached' signal"
+              target="#c34b8279-0c30-4094-bcd2-17e48cbf8043" source="#245d085d-1996-4547-90d0-886eddc48b1e"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="7845de1c-39c1-440a-8399-3726b19ed745" name="'Periapsis reached' signal"
+              target="#489cca1d-3a29-4eec-babf-6d31c6912589" source="#36da814f-4da9-45cd-9fe3-dc0f4b246228"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="7175657b-91a9-47f6-b695-8d071c5c4fe2" name="'Landing' signal" target="#82b5636a-e740-4d2c-ba67-32d7173a85d2"
+              source="#cf704e3c-cbb5-4ccd-b6da-9cc81c474f27"/>
         </ownedLogicalFunctions>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.la:CapabilityRealizationPkg"
@@ -6033,7 +6100,7 @@
                 kind="ASYNCHRONOUS_CALL" sendingEnd="#70bad6c5-9319-49c1-bdf9-1880d0bc0e2c"
                 receivingEnd="#6dbf95ed-74af-48be-bfbf-7c6cc10f22da"/>
             <ownedMessages xsi:type="org.polarsys.capella.core.data.interaction:SequenceMessage"
-                id="6445c083-73e2-49c6-8e9e-e920d33fab26" name="'in orbite around mun' signal"
+                id="6445c083-73e2-49c6-8e9e-e920d33fab26" name="'In orbit around mun' signal"
                 kind="ASYNCHRONOUS_CALL" sendingEnd="#835f681c-0fc4-4ce1-9e58-95307dc2798b"
                 receivingEnd="#5c2b8d9c-1705-462f-a69c-ff7c957f016b"/>
             <ownedMessages xsi:type="org.polarsys.capella.core.data.interaction:SequenceMessage"
@@ -6821,6 +6888,24 @@
               sourceElement="#02610cb4-e63d-466b-a675-e90808140efa"/>
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="dc986e14-1947-4f9a-a807-2ca6b90e43b5" targetElement="#ffe8a629-889c-4d1d-8d95-53adec3d37fd"
+              sourceElement="#02610cb4-e63d-466b-a675-e90808140efa"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="1966254c-0bca-4c5f-a374-63569ab8b950" targetElement="#44176879-4da0-40b3-bc4f-476b1fca907e"
+              sourceElement="#02610cb4-e63d-466b-a675-e90808140efa"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="6af8c9fa-16d1-4223-b3f3-e829c83b1dff" targetElement="#704f0e38-3525-41bf-b0f1-58436af41903"
+              sourceElement="#02610cb4-e63d-466b-a675-e90808140efa"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="0cb793c7-c58f-4b54-b9c7-5bdf915998c5" targetElement="#7ea3a571-9fdb-4573-aafe-e3dc765a8c5e"
+              sourceElement="#02610cb4-e63d-466b-a675-e90808140efa"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="540ac3a8-3165-47c5-81f0-946d61826fc9" targetElement="#179ef001-6cdc-4ab5-ba7b-9ad6b89520df"
+              sourceElement="#02610cb4-e63d-466b-a675-e90808140efa"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="2249dd23-05a6-4ea2-bd2f-8827672f4886" targetElement="#4932ca22-a109-4c36-acd4-0547caad48f0"
+              sourceElement="#02610cb4-e63d-466b-a675-e90808140efa"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="c4d66ce4-d478-4027-b85f-e2d119e8e391" targetElement="#f73f7d1c-9911-453c-a810-7d1b85954af0"
               sourceElement="#02610cb4-e63d-466b-a675-e90808140efa"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
               id="a987816a-1a14-45d0-a729-5705c74e8026" name="CP 1" orientation="IN"
