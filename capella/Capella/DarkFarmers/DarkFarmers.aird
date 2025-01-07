@@ -31,7 +31,7 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_f81uQIezEe-R-aVeG1C_eQ">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_g_sYQL6vEe--39mokXnYdw" name="[PAB] Physical Architecture" repPath="#_g_ot4L6vEe--39mokXnYdw" changeId="1736269665249">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_g_sYQL6vEe--39mokXnYdw" name="[PAB] Physical Architecture" repPath="#_g_ot4L6vEe--39mokXnYdw" changeId="1736275473972">
         <eAnnotations xmi:type="description:DAnnotation" uid="_g_wpsL6vEe--39mokXnYdw" source="https://www.polarsys.org/capella/dannotation/DesactivatedFilters">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_g_wpsb6vEe--39mokXnYdw" key="hide.computed.component.exchanges.filter" value="true"/>
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_g_xQwL6vEe--39mokXnYdw" key="hide.computed.physical.links.filter" value="true"/>
@@ -13307,7 +13307,7 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_xumwIr6wEe--39mokXnYdw" type="4001" element="_xsBWQb6wEe--39mokXnYdw" source="_xtk1YL6wEe--39mokXnYdw" target="_xuOVoL6wEe--39mokXnYdw">
           <children xmi:type="notation:Node" xmi:id="_xumwJr6wEe--39mokXnYdw" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xumwJ76wEe--39mokXnYdw" x="-92" y="-7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xumwJ76wEe--39mokXnYdw" x="-75" y="-15"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_xumwKL6wEe--39mokXnYdw" type="6002">
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xumwKb6wEe--39mokXnYdw" x="16" y="10"/>
@@ -14329,7 +14329,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Architecture%20Blank']/@defaultLayer/@nodeMappings[name='PAB_PhysicalFunction']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" uid="_xrtNIr6wEe--39mokXnYdw" name="Do Manauver" width="5" height="5" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_xrtNIr6wEe--39mokXnYdw" name="Do Manoeuver" width="5" height="5" resizeKind="NSEW">
         <target xmi:type="org.polarsys.capella.core.data.pa:PhysicalFunction" href="DarkFarmers.capella#4e949e11-b747-4ce0-962c-5833927e76f4"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.pa:PhysicalFunction" href="DarkFarmers.capella#4e949e11-b747-4ce0-962c-5833927e76f4"/>
         <ownedBorderedNodes xmi:type="diagram:DNode" uid="_xrt0Mb6wEe--39mokXnYdw" name="FIP 1" incomingEdges="_xr-S6L6wEe--39mokXnYdw" width="1" height="1">
@@ -14419,7 +14419,7 @@
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Architecture%20Blank']/@defaultLayer/@nodeMappings[name='PAB_PhysicalFunction']"/>
       </ownedDiagramElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_xr-S6L6wEe--39mokXnYdw" name="Manauver Data" sourceNode="_xrmfcr6wEe--39mokXnYdw" targetNode="_xrt0Mb6wEe--39mokXnYdw" beginLabel="." endLabel=".">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_xr-S6L6wEe--39mokXnYdw" name="Manoeuver Data" sourceNode="_xrmfcr6wEe--39mokXnYdw" targetNode="_xrt0Mb6wEe--39mokXnYdw" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="DarkFarmers.capella#207a1ec9-3409-413e-8e84-507347bc4e1a"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="DarkFarmers.capella#207a1ec9-3409-413e-8e84-507347bc4e1a"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_xr-S6b6wEe--39mokXnYdw" targetArrow="NoDecoration" centered="Both" strokeColor="9,92,46">
@@ -14430,7 +14430,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='PAB_FunctionExchange']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_xr-5-b6wEe--39mokXnYdw" name="Manauver Data" sourceNode="_xrntkL6wEe--39mokXnYdw" targetNode="_xrt0NL6wEe--39mokXnYdw" beginLabel="." endLabel=".">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_xr-5-b6wEe--39mokXnYdw" name="Manoeuver Data" sourceNode="_xrntkL6wEe--39mokXnYdw" targetNode="_xrt0NL6wEe--39mokXnYdw" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="DarkFarmers.capella#d008053e-7e56-434b-b100-2eda1016609a"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="DarkFarmers.capella#d008053e-7e56-434b-b100-2eda1016609a"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_xr-5-r6wEe--39mokXnYdw" targetArrow="NoDecoration" centered="Both" strokeColor="9,92,46">
@@ -14441,7 +14441,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='PAB_FunctionExchange']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_xr_hCb6wEe--39mokXnYdw" name="Manauver Data" sourceNode="_xroUpb6wEe--39mokXnYdw" targetNode="_xrubSr6wEe--39mokXnYdw" beginLabel="." endLabel=".">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_xr_hCb6wEe--39mokXnYdw" name="Manoeuver Data" sourceNode="_xroUpb6wEe--39mokXnYdw" targetNode="_xrubSr6wEe--39mokXnYdw" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="DarkFarmers.capella#d59488c7-37d1-4577-bac4-375e3464891a"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="DarkFarmers.capella#d59488c7-37d1-4577-bac4-375e3464891a"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_xr_hCr6wEe--39mokXnYdw" targetArrow="NoDecoration" centered="Both" strokeColor="9,92,46">
@@ -14463,7 +14463,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='PAB_FunctionExchange']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_xsAvJL6wEe--39mokXnYdw" name="Manauver Data" sourceNode="_xrqJ076wEe--39mokXnYdw" targetNode="_xrubRL6wEe--39mokXnYdw" beginLabel="." endLabel=".">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_xsAvJL6wEe--39mokXnYdw" name="Manoeuver Data" sourceNode="_xrqJ076wEe--39mokXnYdw" targetNode="_xrubRL6wEe--39mokXnYdw" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="DarkFarmers.capella#57aab58b-55d7-4c77-87a5-60ac2d5857f3"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="DarkFarmers.capella#57aab58b-55d7-4c77-87a5-60ac2d5857f3"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_xsAvJb6wEe--39mokXnYdw" targetArrow="NoDecoration" centered="Both" strokeColor="9,92,46">
@@ -14485,7 +14485,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='PAB_FunctionExchange']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_xsAvNr6wEe--39mokXnYdw" name="Manauver Data" sourceNode="_xrqw5r6wEe--39mokXnYdw" targetNode="_xrubQb6wEe--39mokXnYdw" beginLabel="." endLabel=".">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_xsAvNr6wEe--39mokXnYdw" name="Manoeuver Data" sourceNode="_xrqw5r6wEe--39mokXnYdw" targetNode="_xrubQb6wEe--39mokXnYdw" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="DarkFarmers.capella#23d4d278-e0e7-4aee-91fa-233a6ad133ea"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="DarkFarmers.capella#23d4d278-e0e7-4aee-91fa-233a6ad133ea"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_xsBWML6wEe--39mokXnYdw" targetArrow="NoDecoration" centered="Both" strokeColor="9,92,46">
@@ -14507,7 +14507,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='PAB_FunctionExchange']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_xsBWQb6wEe--39mokXnYdw" name="Manauver Data" sourceNode="_xrr_Ab6wEe--39mokXnYdw" targetNode="_xrubR76wEe--39mokXnYdw" beginLabel="." endLabel=".">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_xsBWQb6wEe--39mokXnYdw" name="Manoeuver Data" sourceNode="_xrr_Ab6wEe--39mokXnYdw" targetNode="_xrubR76wEe--39mokXnYdw" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="DarkFarmers.capella#cf64c0aa-43b7-48bd-85b6-e803f9dd14f5"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="DarkFarmers.capella#cf64c0aa-43b7-48bd-85b6-e803f9dd14f5"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_xsBWQr6wEe--39mokXnYdw" targetArrow="NoDecoration" centered="Both" strokeColor="9,92,46">
@@ -14529,7 +14529,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='PAB_FunctionExchange']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_xsB9Sb6wEe--39mokXnYdw" name="Manauver Data" sourceNode="_xrsmE76wEe--39mokXnYdw" targetNode="_xrt0N76wEe--39mokXnYdw" beginLabel="." endLabel=".">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_xsB9Sb6wEe--39mokXnYdw" name="Manoeuver Data" sourceNode="_xrsmE76wEe--39mokXnYdw" targetNode="_xrt0N76wEe--39mokXnYdw" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="DarkFarmers.capella#f3c5deee-dd79-4d97-b5b9-079788cd948c"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="DarkFarmers.capella#f3c5deee-dd79-4d97-b5b9-079788cd948c"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_xsB9Sr6wEe--39mokXnYdw" targetArrow="NoDecoration" centered="Both" strokeColor="9,92,46">

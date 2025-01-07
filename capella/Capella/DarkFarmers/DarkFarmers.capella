@@ -8160,7 +8160,7 @@
                 sourceElement="#c74c0d09-7f9e-4990-9901-a21bda61c5a7"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
-              id="4e949e11-b747-4ce0-962c-5833927e76f4" name="Do Manauver">
+              id="4e949e11-b747-4ce0-962c-5833927e76f4" name="Do Manoeuver">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="0045b050-ab7b-46c7-8d3a-e572f142f2d3" name="FIP 1">
               <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
@@ -9982,49 +9982,49 @@
                 sourceElement="#4e0df3bf-ccc0-462f-9d8d-dad69d049fba"/>
           </ownedFunctionalExchanges>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="207a1ec9-3409-413e-8e84-507347bc4e1a" name="Manauver Data" target="#0045b050-ab7b-46c7-8d3a-e572f142f2d3"
+              id="207a1ec9-3409-413e-8e84-507347bc4e1a" name="Manoeuver Data" target="#0045b050-ab7b-46c7-8d3a-e572f142f2d3"
               source="#e8aa2bf6-4b21-4ff8-be7f-5e40eeb0a0a9">
             <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
                 id="38a50196-d06c-4f9d-8327-b32da2635230" targetElement="#57d1684e-0141-4c89-96ec-83a405f12f2f"
                 sourceElement="#207a1ec9-3409-413e-8e84-507347bc4e1a"/>
           </ownedFunctionalExchanges>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="d008053e-7e56-434b-b100-2eda1016609a" name="Manauver Data" target="#67359fa1-8e8a-42e7-9da4-56e41bcbf555"
+              id="d008053e-7e56-434b-b100-2eda1016609a" name="Manoeuver Data" target="#67359fa1-8e8a-42e7-9da4-56e41bcbf555"
               source="#c758ff88-55c9-4d28-9f0e-b25d887850ce">
             <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
                 id="b9fae642-16a9-45a7-9981-e91d3f339b56" targetElement="#ac380745-b66f-41c5-a592-48661787be37"
                 sourceElement="#d008053e-7e56-434b-b100-2eda1016609a"/>
           </ownedFunctionalExchanges>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="f3c5deee-dd79-4d97-b5b9-079788cd948c" name="Manauver Data" target="#3b3c0892-b313-46a3-adb8-6cb53fafc882"
+              id="f3c5deee-dd79-4d97-b5b9-079788cd948c" name="Manoeuver Data" target="#3b3c0892-b313-46a3-adb8-6cb53fafc882"
               source="#d05c5aba-07b8-407a-8a38-b817100ede1e">
             <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
                 id="6ad32bca-adc7-4af9-b0c1-1a3bfb103b8d" targetElement="#ddb39021-3a22-4691-a9a9-1fba38e19c01"
                 sourceElement="#f3c5deee-dd79-4d97-b5b9-079788cd948c"/>
           </ownedFunctionalExchanges>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="23d4d278-e0e7-4aee-91fa-233a6ad133ea" name="Manauver Data" target="#dc373147-de16-4e3b-bb21-b828211f5cc5"
+              id="23d4d278-e0e7-4aee-91fa-233a6ad133ea" name="Manoeuver Data" target="#dc373147-de16-4e3b-bb21-b828211f5cc5"
               source="#8b9ff985-0fd4-400e-938e-905190e0786d">
             <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
                 id="72188c1a-2087-4d1b-8027-fc105648122e" targetElement="#3d28e7b8-6e31-4f3a-aa9f-8a2e5d8d5b2b"
                 sourceElement="#23d4d278-e0e7-4aee-91fa-233a6ad133ea"/>
           </ownedFunctionalExchanges>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="57aab58b-55d7-4c77-87a5-60ac2d5857f3" name="Manauver Data" target="#8027f528-0de6-45b8-85da-ecf3c49b20c7"
+              id="57aab58b-55d7-4c77-87a5-60ac2d5857f3" name="Manoeuver Data" target="#8027f528-0de6-45b8-85da-ecf3c49b20c7"
               source="#53b4ad21-ad15-4ae3-b355-0987cae5a8c0">
             <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
                 id="65431153-fc12-494d-bc5e-4dcc61bb21e0" targetElement="#40f08e86-ac2b-4d08-b3e4-d0825e669ab5"
                 sourceElement="#57aab58b-55d7-4c77-87a5-60ac2d5857f3"/>
           </ownedFunctionalExchanges>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="cf64c0aa-43b7-48bd-85b6-e803f9dd14f5" name="Manauver Data" target="#867d3059-9fba-4f4c-91d7-f4d4f9d77243"
+              id="cf64c0aa-43b7-48bd-85b6-e803f9dd14f5" name="Manoeuver Data" target="#867d3059-9fba-4f4c-91d7-f4d4f9d77243"
               source="#bb026b39-354e-45d9-827b-bea183452a5c">
             <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
                 id="27dc50fd-9315-4d8f-8b24-05e6c8a76f8b" targetElement="#a779af6d-770d-45df-b785-fc6e082714f1"
                 sourceElement="#cf64c0aa-43b7-48bd-85b6-e803f9dd14f5"/>
           </ownedFunctionalExchanges>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="d59488c7-37d1-4577-bac4-375e3464891a" name="Manauver Data" target="#975b7d5d-f999-4697-8677-df9581381788"
+              id="d59488c7-37d1-4577-bac4-375e3464891a" name="Manoeuver Data" target="#975b7d5d-f999-4697-8677-df9581381788"
               source="#dedb97b8-ec90-4871-b5e3-db0298ef269b">
             <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
                 id="d494241e-e18a-44b0-910c-20c0f7d75d3e" targetElement="#15a2efea-4145-4e00-a3eb-01dc9a1f2b42"
