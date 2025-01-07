@@ -1,5 +1,5 @@
 # Dark Farmers
-![Image of the concept](Wall_Paper.png)
+![Image of the concept](/presentation/Wall_Paper.png)
 
 ## Team 
 Ahmad Shakleya, Berkay Yildirim, Rehmat Khan, Robbe Elsermans
